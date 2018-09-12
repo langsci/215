@@ -3,3 +3,25 @@
 \makeatletter
 \def\blx@maxline{77}
 \makeatother
+
+\newcounter{lsConnectTempPosition}
+\newcounter{lsConnectTempTailPosition}
+\newcounter{lsConnectTempHeadPosition}
+\newcommand{\ConnectTail}[1]{%
+    \setcounter{lsConnectTempTailPosition}{\thelsConnectTempPosition}%
+    \stepcounter{lsConnectTempPosition}%
+    {\tikz[remember picture,
+           baseline=-.575ex,% This is font specific, found out that this works best for Libertine 11pt. 
+           inner xsep=0pt, 
+           inner ysep=-.5ex]\node (ConnectTempNode\thelsConnectTempTailPosition) {\strut{}#1};}%
+}
+\newcommand{\ConnectHead}[2][1ex]{%
+    \setcounter{lsConnectTempHeadPosition}{\thelsConnectTempPosition}%
+    \stepcounter{lsConnectTempPosition}%   
+    {\tikz[remember picture,
+           baseline=-.575ex, 
+           inner xsep=0pt, 
+           inner ysep=-.5ex]\node (ConnectTempNode\thelsConnectTempHeadPosition) {\strut{}#2};%
+     \tikz[remember picture] \draw[-{Triangle[]},overlay] (ConnectTempNode\thelsConnectTempTailPosition.south) |- ++(.1,-#1) -| (ConnectTempNode\thelsConnectTempHeadPosition.south);
+    }%
+}
