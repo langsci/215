@@ -1,129 +1,64 @@
 \documentclass[output=paper]{langsci/langscibook} 
-\author{Change author in chapters/03.tex}
-\title{Change title in chapters/03.tex}
+\author{Ion Giurgea\affiliation{The “Iorgu Iordan - Alexandru Rosetti” Institute of Linguistics of the Romanian Academy, Bucharest}}
+\title{INSERT TITLE}
+% \title{On the Person Constraint on Romanian \textit{se}-passives} % gives TeX error.
 
 % \chapterDOI{} %will be filled in at production
 
-\epigram{Change epigram in chapters/03.tex or remove it there }
-\abstract{Change the  abstract in chapters/03.tex \lipsum[3]}
+% % \epigram{Change epigram in chapters/03.tex or remove it there }
+\abstract{It has long been recognized that sentences with passive se obey a Person constraint: the subject cannot be 1\textsuperscript{st} or 2\textsuperscript{nd} person. I discuss a further constraint on the subject, manifest in Romanian: not only 1\textsuperscript{st} or 2\textsuperscript{nd} person pronouns, but all those DPs that must be marked by the prepositional object marker accompanied by clitic-doubling when functioning as direct objects are excluded from being subjects of se-passives. Following \citet{Richards2008}, I propose that these DPs, which are high on the Person/Animacy scale, have a Person feature (manifested by clitic-doubling when they are case-licensed by v*), whereas those that can occur as subjects of se-passives lack the Person feature completely. The ban on +Person internal arguments in se-passives is due to the intervention of the Person feature associated with the external argument. I argue that the element saturating the external argument is differently projected in se-passives vs. participial passives, which explains the lack of an intervention effect in the latter case.}
 \maketitle
 
 \begin{document}
 
-\title{[Warning: Draw object ignored][Warning: Draw object ignored][Warning: Draw object ignored][Warning: Draw object ignored][Warning: Draw object ignored][Warning: Draw object ignored][Warning: Draw object ignored]On the Person Constraint on Romanian \textit{se}{}-passives}
-
-Ion Giurgea (The “Iorgu Iordan - Alexandru Rosetti” Institute of Linguistics
-
-of the Romanian Academy, Bucharest)
-
-\begin{stylelsAbstract}
-It has long been recognized that sentences with passive se obey a Person constraint: the subject cannot be 1\textsuperscript{st} or 2\textsuperscript{nd} person. I discuss a further constraint on the subject, manifest in Romanian: not only 1\textsuperscript{st} or 2\textsuperscript{nd} person pronouns, but all those DPs that must be marked by the prepositional object marker accompanied by clitic-doubling when functioning as direct objects are excluded from being subjects of se-passives. Following \citet{Richards2008}, I propose that these DPs, which are high on the Person/Animacy scale, have a Person feature (manifested by clitic-doubling when they are case-licensed by v*), whereas those that can occur as subjects of se-passives lack the Person feature completely. The ban on +Person internal arguments in se-passives is due to the intervention of the Person feature associated with the external argument. I argue that the element saturating the external argument is differently projected in se-passives vs. participial passives, which explains the lack of an intervention effect in the latter case.
-\end{stylelsAbstract}
-
-\section{ 1. Introduction}
+\section{Introduction}% 1. 
 
 As is well-known (\citealt{Belletti1982}; \citealt{Burzio1986}; \citealt{Manzini1986}; \citealt{Cinque1988}; Dobrovie-\citealt{Sorin1998}; 2006; D’\citealt{Alessandro2007}, a.o.), across the Romance domain there are two types of ‘impersonal’ constructions based on the reflexive clitic \textit{se}: a passive construction, where the verb agrees with the internal argument (IA) and accusative cannot be assigned, and a bona fide impersonal, where \textit{se} behaves as a subject clitic, like the counterpart of French \textit{on} or German \textit{man}. Whereas the passive construction is found in all Romance languages, the subject clitic \textit{se} is only found in Italian and Ibero-Romance.
 
 It has long been recognized that sentences with passive \textit{se} obey a Person constraint: the IA cannot be 1\textsuperscript{st} or 2\textsuperscript{nd} person (\citealt{Burzio1986}; \citealt{Cinque1988}; \citealt{Cornilescu1998}; D’\citealt{Alessandro2007}; \citealt{Mendikoetxea2008}; \citealt{Rezac2011}; Mac\citealt{Donald2017}, a.o.). \citet{Cornilescu1998} noticed that certain 3\textsuperscript{rd} person subjects are also excluded. I will argue that all these cases can be subsumed under a Person constraint of the following form:
 
 \ea%1
-    \label{ex:key:1}
-    \gll\\
-        \\
-    \glt
-    \z
+    \label{ex:giurgea:1}
+DPs that bear [Person] are banned as IAs of \textit{se}{}-passives
+\z
 
-          DPs that bear [Person] are banned as IAs of \textit{se}{}-passives
+After providing background on Romanian \textit{se-}passives (§2) and arguing for the constraint in (1) (§3), I will derive this constraint from the configurational properties of \textit{se-}passives (§4-5), comparing them with participial passives, where no Person constraint is found: as \textit{se-}passives lack a dedicated passivizing morpheme, unlike participial passives, the External argument (EA) is bound by a null pronominal marked +Person; this element blocks Person agreement between T and IA, leading to the failure of nominative licensing for those DPs that bear Person. The background assumption is that in order to be case-licensed, a DP must match in all of its φ-features with the case licensor (\citealt{Chomsky2000}; 2001).
 
-After providing background on Romanian \textit{se-}passives (§2) and arguing for the constraint in (1) (§3), I will derive this constraint from the configurational properties of \textit{se-}passives (§4-5), comparing them with participial passives, where no Person constraint is found: as \textit{se-}passives lack a dedicated passivizing morpheme, unlike participial passives, the External argument (EA) is bound by a null pronominal marked +Person; this element blocks Person agreement between T and IA, leading to the failure of nominative licensing for those DPs that bear Person. The background assumption is that in order to be case-licensed, a DP must match in all of its [F06A?]-features with the case licensor (\citealt{Chomsky2000}; 2001).
-
-\section{ 2. Passive \textit{se} in Romanian}
+\section{Passive \textit{se} in Romanian}% 2. 
 
 Like other Romance languages, Romanian, in addition to passives based on the ‘past’/ ‘passive’ participle, has a passive based on the reflexive clitic \textit{se} (a marker also used for anticausatives, inherent reflexives, and middles). The following sentences exemplify this type, with the usual tests for a passive reading – agent-oriented adverbials (ex. (2a)), purpose clauses with control by the EA (ex. (2b)), and \textit{by-}phrases (ex. (2c-d)).   
 
 \ea%2
-    \label{ex:key:2}
-    \gll\\
-        \\
-    \glt
+    (\textit{Regulamentul Camerei Deputaţilor}, II, 4, http://www.cdep.ro/pls/dic/site.page?id=235)\label{ex:giurgea:2}\\
+    \ea
+    \gll Asta s-a      făcut deliberat.\\
+         this  \textsc{se}{}-has done  deliberately\\
+    \glt ‘This has been done deliberately.’
+    \ex
+    \gll Aceste haine   se vând pentru a ajuta săracii.\\
+         these   clothes \textsc{se} sell   for      to help poor-the\\
+    \glt  ‘These clothes are sold to help the poor.’
+    \ex
+    \gll S{}-au              adus     mai multe îmbunătăţiri    de către specialişti.\\
+         \textsc{se}\textit{{}-}have.\textsc{3pl} brought several      improvements by         experts\\
+    \glt ‘A number of improvements have been brought by experts.’
+    \ex
+    \gll Convocarea      Camerei                Deputaţilor           se  face de către preşedintele  acesteia.\\
+         convocation-the chamber-the.\textsc{gen} deputies-the.\textsc{gen}  \textsc{se} does by    president-the this(\textsc{f).gen}\\
+    \glt ‘The summons of the Chamber of Deputies is done by its president.’
     \z
-
-          a.   Asta s-a      făcut deliberat.
-
-\begin{styleDSb}
-      this  \textsc{se}{}-has done  deliberately
-\end{styleDSb}
-
-\begin{styleDSb}
-     ‘This has been done deliberately.’
-\end{styleDSb}
-
-\begin{styleDSb}
-b.   Aceste haine   se vând pentru a ajuta săracii.
-\end{styleDSb}
-
-\begin{styleDSb}
-      these   clothes \textsc{se} sell   for      to help poor-the
-\end{styleDSb}
-
-\begin{styleDSb}
-      ‘These clothes are sold to help the poor.’
-\end{styleDSb}
-
-\begin{styleDSb}
-c.   S{}-au              adus     mai multe îmbunătăţiri    de către specialişti.
-\end{styleDSb}
-
-\begin{styleDSb}
-    \textsc{se}\textit{{}-}have.\textsc{3pl} brought several      improvements by         experts
-\end{styleDSb}
-
-\begin{styleDSb}
-     ‘A number of improvements have been brought by experts.’
-\end{styleDSb}
-
-\begin{styleDSb}
-d.   Convocarea      Camerei                Deputaţilor           se  face de către preşedintele 
-\end{styleDSb}
-
-\begin{styleDSb}
-      convocation-the chamber-the.\textsc{gen} deputies-the.\textsc{gen}  \textsc{se} does by    president-the
-\end{styleDSb}
-
-\begin{styleDSb}
-     acesteia.
-\end{styleDSb}
-
-\begin{styleDSb}
-      this(\textsc{f).gen}
-\end{styleDSb}
-
-\begin{styleDSb}
-     ‘The summons of the Chamber of Deputies is done by its president.’
-\end{styleDSb}
-
-\begin{styleDSb}
-(\textit{Regulamentul Camerei Deputaţilor}, II, 4, http://www.cdep.ro/pls/dic/site.page?id=235)
-\end{styleDSb}
+\z
 
 Regarding \textit{by-}phrases, it should be noted that the complex preposition \textit{de către} (< \textit{de} ‘of, from’ + \textit{către} ‘towards’) is specialized for demoted EAs, being found only in passives and eventive nominalizations.
 
 Romanian also uses \textit{se} to demote the EA of intransitive verbs – the so-called ‘impersonal \textit{se}’ – see (3), where I also show that the participial passive cannot be used in this case:
 
 \ea%3
-    \label{ex:key:3}
-    \gll\\
-        \\
-    \glt
+    \label{ex:giurgea:3}
+    \gll \{Se vorbeşte / *Este vorbit\} prea tare în această cameră.\\
+         \textsc{se} speaks       is      spoken too  loud in this       room\\
+    \glt ‘People speak too loud in this room.’
     \z
-
-          \{Se vorbeşte / *Este vorbit\} prea tare în această cameră. 
-
-\begin{styleDSb}
-  \textsc{se} speaks       is      spoken too  loud in this       room
-\end{styleDSb}
-
-           ‘People speak too loud in this room.’
 
 As shown by Dobrovie-\citet{Sorin1998}, the impersonal \textit{se} of Romanian is an instance of passive \textit{se}. I will summarize her arguments below.
 
@@ -132,1632 +67,1516 @@ The label ‘impersonal \textit{se}’ covers two types in Romance (cf. \citealt
 Let us now look at the evidence that Romanian only has the type in (i), unlike Italian or Spanish. First, nominative \textit{se} can occur in transitive configurations, manifested by lack of agreement between the verb and the IA (4a) and accusative marking on the IA (5a, 6a); in Romanian, the verb must agree with the IA (4b) and accusative on the IA is not allowed (5b, 6b):
 
 \ea%4
-    \label{ex:key:4}
-    \gll\\
-        \\
-    \glt
+    \label{ex:giurgea:4}
+    \ea  Italian (Dobrovie-\citealt{Sorin2017}: ex. (31c))\\
+    \gll In questa università  si    insegna  le   materie letterarie.\\
+         in this      university \textsc{se}   teaches   the humanities\\
+    \glt ‘Humanities are taught in this university.’
+    \ex Romanian (ibid.: ex. (32c))\\
+    \gll În aceastǎ universitate se   predau   /*predă     ştiinţele        umane.\\
+         in this      university     \textsc{se}  teach.3\textsc{pl}/ teaches  sciences-the human \\
     \z
-
-          a.   Italian (Dobrovie-\citealt{Sorin2017}: ex. (31c))
-
-In questa università  si    insegna  le   materie letterarie.
-
-       in this      university \textsc{se}   teaches   the humanities              
-
-            ‘Humanities are taught in this university.’
-
-  b.    Romanian (ibid.: ex. (32c))
-
-În aceastǎ universitate se   predau   /*predă     ştiinţele        umane.
-
-in this      university     \textsc{se}  teach.3\textsc{pl}/ teaches  sciences-the human   
+\z
 
 \ea%5
-    \label{ex:key:5}
-    \gll\\
-        \\
-    \glt
+    \label{ex:giurgea:5}
+    \ea[]{  Italian (ibid.: ex. (31d))\\
+    \gll (Le materie letterarie) le                    si   insegna  in questa università. \\
+         (the humanities)          \textsc{cl.3fpl.acc}  \textsc{se}  teaches  in this     university\\
+    \glt ‘(The humanities,) one teaches them in this university.’} 
+    \ex[*]{  Romanian (ibid.: ex. (32d)) \\
+    \gll (*Ştiinţele umane) le                 se  predă   / se le                   predă    în aceastǎ  universitate.\\
+         (the humanities)   \textsc{cl.3fpl.acc se} teaches/ \textsc{se} \textsc{cl.3fpl.acc}  teaches in this       university\\}
     \z
+\z    
 
-          a.   Italian (ibid.: ex. (31d))
-
-(Le materie letterarie) le                    si   insegna  in questa università. 
-
-        (the humanities)          \textsc{cl.3fpl.acc}  \textsc{se}  teaches  in this     university
-
-        ‘(The humanities,) one teaches them in this university.’  
-
-  b.   Romanian (ibid.: ex. (32d))
-
-*(*Ştiinţele umane) le                 se  predă   / se le                   predă    în aceastǎ 
-
-                 (the humanities)   \textsc{cl.3fpl.acc se} teaches/ \textsc{se} \textsc{cl.3fpl.acc}  teaches in this       
-
-      universitate.
-
-\begin{styleDSb}
-        university        
-\end{styleDSb}
 
 \ea%6
-    \label{ex:key:6}
-    \gll\\
-        \\
-    \glt
+    \label{ex:giurgea:6}
+    \ea[]{Spanish (Dobrovie-\citealt{Sorin2017}: ex. (33))
+    \gll  En esta escuela se castiga     a       los alumnos.\\
+          in   this school  \textsc{se} punishes  \textsc{dom} the students\\
+    \glt  ‘In this school they punish the students.’}
+    \ex[*]{Romanian (ibid.: ex. (34))
+    \gll   În şcoala       asta se pedepseşte pe     elevi.\\
+           in school-the this \textsc{se} punishes    \textsc{dom}  students\\}
     \z
+\z    
 
-          a.   Spanish (Dobrovie-\citealt{Sorin2017}: ex. (33))
-
-En esta escuela se castiga     a       los alumnos.
-
-        in   this school  \textsc{se} punishes  \textsc{dom} the students
-
-        ‘In this school they punish the students.’   
-
-  b.   Romanian (ibid.: ex. (34))
-
-*În şcoala       asta se pedepseşte pe     elevi.
-
-          in school-the this \textsc{se} punishes    \textsc{dom}  students    
-
-\begin{styleDSb}
 Secondly, nominative \textit{se} can occur in copular constructions, including copular passives. Romanian impersonal \textit{se} is excluded from these environments:
-\end{styleDSb}
+
 
 \ea%7
-    \label{ex:key:7}
-    \gll\\
-        \\
-    \glt
+    \label{ex:giurgea:7}
+    \ea[]{Italian (Dobrovie-\citealt{Sorin2017}: ex. (31a))\\
+    \gll  Non si   è  mai contenti.\\
+          not  \textsc{se}  is ever satisfied.\textsc{mpl}\\
+    \glt  ‘One is never satisfied.’}
+    \ex[*]{Romanian (ibid.: ex. (32a)) \\
+    \gll   Nu se este niciodatǎ mulţumit / mulţumiţi. \\
+           not \textsc{se} is    never       satisfied.\textsc{msg/mpl} \\}
     \z
-
-          a.   Italian (Dobrovie-\citealt{Sorin2017}: ex. (31a))
-
-Non si   è  mai contenti.
-
-        not  \textsc{se}  is ever satisfied.\textsc{mpl}
-
-        ‘One is never satisfied.’    
-
-b.   Romanian (ibid.: ex. (32a))
-
-*Nu se este niciodatǎ mulţumit / mulţumiţi.
-
-          not \textsc{se} is    never       satisfied.\textsc{msg/mpl} 
+\z    
 
 \ea%8
-    \label{ex:key:8}
-    \gll\\
-        \\
-    \glt
+    \label{ex:giurgea:8}
+    \ea[]{Italian (Dobrovie-\citealt{Sorin2017}: ex. (31b)) \\
+    \gll  Spesso      si  è  traditi     dai      falsi  amici.   \\
+          frequently \textsc{se} is betrayed by-the false friends  \\
+    \glt  ‘One is frequently betrayed by false friends.’}
+    \ex[*]{Romanian (ibid.: ex. (32b))
+    \gll   Adesea     se  este trǎdat      de  prieteni falşi.  \\
+           frequently \textsc{se} is     betrayed by false      friends  \\}
     \z
+\z
 
-          a.   Italian (Dobrovie-\citealt{Sorin2017}: ex. (31b))
-
-Spesso      si  è  traditi     dai      falsi  amici. 
-
-        frequently \textsc{se} is betrayed by-the false friends
-
-        ‘One is frequently betrayed by false friends.’   
-
-  b.  Romanian (ibid.: ex. (32b))
-
-*Adesea     se  este trǎdat      de  prieteni falşi. 
-
-          frequently \textsc{se} is     betrayed by false      friends  
 
 This property indicates that Romanian impersonal \textit{se} involves an operation on the argument structure of the verb, acting as a Voice marker. As copular verbs do not have arguments of their own, but combine with a small clause (they are raising verbs), the Voice marker \textit{se} cannot apply to such verbs.
 
 Thirdly, nominative \textit{se} behaves like standard subjects with respect to control into complement clauses (see (9a)). Romanian disallows this type of control:
 
 \ea%9
-    \label{ex:key:9}
-    \gll\\
-        \\
-    \glt
+    \label{ex:giurgea:9}
+    \ea[]{Spanish (Dobrovie-\citealt{Sorin2017}: ex. (8a)) \\
+    \gll  En ciertos estudios basados en fenómenos lingüísticos, se ha  intentado         reformar           la  historia política y     social.  \\
+          in  certain essays     based   on linguistic    phenomena, \textsc{se} has tried         reconstruct.\textsc{inf} the history political and social \\
+    \glt  ‘In certain studies based on linguistic phenomena, one has tried to reconstruct the political and social history.’}
+    \ex[*]{Romanian (ibid.: ex. (90a))\footnotemark\\
+    \gll   În unele     studii   s-a       încercat a  reface,        pe baza   unor       fenomene   lingvistice, istoria        politicǎ   şi    socialǎ.\\
+           in certain essays    \textsc{se}{}-has tried     to reconstruct based-on some   phenomena linguistic   history-the political and social\\}
+    \footnotetext{Note that this example becomes grammatical if \textit{se} occurs on the lower verb too:
+    \ea \gll  (..) s-a       încercat a   se  reface (...)\\
+              \textsc{se-}has tried        to \textsc{se} reconstruct\\
     \z
 
-          a.   Spanish (Dobrovie-\citealt{Sorin2017}: ex. (8a))
-
-En ciertos estudios basados en fenómenos lingüísticos, se ha  intentado 
-
-        in  certain essays     based   on linguistic    phenomena, \textsc{se} has tried 
-
-        reformar           la  historia política y     social.  
-
-        reconstruct.\textsc{inf} the history political and social
-
-‘In certain studies based on linguistic phenomena, one has tried to reconstruct the political and social history.’               
-
-b.   Romanian (ibid.: ex. (90a))\footnote{Note that this example becomes grammatical if \textit{se} occurs on the lower verb too:(i)  (..) s-a       încercat a   se  reface (...)       \textsc{se-}has tried        to \textsc{se} reconstructIf the EA in \textit{se}{}-passives is projected as a PRO\textsubscript{arb}, as proposed in §4-5 below, one may analyze the double use of \textit{se} as reflecting agreement in ‘impersonality’ between PRO\textsubscript{arb} in the matrix and the controlled PRO; on a movement theory of control (see \citealt{Hornstein1999}), this example can be analyzed as involving movement of PRO\textsubscript{arb} between positions characterized by the same Voice configuration, marked by \textit{se} (see §6). In Spanish and Italian, \textit{se} is not a voice marker, but a nominative clitic, representing the EA itself, therefore it does not appear on both verbs.}
-
-*În unele     studii   s-a       încercat a  reface,        pe baza   unor 
-
-        in certain essays    \textsc{se}{}-has tried     to reconstruct based-on some
-
-      fenomene   lingvistice, istoria        politicǎ   şi    socialǎ.  
-
-      phenomena linguistic   history-the political and social
+    \noindent If the EA in \textit{se}{}-passives is projected as a PRO\textsubscript{arb}, as proposed in §4-5 below, one may analyze the double use of \textit{se} as reflecting agreement in ‘impersonality’ between PRO\textsubscript{arb} in the matrix and the controlled PRO; on a movement theory of control (see \citealt{Hornstein1999}), this example can be analyzed as involving movement of PRO\textsubscript{arb} between positions characterized by the same Voice configuration, marked by \textit{se} (see §6). In Spanish and Italian, \textit{se} is not a voice marker, but a nominative clitic, representing the EA itself, therefore it does not appear on both verbs.}
+    \z
+\z
 
 Further evidence for unifying passive and impersonal \textit{se} in Romanian comes from \textit{by-}phrases: intransitive verbs with impersonal \textit{se} do sometimes allow \textit{by-}phrases (on condition that the verb is agentive). Here are some examples attested on the Internet:
 
-\textstylest{(10)  a.  Să    nu  uităm        că    la acest moment} \emph{se vorbeşte de către}\textstylest{ autorităţi de    o}\textstylest{} 
-
-\begin{styleDSb}
-\textstylest{} \textstylest{\textsc{sbjv} }\textstylest{not forget.1}\textstylest{\textsc{pl}}\textstylest{ that at this   moment} \textstylest{\textsc{se}}\textstylest{ speaks   by          authorities about a} 
-\end{styleDSb}
-
-\begin{styleDSb}
-\textstylest{       nouă reorganizare administrativ-teritorială.}
-\end{styleDSb}
-
-\begin{styleDSb}
-\textstylest{       new  reorganization administrative-territorial}
-\end{styleDSb}
-
-\begin{styleDSb}
-\textstylest{} \textstylest{     ‘Let’s not forget that at this moment the authorities are talking about a new} 
-\end{styleDSb}
-
-\begin{styleDSb}
-\textstylest{       administrative and territorial reorganization}\textstylest{.’}
-\end{styleDSb}
-
-\begin{styleDSb}
-\textstylest{                (http://www.verticalonline.ro/autoritatile-comuniste-si-reorganizarea-comunelor-in-1968-i)}
-\end{styleDSb}
-
-\begin{styleDSb}
-\textstylest{  b}\textstylest{.   Modul        în care    este primit          sau i} \emph{se vorbeşte de  către}\textstylest{ }
-\end{styleDSb}
-
-\begin{styleDSb}
-\textstylest{        manner-the in which is    received(}\textstylest{\textsc{m)}}\textstylest{ or} \textstylest{\textsc{3sg}}\textstylest{.}\textstylest{\textsc{dat se} }\textstylest{speaks    by employees}
-\end{styleDSb}
-
-\begin{styleDSb}
-\textstylest{ }\textstylest{anumiţi salariaţi ...}
-\end{styleDSb}
-
-\begin{styleDSb}
-\textstylest{        certain  employees}
-\end{styleDSb}
-
-\begin{styleDSb}
-\textstylest{} \textstylest{      ‘The manner in which certain employees receive him or talk to him...}\textstylest{’} 
-\end{styleDSb}
-
-\begin{styleDSb}
-\textstylest{    (}\textstyleHTMLCite{www.primariatantareni.ro/images/stories/ziar\_ianuarie.pdf}\textstylest{)}
-\end{styleDSb}
+\ea \label{ex:giurgea:10}
+    \ea (http://www.verticalonline.ro/autoritatile-comuniste-si-reorganizarea-comunelor-in-1968-i)\\
+    \gll  Să    nu  uităm        că    la acest moment \emph{se vorbeşte de către}  autorităţi de    o nouă reorganizare administrativ-teritorială.\\
+    {\textsc{sbjv} }{not forget.1}{\textsc{pl}}{ that at this   moment} {\textsc{se}}{ speaks   by          authorities about a} new  reorganization administrative-territorial\\
+    \glt ‘Let’s not forget that at this moment the authorities are talking about a new administrative and territorial reorganization.’
+    \ex (www.primariatantareni.ro/images/stories/ziar\_ianuarie.pdf)\\
+    \gll Modul        în care    este primit          sau i \emph{se vorbeşte de  către} anumiţi salariaţi ...\\
+         manner-the in which is   received(\textsc{m})  or  \textsc{3sg}.\textsc{dat se} speaks    by employees certain  employees\\
+    \glt ‘The manner in which certain employees receive him or talk to him...’
+    \z
+\z
 
 A potential problem for the unification of passive and impersonal \textit{se} in Romanian comes from the fact that impersonal \textit{se} is allowed with verbs typically considered to be unaccusative:
 
 \ea%11
-    \label{ex:key:11}
-    \gll\\
-        \\
-    \glt
+    \label{ex:giurgea:11}
+    \ea
+    \gll De la această boală    se  moare.\\
+         from  this       disease \textsc{se} dies\\
+    \glt ‘People die from this disease.’
+    \ex
+    \gll Nu se vine     îmbrăcat aşa la lucru.\\
+         not \textsc{se} comes dressed  so   to work\\
+    \glt ‘One does not come to work dressed like that.’
     \z
-
-          a.   De la această boală    se  moare.    
-
-      from  this       disease \textsc{se} dies
-
-      ‘People die from this disease.’
-
-b.   Nu se vine     îmbrăcat aşa la lucru.
-
-      not \textsc{se} comes dressed  so   to work
-
-     ‘One does not come to work dressed like that.’
-
+\z    
+ 
 There are two possible ways of handling this problem. One is to assume that intransitive verbs such as \textit{cădea} ‘fall’, \textit{veni} ‘come’, and \textit{muri} ‘die’ are not necessarily unaccusative in Romanian, but may project an EA, which can be demoted by passivization (see Dobrovie-\citealt{Sorin1987}, 1994), a view that is supported by the fact that the unaccusativity diagnostics are not very strong in Romanian – there is no auxiliary alternation and no \textit{ne/en-}cliticization; resultative participles are the clearest test, but they may represent a formation dependent on the verb meaning (change of state) and not on the way its arguments are projected. Note, furthermore, that even a handful of transitive and unergative verbs can be used to build resultative participles: \textit{nemâncat} ‘un-eaten’ = ‘who hasn’t eaten’, \textit{nedormit} ‘un-slept’ = ‘who hasn’t slept’, \textit{nebăut} ‘un-drunk’ = ‘who hasn’t drunk’. Note also that in a system of argument structure such as Ramchand’s (2008), where a single argument can occupy more than one thematic position, realizing a composite role (e.g. Initiator + Undergoer, Undergoer + Resultee), we may assume that the subject of verbs such as \textit{cădea} ‘fall’, \textit{veni} ‘come’, and \textit{muri} ‘die’ moves from an IA-position to SpecvP (or SpecInitP, in Ramchand’s terminology), which is the position targeted by demotion.   
 
   The other potential solution is to allow demotion to apply to the IA for those verbs that do not project an EA-thematic layer (vP). \citet{Bruening2012}, discussing passives of unaccusatives in Lithuanian and other languages, proposes that the passivizing head may select not only a VoiceP (= vP in Chomsky’s 1995, 2000 terminology) with an unsaturated selectional feature, but also a VP with an unsaturated selectional feature. In order to exclude demotion of arguments other than the deep object (e.g. PPs, oblique cases), this unsaturated feature must somehow be further specified – Bruening describes this as selection for +N (written [S:N]). If we consider oblique and PP complements to involve different specifications for this feature, Bruening’s procedure successfully accounts for the restriction of demotion to deep objects. 
 
   I do not intend to decide here between these two possible solutions. I would simply like to stress again that the demoted subject must be an argument of the V – see the exclusion of raising verbs such as \textit{părea} ‘seem’ in (12) and the copula in (7b) and (8b) above – which clearly indicates that \textit{se-}impersonals represent a Voice-type phenomenon (an operation on the argument structure of the V). 
 
-\ea%12
-    \label{ex:key:12}
-    \gll\\
-        \\
-    \glt
-    \z
+\ea[*]{%12
+    \label{ex:giurgea:12}
+    \gll În această oglindă se pare    tânăr\\
+         in this       mirror   \textsc{se} seems young\\
+    \glt Intended meaning: ‘People look young in this mirror’}
+\z
 
-          *În această oglindă se pare    tânăr
-
- in this       mirror   \textsc{se} seems young
-
-Intended meaning: ‘People look young in this mirror’
 
 The fact that \textit{se-}impersonals of seemingly unaccusative verbs represent the same passive construction as with unergatives is demonstrated by the fact that \textit{by-}phrases are permitted:
 
-\textstylest{(13)} \textstylest{proiectul   de  acord         la care} \emph{s-a      ajuns    de către}\textstylest{ cele 47 de state membre}\textstylest{} 
-
-project-the of agreement to which \textsc{se-}has arrived by         the  47      states member 
-
-\textstylest{ale   Consiliului          Europei} \textstylest{(}\textstyleHTMLCite{www.europarl.europa.eu/sides/...}\textstylest{)}
-
-\textstylest{\textsc{gen}}\textstylest{ Council-the.}\textstylest{\textsc{gen} }\textstylest{Europe-the.}\textstylest{\textsc{gen}}
+\ea \url{www.europarl.europa.eu/sides/...}\label{ex:giurgea:13}\\
+\gll proiectul   de  acord         la care \emph{s-a      ajuns    de către}{ cele 47 de state membre} {ale   Consiliului          Europei} \\
+project-the of agreement to which \textsc{se-}has arrived by         the  47      states member {\textsc{gen}}{ Council-the.}{\textsc{gen} }{Europe-the.}{\textsc{gen}}\\
+\z
 
 Only verbs that are lexically marked by \textit{se} – inchoatives, inherent reflexives – do not allow an impersonal \textit{se-}construction – thus, (14a) does not have an impersonal reading; moreover, two co-occurring \textit{se}’s as in (14b) are excluded:
 
-\textstylest{(14)  a.  Se  sperie     de întuneric} \textstylest{    /  Se grăbeşte}
-
- \textsc{se} frightens of darkness                    \textsc{se} hurries
-
-     = ‘He/she is frightened by darkness. / He/she hurries.’
-
-      ${\neq}$ ‘People are frightened by darkness. / People hurry.’
-
-b.   \textstylest{*Se se sperie      / grăbeşte}
-
-          \textsc{se se}  frightens   hurries
-
-         Intended meaning: ‘People are frightened by darkness. / People hurry.’
-
+\ea\label{ex:giurgea:14}
+\ea[]{\gll  Se  sperie     de întuneric {    /  Se grăbeşte}\\
+          \textsc{se} frightens of darkness                    \textsc{se} hurries\\
+    \glt = ‘He/she is frightened by darkness. / He/she hurries.’\\
+    ${\neq}$ ‘People are frightened by darkness. / People hurry.’}
+\ex[*]{\gll *Se se sperie      / grăbeşte\\
+      \textsc{se se}  frightens   hurries\\
+      \glt Intended meaning: ‘People are frightened by darkness. / People hurry.’\\}
+\z
+\z
+      
 Depending on the general analysis of \textit{se-}verbs, this may be explained either as a morphological ban on co-occurring \textit{se}’s, or as the result of the fact that there is a single \textit{se} marker, which, depending on other properties of the configuration in which it is inserted, yields the inchoative, reflexive or passive reading (see §6 on further suggestions).
 
   To conclude, \textit{se-}impersonals in Romanian belong to the general class of \textit{se-}passives, which are based on the demotion of the ‘subject’ (EA, + deep object of unaccusatives). Unlike participial passives, \textit{se}{}-passives do not require the existence of an IA (see (3) above and (15)):
-
-\ea%15
-    \label{ex:key:15}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          \{S-a      propus    / *A   fost   propus\}   ca   votul          să     fie           secret
-
-  \textsc{se-}has proposed    has been proposed that voting-the \textsc{sbjv} be.\textsc{sbjv.3} secret
-
-‘It was proposed that the voting should be secret.’
-
-We may thus say that \textit{se-}passives are chiefly used as an impersonalization strategy, in order to demote the EA, whereas participial passives are also used to promote the IA. Impersonal passives are also attested in other languages (Icelandic, German, etc.).
-
-\section{ 3. A Person Constraint on the subject of \textit{se-}passives in Romanian}
-
-It is known that \textit{se-}passives are only possible in the 3\textsuperscript{rd} person, across Romance languages. This also holds for Romanian:
-
-\ea%16
-    \label{ex:key:16}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   *Sunt prietenul  tău.   Nu mă invit           ţipându-se   la mine.  
-
-          am   friend-the your not me invite.1\textsc{sg} shouting-SE at me              
-
-  b.   *În ultima     vreme te           examinezi  prea des     la şcoală.      
-
-              in latest-the time   you.\textsc{acc} see.\textsc{2sg}      too   often in school 
-
-            *for the~meaning: ‘Lately you have been getting examined too much in school’
-
-  c.   *În ultima     vreme ne      invităm     şi    noi       la petreceri.  
-
-              in latest-the time   we.\textsc{acc}  invite.\textsc{1pl}  too we.\textsc{nom} at parties
-
-             * for the meaning: ‘Lately we too have been getting invited to parties’
-
-    (Dobrovie-\citealt{Sorin2017}: ex. (124c,e,f))
-
-But there are further constraints on the subjects of \textit{se-}passives. \citet{Cornilescu1998} noticed that not only +Participant pronouns, but also 3\textsuperscript{rd} person pronouns and proper names are excluded. She noticed that these are the very same DPs that require the prepositional object marker (\textit{pe}) when they function as direct objects – see, in (17), pronouns, proper nouns, as well as certain specific definite DPs, mostly containing a possessor (see (17c-d)):
-
-\ea%17
-    \label{ex:key:17}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   La noi întotdeauna se întâmpină  \{musafirii / *Ion/*el\} la gară  
-
-      at us    always        \textsc{se} welcome.3   guests-the / Ion   he  at station
-
-‘In our family/department/..., guests/*Ion/*he are/is always welcomed at the station.’ (\citealt{Cornilescu1998}: ex. (16))
-
-a´.   Am     întâmpinat musafirii / *Ion / *el 
-
-       have.1 welcomed guests-the / Ion / he         
-
-       ‘We welcomed  the guests / *Ion / *him.’
-
-a´´.   L-am          întâmpinat pe   Ion  / pe    el. 
-
-        him-have.1 welcomed \textsc{dom} Ion / \textsc{dom} he
-
-        ‘We welcomed  Ion / him.’
-
-b.   Ieri          s-au              adus    \{prizonierii   / mulţi prizonieri / prizonieri/*ei\}  la tribunal
-
-yesterday \textsc{se}{}-have.3\textsc{pl} brought prisoners-the / many prisoners / prisoners/they  to court
-
-     / *s-a       adus     \{Ion / el\} la tribunal       
-
-         \textit{se}{}-has brought  Ion/   he  to court
-
-‘Yesterday  \{the prisoners / many prisoners / *they\} were brought to the court / \{*Ion/*he\} was brought to the court.’ (ibid.: ex. (17))
-
-b´.   Au          adus     prizonierii    / mulţi prizonieri  / prizonieri / *ei /*Ion/*el la tribunal
-
-have.\textsc{3pl} brought prisoners-the / many prisoners / prisoners/ they/Ion/he    to court
-
-‘They brought the prisoners / many prisoners / prisoners / *them/*Ion/*him to the court.’
-
-b´´.   I-au                 adus      pe    ei    /   L-au               adus      pe    Ion /   pe    el
-
-       them-have.3\textsc{pl} brought \textsc{dom} they /  him-have.3\textsc{pl} brought \textsc{dom} Ion /  \textsc{dom} he
-
-       ‘They brought them/Ion/him.’ 
-
-c.   * S-a     adus      mama         lui
-
-        \textsc{se-}has brought mother-the his
-
-         ‘His mother was brought.’
-
-c´.   *Am      adus     mama         lui
-
-         have.1 brought mother-the his
-
-c´´.   Am      adus-o               pe    mama         lui
-
-        have.1 brought-her(\textsc{cl}) \textsc{dom} mother-the his
-
-          ‘I brought his mother.’
-
-d.   Am     convocat     profesorii  / *(L-)             am      convocat  *(pe)     profesorul  tău
-
-have.1 summoned teachers-the   \textsc{cl.ms.acc-}have.1 summoned \textsc{(dom)} teacher-the your
-
-                  ‘We summoned the teachers / *your teacher.’
-
-  d´.   S-au            convocat   profesorii     / *S-a convocat        profesorul   tău
-
-        \textsc{se-}have.3\textsc{pl} summoned teachers-the / \textsc{se-}has summoned teacher-the your
-
-                 ‘The teachers were summoned / *Your teacher was summoned.’
-
-The correlation discovered by Cornilescu must be further refined in view of examples such as (18), where we see that animate indefinite pronouns, which also require prepositional object marking, may occur as subjects of \textit{se-}passives:
-
-\ea%18
-    \label{ex:key:18}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   Se va           aduce  cineva       cu    experienţă.
-
-      \textsc{se} will.3\textsc{sg}  bring   somebody with expertise
-
-      ‘Somebody with good expertise will be brought.’
-
-b.   Aduc      *(pe)   cineva        cu    experienţă.
-
-      bring.3\textsc{pl} (\textsc{dom}) somebody with expertise
-
-c.   Se ştia                  de  mult  timp  că   se  va          aresta cineva       de la vârf
-
-     \textsc{se} know.\textsc{impf.3sg} for much time that \textsc{se} will.3\textsc{sg} arrest somebody from top
-
-‘It had been known for a long time that somebody from the top would be arrested.’ (www.gsp.ro/..., on-line comment)
-
-The difference between animate indefinite pronouns and the DPs in (17) is that for the latter, the differential object marking is realized not only by the preposition, but also by clitic doubling, whereas animate indefinite pronouns do not take clitic doubling (see (18b)). We thus arrive at the following empirical generalization:
-
-\ea%19
-    \label{ex:key:19}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          The DPs which cannot be subjects of \textit{se-}passives = those DPs that have to be marked by the prepositional object marking accompanied by clitic doubling when they function as DOs. 
-
-1\textsuperscript{st} and 2\textsuperscript{nd} person pronouns always require doubling and \textit{pe}{}-marking when functioning as direct objects, thus being covered by (19):
-
-\ea%20
-    \label{ex:key:20}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   *Aduce mine
-
-       brings   me.\textsc{acc(strong)}
-
-b.   Mă              aduce pe    mine
-
-      me.\textsc{acc.cl} brings \textsc{dom} me.\textsc{acc(strong)}
-
-Differential object marking in Romanian is dependent on multiple factors (see Dobrovie-\citealt{Sorin1994}; \citealt{Cornilescu2000}; \citealt{Mardale2008}; Tigău 2010; 2014; a.o.): animacy, specificity, pronominal character, and inflectional properties. Clitic doubling is correlated with definiteness and specificity (see Marchis \& \citealt{Alexiadou2013}): specific and definite DPs are clitic-doubled (i) when they are \textit{pe-}marked or (ii) when they are preverbal (irrespective of whether they are topicalized or focus-fronted). Non-specific pronouns such as \textit{cineva} ‘somebody’, \textit{nimeni} ‘nobody’, \textit{cine} ‘who’ are \textit{pe-}marked in virtue of being pronominal and animate, but they are not clitic-doubled, as they are not specific.
-
-  Now, I would like to propose that the DPs characterized by (19) – the requirement for clitic doubling and \textit{pe-}marking when functioning as direct objects, and the impossibility of being subjects (IAs) in \textit{se-}passives – differ from the other nominals in bearing a Person feature:
-
-\ea%21
-    \label{ex:key:21}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   DPs that require clitic-doubling + \textit{pe-}marking in DO position are +Person.
-
-b.   +Person DPs cannot be subjects of \textit{se}{}-passives.
-
-[Person] can be + or -Participant. 3\textsuperscript{rd} person nominals (using traditional terms) can be either DPs bearing [Person = -Participant] or DPs lacking [Person].
-
-  \citet{Cornilescu1998} gives a different interpretation of the generalization, based on denotational type: she proposes that the DPs that require \textit{pe-}marking and cannot be subjects of \textit{se}{}-passives are DPs that cannot have a property denotation. She argues that animate subjects of \textit{se}{}-passives must have a property denotation because they must stay in the IA-position, where they undergo semantic incorporation. However, we do find definite DPs as subjects of \textit{se-}passives – see \textit{profesorii} ‘the teachers’ in (17d´), \textit{musafirii} ‘the guests’ in (17a), and \textit{prizonierii} ‘the prisoners’ in (17b) – which clearly cannot be interpreted as pseudo-incorporated property-denoting nominals.
-
-  Treating the constraint on subjects of \textit{se-}passives as a Person constraint, as in (21), allows for an explanation in terms of case licensing of IAs via Agree (to be developed in the next sub-section). As for the requirement of clitic-doubling, on the assumption that object licensing involves Agree with v*, the clitic can be seen as the manifestation of rich agreement on v*, where rich agreement includes Person (for the view of Romance object clitics as probes in v*, see \citealt{Roberts2010}).
-
-The two sides of the generalization in (19) are instantiations of the following broader cross-linguistic generalization:
-
-\ea%22
-    \label{ex:key:22}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          DPs that are high on a Person/Animacy/Definiteness hierarchy
-
-(i) are banned in certain structural case environments;
-
-(ii) require distinctive marking when functioning as direct objects.
-
-Both types of phenomena have been treated in terms of differential licensing of +Person DPs in various studies – see, for (i), Sigurðsson (2004; 2011; 2012), Sigurðsson \& \citet{Holmberg2008} on Icelandic low nominatives with quirky subjects, and \citet{Rezac2011} on various instances of Person-Case constraints. Regarding (ii), see Van der \citet{Wal2015} on differential object marking in Bantu.
-
-A general account of splits among 3\textsuperscript{rd} person nominals along the animacy+definiteness scale as presence/absence of [Person] has been proposed by \citet{Richards2008}.
-
-\section{ 4. An intervention-based account of the Person constraint}
-
-Discussing other instances of Person constraints (PCC and related phenomena), \citet{Rezac2011} proposes the following general explanation, which I will adopt:
-
-\label{bkm:Ref443240869}(23)  a.   A DP must match in all of its (relevant) [F06A?]-features with its case licensor (assuming case licensing via Agree; see \citealt{Chomsky2000}; 2001).
-
-  b.   In PC environments, Person matching is impossible, whereas Number matching is possible.\footnote{The relevance of Person can be seen not only in PCC effects, but also in the licensing of subjects of raising predicates with experiencer arguments: as shown by Anagnostopoulou (2003; 2005) and Marchis \& \citet{Alexiadou2013}, the Person feature of the dative experiencer creates defective intervention effects in Greek and Romance languages, which can be removed via cliticization.}  
-
-c.   a+b → the DPs bearing [Person] are ruled out in these environments.
-
-0a is a standard assumption in Minimalism. What needs an explanation is (23b): why is Person matching impossible in certain environments? Using the same Chomskyan framework, \citet{Rezac2011} proposes an intervention-based account: assuming that subject licensing is performed by T, failure of Person matching is due to the existence of a closer goal for T’s Person probe; i.e. an element that c-commands IA and is c-commanded by T (an \textit{intervener}), and bears [Person] – see $\alpha $ in (24):
-
-\ea%24
-    \label{ex:key:24}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          [T\textsubscript{[uPerson, uNumber]}  [.. $\alpha $\textsubscript{ +Person}  [... IA\textsubscript{+Person +Number} ..]]]
-
-For the selective licensing of IAs, depending on +/- Person, it is crucial that this element $\alpha $ lacks Number, so that it does not block Number agreement. A DP that does not bear Person can undergo full feature matching with T, in spite of the existence of $\alpha $, so it complies with the licensing condition in (23a). Given that in Romanian the so-called ‘impersonal \textit{se}’ is an instance of passive \textit{se} (see §2, where I summed up Dobrovie-Sorin’s (1998) arguments), one may wonder how verb agreement is realized in this configuration. As I have not found any evidence for stipulating a null cognate IA in these configurations (as Dobrovie-\citealt{Sorin1998} does) – see especially the use of impersonal \textit{se} in unaccusatives in (11) and (13) above – I propose that number agreement fails to apply if no suitable goal is found, without causing a crash of the derivation, and the 3\textsuperscript{rd} person singular of the verb represents a default form. For arguments that failure of agreement does not lead to a crash of the derivation, see \citet{Preminger2014}. Note that the same default form is to be assumed for examples such as (15), where the IA is a finite clause, which, as such, lacks $\varphi $-features.
-
-  One may also envisage the possibility of relating the difference in case licensing between +Person and -Person DPs to a stronger constraint on Agree involving Person, rather than to a particular type of intervener. Such a constraint has been proposed by \citet{Baker2008}. Based on extensive crosslinguistic data, Baker postulates a special condition on Person agreement as a universal principle (called the ‘structural condition on Person Agreement’ – SCOPA): the controller (goal) must merge with a projection of the agreeing head (target/probe); in other words, Person agreement requires Spec-Head or Comp-Head configurations\footnote{Baker’s exact formulation reads as follows:(i)  “A functional category F can bear the features +1 or +2 if and only if a projection of F merges with a phrase that has that feature, and F is taken as the label of the resulting phrase.” \citep[52]{Baker2008}}. Within this system, one might explain the ban on +Person IAs of \textit{se-}passives by the fact that they cannot raise to SpecTP. But, although there is some evidence that IAs of \textit{se-}passives in other Romance languages, and possibly also in Romanian, do not occur in a non-topical preverbal subject position (see §7 below, ex. (71), and Raposo \& \citealt{Uriagereka1996}; \citealt{Cornilescu1998}; Dobrovie-\citealt{Sorin2006}), there is no evidence that +Person subjects in Romanian \textit{need} to occupy SpecTP. As is well known (see Dobrovie-\citealt{Sorin1987}; 1994; \citealt{Cornilescu1997}; \citealt{Alboiu2002}), any type of subject can occur in the postverbal thematic position in Romanian, the preference for pre- or postverbal positions depending on information structure and stylistic factors – see examples of +Person subjects (personal pronouns, proper names) in postverbal position in a presentational (thetic) context (25a), as a narrow focus (25b) or as part of the ‘comment’ in sentences with a non-subject topic (25c):
-
-\ea%25
-    \label{ex:key:25}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   Deodată   aţi           sunat   voi     la  uşă.  
-
-      suddenly have.2\textsc{pl}  rung   you\textsubscript{pl}   at door
-
-     ‘All of a sudden you rang the doorbell.’
-
-b .   Vei        vorbi TU  cu    directorul.         
-
-       will.2\textsc{sg} talk    you with manager-the
-
-       ‘YOU will talk to the manager.’
-
-c.   Ideea    o formulase         deja      Roberts într-un articol celebru. 
-
-     idea-the it had-expressed already Roberts  in  an article  famous    
-
-‘Roberts had already expressed the idea in a famous article / The idea had already been expressed by Roberts in a famous article.’      
-
-Under Baker’s theory, one should assume a doubling preverbal \textit{pro} (carrying the Person feature of the subject) for all these examples, but this does not account for the fact that the postverbal placement is precisely used in order to increase the match between the syntactic structure and the information-structural interpretation: as both the thematic and the information-structural interpretation of the subject are achieved in the postverbal position in examples such as (25), a doubling \textit{pro} would not be justified by any interface effect. Therefore, I think Romanian, as well as other null-subject SV/VS-languages, are potentially problematic for Baker’s SCOPA; other problems come from complementizer agreement.\footnote{\citet{Baker2008} recognizes the problem of complementizer agreement (with the embedded subject in West Germanic varieties, and with the matrix subject in some Niger-Congo languages – Lokaa, Kinande); the solution he proposes is that SpecCP is occupied by Person operators, but there is no independent evidence for the existence of such operators in any of the situations where complementizer agreement occurs.}
-
-  Even if we embrace Baker’s framework, we still need to explain why IAs cannot raise to SpecTP in \textit{se-}passives. I assume that the explanation would still resort to some sort of intervention; i.e. to a configuration of the type in (24). 
-
-  An intervener-based account is also suggested by the fact that we are dealing with a passive configuration. The obvious candidate for the intervener is the element that saturates the external role. I thus adopt the following proposal, which derives the ban on +Person subjects under the assumptions in (23) above:
-
-\ea%26
-    \label{ex:key:26}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          The element that saturates the EA in \textit{se-}passives bears a [Person] feature (non-participant).
-
-This element can be conceived of either as a null arbitrary pronoun (see, on the implicit EA of passives in general, \citealt{Collins2005}; \citealt{Landau2010}; and on Romance \textit{se-}passives, Mac\citealt{Donald2017}; a.o.) or as the passivizing head itself, under analyses in which EA existential binding is realized by a verbal functional head or verbal morphology (see Baker et al. 1989; \citealt{Bruening2012}; a.o.).
-
-As both \textit{se-}passives (SePass) and participial passives (‘regular’ passives or ‘copular’ passives,\footnote{I don’t use the term ‘copular passive’, because the passive syntax comes entirely from the participle – it can be found in attributive contexts and non-copular small clause contexts, and \textit{be} is not a passive auxiliary; Romanian, in which auxiliaries are clitics, clearly shows this (the \textit{be} which appears in ‘copular passives’ is not a clitic, but a regular full verb).} henceforth PartPass) rely on EA demotion, we have to explain why intervention is only found with SePass:
-
-\ea%27
-    \label{ex:key:27}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Romanian
-
-a.   *În ultima     vreme ne     invităm     şi    noi       la petreceri.
-
-              in latest-the time   we.\textsc{acc}  invite.\textsc{1pl}  too we.\textsc{nom} at parties
-
-            *for the meaning: ‘Lately we too have been getting invited to parties.’
-
-  b.   În ultima     vreme suntem    invitaţi   şi    noi  la petreceri.
-
-        in latest-the time    are.1\textsc{pl}  invited  also we   at parties
-
-                 ‘Lately we too have been getting invited to parties.’ 
-
-  c.   *S-a     adus      Ion la judecată.
-
-         \textsc{se-}has brought Ion to judgment
-
-  d.   A   fost  adus       Ion la judecată.
-
-        has been brought Ion to judgment
-
-        ‘Ion has been brought to trial.’
-
-There are several possibilities we have to investigate: (i) EA is projected in SePass (and bears a Person feature) but not in PartPass; (ii) EA is projected in both types of passive, but only in SePass does it bear a Person feature; (iii) EA +Person is projected in both types of passives, but only intervenes in SePass, because in PartPass IA first raises to a higher position, either by itself, to the Spec of the passivizing participial head, or as part of the whole VP, as proposed by \citet{Collins2005}, who dubs this operation ‘smuggling’; (iv) EA is not projected in a thematic position, but is existentially bound by a passivizing head, and it is this head itself that bears the intervening Person feature in SePass, but not in PartPass.
-
-  I will show that an account in terms of (iii) faces empirical problems. On the other hand, the idea that the element that saturates the EA bears a Person feature in SePass but not in PartPass is supported by the well-known generalization that the EA of \textit{se-}passives is restricted to animates (\citealt{Burzio1994}, \citealt{Cornilescu1998}, Dobrovie-\citealt{Sorin2017}, Zribi-\citealt{Hertz2008}, a.o.):
-
-\ea%28
-    \label{ex:key:28}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Romanian
-
-Oraşul \{ a    fost  distrus      / * s-a      distrus\}   de (către) cutremur  .
-
-city-the  has been destroyed    \textsc{se-}has destroyed by            earthquake
-
-‘The city was destroyed by the earthquake.’
-
-We have seen, in §3, that the differences in case/agreement properties of DPs depending on animacy can be described in terms of a difference between +Person and absence of Person. Pursuing this line of thought, we may interpret the restriction of EA in SePass to humans as the effect of the presence of a Person feature on the element that saturates the EA.
-
-  In order to further clarify the structure of the two types of passives and the nature of the intervener, we need to address the issue of \textit{by-}phrases. As we have seen in §2, not only PartPass, but also SePass allow \textit{by-}phrases in Romanian (see examples (2c-d), (10), (13)).\footnote{\textit{By-}phrases in \textit{se-}passives can also be found in Spanish (see Mac\citealt{Donald2016}) and some varieties of French (see Authier \& \citealt{Reed1996}; Zribi-\citealt{Hertz2008}); they are generally more restricted than in regular (participial) passives.}  The DP introduced by the agentive preposition (Romanian \textit{de către/de} ‘by’) is an obvious candidate for what has been called, in (26), ‘the element that saturates the EA’. However, there is no evidence that \textit{by-}phrases in SePass occupy a different position than in PartPass. In both configurations, when the subject remains postverbal, \textit{by-}phrases follow it in the unmarked order: 
-
-\ea%29
-    \label{ex:key:29}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   S-au             \textstylest{formulat} \emph{plângeri     de către}\textstylest{ autoritatea     contractantă}\textstylest{.}
-
-      \textsc{se-}have.3\textsc{pl} expressed complaints by          authority-the contracting
-
-        ‘Complaints have been expressed by the contracting authority.’
-
-             (www.cnsc.ro/wp-content/uploads/bo/2014/BO2014\_0290.pdf)
-
-  a´.   Au   fost  formulate        plângeri          de către autoritatea    contractantă.
-
-        have been expressed.\textsc{fpl} complaints(\textsc{f)} by          authority-the contracting
-
-b.   S-au           propus    numeroase ipoteze de către cercetători din domenii foarte variate.
-
-\textsc{se-}have.3\textsc{pl} proposed many        hypotheses by    researchers from domains very varied
-
-      ‘Many hypotheses have been proposed by researchers from various domains.’
-
-    (http://revistateologica.ro/vechi/articol.php?r=79\& a=4952)  
-
-b´.   Au  fost    propuse   numeroase ipoteze      de către cercetători din domenii foarte variate.
-
-have been proposed.\textsc{fpl} many hypotheses(\textsc{f)} by    researchers from domains very varied
-
-If the \textit{by-}phrase, or the DP introduced by \textit{by}, had occupied the thematic EA position, higher than the IA, we would have expected it to occur after the IA in the unmarked order. \citet{Collins2005} proposed that the DP introduced by \textit{by} occupies the thematic EA position, the preposition spells out a head Voice and the VP, including the IA, raises to SpecVoice; this derives the order V-IA-EA. Collins argues that, due to VP-raising above the EA, the intervention effect of the EA is removed, and the IA can enter Agree with T (therefore he calls this operation ‘smuggling’):
-
-\ea%30
-    \label{ex:key:30}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          [\textsubscript{VoiceP}  [\textsubscript{VP} V IA] [ [\textsubscript{Voice0}  by] [\textit{\textsubscript{v}}\textsubscript{P} EA [\textit{v} t\textsubscript{VP}]]]]
-
-Note now that the order predicted by smuggling is found not only in PartPass (where there is no intervention), but also in SePass. 
-
-  The same problem appears if we assume that IA escapes intervention of the EA in PartPass by raising as a DP, to the specifier of a head that c-commands EA.
-
-  Therefore, I would like to adopt the traditional analysis of \textit{by-}phrases as adjuncts, in its updated version proposed by \citet{Bruening2012}, with some amendments which account for the fact that the intervener is still active in the presence of a \textit{by-}phrase (see (31)).
-
-\ea%31
-    \label{ex:key:31}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          *S-a     propus       el/Maria  de către angajaţi.
-
- \textsc{se-}has nominated he/Maria by          employees
-
-Intended meaning: ‘He/Maria was proposed by the employees.’
-
-\citet{Bruening2012} proposes that \textit{by-}phrases are \textit{selective} adjuncts: they attach to a VoiceP (corresponding to Chomsky’s vP) with an unsaturated argument slot, and saturate this argument. He assumes that passives involve a Pass head on top of a passive VoiceP – in terms of selection, Pass selects a Voice with an unsaturated selectional feature (in the following representation, ‘S’ stands for ‘selectional feature’):
-
-\ea%32
-    \label{ex:key:32}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Pass[S:Voice(S:N)]  (\citealt{Bruening2012}: 22, ex. (84))
-
-Furthermore, he proposes that adjuncts select their host themselves, but the label of the selectee projects (this is marked by the diacritic feature ‘a’ on the selectional feature). Under these assumptions, the restriction of \textit{by-}phrases to verbal or deverbal configurations with demoted EAs can be represented by the following selectional rule:
-
-\ea%33
-    \label{ex:key:33}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          \textit{by} [S:N, S\textsubscript{a}:Voice(S:N)]  (\citealt{Bruening2012}: 26, ex. (92))
-
-\textit{By} first selects a nominal projection, and the whole [\textit{by}+DP] constituents, due to the second selectional feature of \textit{by}, combines with a VoiceP with an unsaturated selectional feature. 
-
-For the Pass head, Bruening assumes a variable semantic contribution – it saturates the EA unless the EA has already been saturated (by the \textit{by-}phrase):
-
-\ea%34
-    \label{ex:key:34}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          〚Pass〛= [F06C?]f\textsubscript{<e,st>} [F06C?]e. [F024?]x (f(x,e))  or    (cf. \citealt{Bruening2012}: 25, ex. (91a))
-
-     [F06C?]f\textsubscript{<st>} [F06C?]e. f(e) 
-
-I follow the main lines of this account, with the following important amendment: in order to solve the problem of the ambiguity in the denotation of Pass, I propose that the \textit{by-}phrase specifies (identifies) the EA but leaves it unsaturated, as represented in (35):
-
-\ea%35
-    \label{ex:key:35}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          〚by〛 = [F06C?]x [F06C?]f\textsubscript{<e,st>} [F06C?]y [F06C?]e. (x=y [F0D9?] f(x,e))
-
-The existential binding of the EA always applies at a higher level, PassP, irrespective of whether a \textit{by-}P is present in the complement of Pass or not. Thus, Pass always makes a semantic contribution, which is the first line of (34):
-
-\ea%36
-    \label{ex:key:36}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          〚Pass〛= [F06C?]f\textsubscript{<e,st>} [F06C?]e. [F024?]x (f(x,e))
-
-Bruening does not adopt this rule in order to prevent \textit{by-}phrases from combining with actives. But there are other ways in which we can prevent \textit{by-}phrases from combining with actives. One is to specify \textit{by} as selecting a \textit{passive} \textit{v} (using the label \textit{v} for Bruening’s Voice with an unsaturated EA):
-
-\ea%37
-    \label{ex:key:37}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          \textit{by} [S:N, S\textsubscript{a}:\textit{v}\textsubscript{pass}]
-
-Alternatively, if adjuncts are not allowed to attach below specifiers, it suffices that \textit{by}{}-phrases select \textit{v}; since their denotation (see (35)) requires a constituent with an unsaturated e-type argument, only \textit{v}Ps that introduce an EA in semantics, but not in syntax will be allowed: if \textit{v} is unergative/transitive, it will introduce a specifier below the adjunct, so the \textit{by-}phrase will not be able to combine with a phrase with an unsaturated e-type argument.
-
-  What is important for our discussion is that the level where the EA is saturated is higher than the level where \textit{by-}phrases are attached, and EA saturation is independent of \textit{by-}phrases. This solves the issue raised by the absence of contrasts regarding \textit{by-}phrases between PartPass and SePass, exemplified in (29). 
-
-  Now, we can also imagine the saturating element as a null pronoun in SpecPass, rather than the Pass head itself. In this case, the Pass head would not contribute directly to interpretation, but rather indirectly, by taking a null arbitrary pronoun as a specifier:
-
-\ea%38
-    \label{ex:key:38}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Pass [S:v\textsubscript{non-act}, S: PRO\textsubscript{arb}]
-
-  〚Pass〛=  [F06C?]f\textsubscript{<e,st>} [F06C?]x [F06C?]e. f(x,e)
-
-Under both alternatives, the distinguishing property of SePass would be the presence of a Person feature on the binder – either on Pass itself or on PRO\textsubscript{arb}. In case Pass itself saturates EA, the presence of a Person feature on Pass is justified by the +human restriction on the existentially bound variable:
-
-\ea%39
-    \label{ex:key:39}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          〚Pass\textsubscript{+3}〛= [F06C?]f\textsubscript{<e,st>} [F06C?]e. [F024?]x (human(x) [F0D9?] f(x,e))
-
-Summing up, we have so far suggested two possible structures that may account for the intervention effect in SePass:
-
-\ea%40
-    \label{ex:key:40}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   [\textsubscript{PassP} PRO-ARB\textsubscript{+Person} [Pass [\textit{\textsubscript{v}}\textsubscript{P} \textit{v} [\textsubscript{VP} V IA]]]]
-
-b.   [\textsubscript{PassP} Pass\textsubscript{+Person} [\textit{\textsubscript{v}}\textsubscript{P} \textit{v} [\textsubscript{VP} V IA]]]
-
-As regards the type of null pronominal EA, I assume a null arbitrary pronoun that bears null Case\footnote{On ‘null case’ see Chomsky \& \citet{Lasnik1993}, Bošković (1995, 1997), \citet{Martin2001}.}  and is case-licensed in situ by Pass, hence the label PRO\textsubscript{arb}. I do not treat it as \textit{pro}, as proposed by Mac\citet{Donald2017} for the EA of SePass in Spanish, because \textit{pro} has nominative case, which means that in those configurations allowed by the Person Constraint, T would assign nominative twice, to two non-co-indexed DPs – both to the EA and to the IA – which is not compatible with the overall structural case system of Romanian.
-
-In the next section, we will further elaborate on the structure of SePass in contrast with PartPass, looking at binding properties.
-
-\section{ 5. On the presence of a null EA in \textit{se-}passives}
-
-In order to establish the existence and syntactic status of implicit arguments, various binding tests are usually employed.
-
-  When we compare SePass and PartPass, a difference emerges regarding binding of secondary predicates and the anaphor \textit{sine} ‘(one)self’ by the EA, SePass allowing binding more easily than PartPass. However, the examples are not always fully acceptable with SePass, nor are they totally excluded with PartPass, as one would have hoped.
-
-  The following examples show the results of a questionnaire given to 10 native speakers, who marked the examples on a scale with four degrees of acceptability (*, ??, ?, OK). The most acceptable examples have impersonal SePass – i.e., SePass based on intransitives – in generic deontic contexts (see also (11b)), in which case a direct comparison with PartPass is impossible, as PartPass cannot be built on intransitives.\footnote{The only exception is in the complement of \textit{trebui} ‘must’, a construction which I cannot address here:(i)  Trebuie mers de dimineaţă.  must     gone  of morning  ‘One must go in the morning.’} With transitive bases, although the examples of SePass are not fully acceptable, we still find a contrast with PartPass:
-
-\ea%41
-    \label{ex:key:41}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.    ??  Scrisoarea pare   a   fi     fost   scrisă   beat.      (18\%)    
-
-             letter-the  seems to have been written drunk.\textsc{msg} 
-
-         ‘The letter seems to have been written drunk.’
-
-a´.??  Scrisoarea asta a    fost   scrisă   beat.        (18\%)
-
-          letter-the   this has been written drunk.\textsc{msg}
-
-b. \textsuperscript{\%??}  Aşa  ceva           nu  se  scrie  beat.        (56\%)    
-
-          such something not \textsc{se} writes drunk.\textsc{msg}
-
- ‘Something like that should not be written drunk.’
-
-\ea%42
-    \label{ex:key:42}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.    \textsuperscript{\%?}  Nu se acordă premii sie          însuşi  / sieşi.      (80\%)      
-
-           not \textsc{se} awards prizes self.\textsc{dat} \textsc{emph} 3\textsc{refl}.\textsc{dat}
-
-            ‘One does not award prizes to oneself.’ 
-
-b.??/*Nu sunt acordate premii sie         însuşi /  sieşi.      (25\%)      
-
-           not are  awarded prizes  self.\textsc{dat} \textsc{emph /} 3\textsc{refl}.\textsc{dat}
-
- \textsc{‘*P}rizes are not awarded to himself.’
-
-c.  \textsuperscript{\%??}  Cartea      a    fost de fapt    scrisă   despre sine.      (60\%)
-
-              book-the has been actually written about self
-
-             ‘The book has actually been written about oneself.’
-
-Here are the examples of SePass with intransitives:
-
-\ea%43
-    \label{ex:key:43}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.    \textsuperscript{\%?}  Nu se conduce beat.              (83\%)  
-
-        not \textsc{se} drives    drunk.\textsc{msg}
-
-          ‘One does not drive drunk.’
-
-b.\textsuperscript{    \%?}  Până la plajă  se poate merge gol.            (80\%)  
-
-           to        beach \textsc{se} can   walk   naked.\textsc{msg}
-
-           ‘One can walk to the beach naked.’
-
-\ea%44
-    \label{ex:key:44}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Nu  aşa  se vorbeşte/scrie   despre sine.            (100\%)    
-
-not so   \textsc{se} speaks  / writes about  self
-
-‘One does (should) not speak/write like this about oneself.’
-
-Control in \textit{without-}clauses is very marginal with both types of passives, and control in purpose clauses is equally fine with both, but it is worth noting that Romanian adjunct infinitives allow a disjoined or overt subject, which reduces the relevance of these tests:
-
-\ea%45
-    \label{ex:key:45}
-    \gll\\
-        \\
-    \glt
-    \z
-
-         ??Cărţile            s-au    vândut /  au     fost vândute fără       a   le            citi.
-
-books-the.\textsc{fpl} \textsc{se-}have sold /    have been sold      without to them.\textsc{fpl} read
-
-‘(*)The books were sold without reading them.’ (21\% \textit{s-au vândut}, 31\% \textit{au fost vândute})
-
-\ea%46
-    \label{ex:key:46}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Aceste  haine   se vând     / sunt vândute pentru a ajuta săracii.
-
-these    clothes \textsc{se} sell.\textsc{3pl}  / are sold       for      to help poor-the
-
-‘These clothes are sold to help the poor.’
-
-Another instance of binding where the EA of SePass is more active than the EA of PartPass was discovered by Mac\citet{Donald2017} for Spanish, and also applies to Romanian. In Romance languages, definite DP objects denoting body-parts can be interpreted as possessed by the subject:
-
-\ea%47
-    \label{ex:key:47}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   Spanish (Mac\citealt{Donald2017}: ex. (15a))
-
-El  estudiante levantó la mano.   
-
-      the student     raised   the hand              
-
-  b.   Romanian
-
-Studentul   a    ridicat mâna.  
-
-      student-the has raised hand-the
-
-‘The student raised his hand.’
-
-This construction does not rely on a general interpretive property of implicit possessors, but rather on a syntactic binding relation, as shown by the fact that the body-part and the possessor must be in a local relation (see Mac\citealt{Donald2017} for details):
-
-\ea%48
-    \label{ex:key:48}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Spanish (Mac\citealt{Donald2017}: ex. (15a))
-
-Juan\textsubscript{i} dijo que María\textsubscript{j} había cerrado los ojos\textsubscript{*i/j}.   
-
-            Juan said that María  had    closed   the eyes      
-
-‘Juan said that María had closed her/*his eyes.’ 
-
-MacDonald argues that the body-part DP can be an IA possessed by the implicit EA in SePass, but not in PartPass. (49a) has a passive \textit{se}, as shown by plural agreement (recall that \textit{se} in Spanish can also rely on an active configuration; see §2). The interpretation is ‘(some of) the people present raised their hands’; the EA is the inalienable possessor of the IA, and the verb is interpreted as involving controlled motion of the body part (the immediate effect of internal biological mechanisms). With a PartPass, such as in (49b), such an interpretation is excluded: the IA is not interpreted as a body-part of the EA; the sentence expresses a change in the position of somebody’s head as the result of the EA’s action (e.g. using his hands to push the head up).   
-
-\ea%49
-    \label{ex:key:49}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   Spanish (Mac\citealt{Donald2017}: ex. (21a))
-
-El   profesor   hizo   una pregunta. Se  levantaron unas/las   manos. 
-
-        the professor  made a      question  \textsc{se}  raised.\textsc{3pl}  some/the hands         
-
-        ‘The professor asked a question. Some of their/Their hands raised.’
-
-  b.    Spanish (ibid.: ex. (23))
-
-La cabeza fue levantada (por Juan).    
-
-         the head   was raised        by  Juan
-
-        = ‘The head was raised (by Juan).’
-
-        ${\neq}$ ‘Juan/somebody raised his head.’
-
-This contrast is found in Romanian too (in (50), the continuation with a PartPass does not have the sensible interpretation ‘some people raised their hands’):
-
-\ea%50
-    \label{ex:key:50}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Romanian
-
-Profesorul      a   pus o întrebare. S-au     ridicat / \#Au   fost   ridicate nişte mâini.
-
-  professor-the has put a question  \textsc{se-}have raised  /have  been raised   some hands
-
-‘The professor asked a question. Some raised their hands / \#Some hands have been raised.’
-
-One might wonder whether we are not dealing with anticausative \textit{se} here. The possibility of a passive construal is ascertained by the fact that (50) allows a continuation with a purpose clause:   
-
-\ea%51
-    \label{ex:key:51}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Până la urmă s-au     ridicat nişte mâini,  probabil  pentru a-l      mulţumi  pe   profesor.
-
-eventually     \textsc{se}{}-have raised some hands probably for      to-him please    \textsc{dom} teacher
-
-‘Eventually some raised their hands, probably to please the teacher.’
-
-Here is another example of control into a purpose clause, modeled after MacDonald’s example (20a): 
-
-\ea%52
-    \label{ex:key:52}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Aici, pentru a pune o întrebare se ridică mâna.   
-
-here  for     to put   a question  \textsc{se} raises hand-the
-
-‘Here, in order to ask a question, one raises one’s hand.’
-
-To conclude, various tests indicate that EA in SePass has a greater capacity for binding than in PartPass. This supports the view that the binder of the EA in SePass, the element bearing Person, is a PRO\textsubscript{arb}, as represented in (40a), whereas for PartPass, the binder might be the functional head Pass itself, as proposed for passives in general by Bruening (see (36)). We may thus represent the two types of passives in Romanian as follows (on the position of the morpheme \textit{se}, see §6):
-
-\ea%53
-    \label{ex:key:53}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.  [\textsubscript{PassPartP} Pass\textsubscript{Part} [\textit{\textsubscript{v}}\textsubscript{P} \textit{v} [\textsubscript{VP} V IA] (\textit{by-}P)]]
-
-   〚Pass\textsubscript{part}〛= [F06C?]f\textsubscript{<e,st>} [F06C?]e. [F024?]x (f(x,e))
-
-b.   [\textsubscript{PassSeP} PRO\textsubscript{arb} [Pass\textsubscript{se} [\textit{\textsubscript{v}}\textsubscript{P} \textit{v} [\textsubscript{VP} V IA] (\textit{by-}P)]]]
-
-   〚Pass\textsubscript{se}〛=  [F06C?]f\textsubscript{<e,st>} [F06C?]x [F06C?]e. f(x,e)
-
-\section{ 6. Note on the status of \textit{se}}
-
-The idea that the projection of the EA in syntax distinguishes SePass from PartPass might find further support in morphology. PartPass have a dedicated passive inflection on the V,\footnote{The passive participle in the masculine singular is formally identical with the past participle, but the two forms never occur in the same syntactic environment – the past participle is always selected by certain auxiliaries, which are T/Asp/Mood morphemes inside the verbal clitic cluster in Romanian (see Dobrovie-\citet{Sorin1994} for details); the passive participle never occurs in this environment. Note also that the copula in the \textit{be}+PassPart construction is not a clitic auxiliary in Romanian, but behaves as a full verb, supporting the treatment of periphrastic passives as regular copular constructions.}  whereas verbal forms with the clitic \textit{se} are notoriously ambiguous between several interpretations – reflexive, reciprocal, anticausative, middle, and passive. We may thus assume that the saturation of the EA (by existential closure) is overtly signalled by the passive morphology in PartPass, this morphology spelling out the head Pass with the denotation in (36)/(53a). For SePass, on the other hand, assuming that \textit{se} does not realize Pass, but is attached at the vP-level, the projection of a specifier would be necessary in order to make the Pass-level visible. Thus, the saturation of the EA is achieved via a null pronoun rather than the Pass head itself.
-
-One could of course also envisage that \textit{se} spells out the Pass head. But I believe that if we attempt to give, as far as possible, a unitary treatment of all the uses of \textit{se}, it is more convenient to  attach it at the vP-level.
-
-The issue of a unitary treatment of all the uses of \textit{se} is a complex and much-debated problem, which cannot be settled here (see Dobrovie-\citealt{Sorin2017} for an overview of the various proposals). I will confine myself to some tentative remarks.
-
-Romanian \textit{se} is ambiguous between an accusative reflexive/reciprocal clitic and a voice marker, the latter occurring in anticausatives, inherent/intransitive reflexives, inherent reciprocals, middles and passives. The accusative clitic status of \textit{se} is clear when it doubles an object pronoun (which must, of course, be coreferent with the subject):
-
-\ea%54
-    \label{ex:key:54}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Maria\textsubscript{i} *(se) admiră  pe    sine        / pe    ea\textsubscript{i}.
-
-Maria     \textsc{se} admires \textsc{dom} self.\textsc{acc}  \textsc{dom} her
-
-‘Maria admires herself.’
-
-Even when it does not double a strong accusative pronoun, there is evidence that sometimes reflexive \textit{se} is an object pronoun rather than a valency reduction marker; thus, (55) has not only the sloppy reading ‘Maria admires herself and the others do not admire themselves’, but also the strict reading ‘Maria admires herself and the others do not admire Maria’. The strict reading cannot be derived if there is a single argument and the predicate is reflexivized ([F06C?]x.admires(x,x)). (55) thus involves what I would call a ‘transitive’ or ‘two-place’ reflexive:\footnote{On the use of the strict/sloppy reading test for reflexives, see \citet{SellsEtAl1987}, \citet{Labelle2008}. For the treatment of \textit{se-}reflexives as intransitive, one-place predicates derived by a reflexivization rule (or theta-bundling), see Reinhart \& \citet{Siloni2005}, \citet{Labelle2008}.}   
-
-\ea%55
-    \label{ex:key:55}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Doar  Maria se admiră.       
-
-only   Maria \textsc{se} admires          
-
-‘Only Maria admires herself.’
-
-As a voice marker, \textit{se} is associated with valency reduction, except in passives and symmetric verbs, and with accusative suspension for transitive verbs.
-
-  Reflexive \textit{se} sometimes relies on an intransitive configuration, where the agent and patient theta-roles are assigned to a single argument. This typically obtains with motion verbs, which express actions that have an immediate result on the agent (e.g., with \textit{se mişca} ‘\textsc{se} move’, the agent’s action automatically involves the change of his motion state, whereas in \textit{a mişca ceva} ‘to move something’, the effect of the agent’s action on the motion state of another entity is foregrounded) – hence the label ‘autocausative’:\footnote{See Geniušien\.e (1987).} 
-
-\ea%56
-    \label{ex:key:56}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   Maria s-a      ridicat (*pe     sine) în picioare.
-
-                 Maria \textsc{se-}has raised     \textsc{dom} self   in feet
-
-       ‘Maria stood up.’
-
-b.   Maria s-a        grăbit   (*pe     sine)   să     ajungă.
-
-      Maria \textsc{se-}has  hurried    \textsc{dom}  self    \textsc{sbjv} arrives 
-
-      ‘Maria hurried to be on time.’ 
-
-Verbs that express actions usually performed on oneself, such as grooming verbs (\textit{se spăla} ‘wash’, \textit{se rade} ‘shave’, \textit{se îmbrăca} ‘get dressed’, etc.), are also good candidates for one-place reflexives (cf. the intransitive use in English and the oddity of adding a strong anaphor – \textit{??Se rade pe sine} ‘He’s shaving himself’).
-
-  In a system that allows movement to thematic positions (see \citealt{Hornstein1999}, \citealt{Ramchand2008}), the bundling of the Initiator and Undergoer roles can be represented as movement of the IA to SpecvP, the thematic EA position (Alboiu et al. 2004; Medová 2009, who cites a 1986 talk by Kayne for this idea; see also \citealt{Ramchand2008} for movement from SpecProc to SpecInit).
-
-  Anticausatives (or inchoatives) are characterized by the suppression of the Agent/Initiator role (see Schäfer 2008 for discussion). \textit{v} may be taken to introduce a causing event, but it does not introduce any argument in the denotation (as opposed to passive \textit{v}); the Cause may be expressed by a PP-adjunct: 
-
-\ea%57
-    \label{ex:key:57}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Geamul        s-a      spart    de la  explozie.
-
-window-the \textsc{se-}has broken from explosion
-
-‘The window broke from the explosion.’
-
-Psych-verbs resemble inchoatives in that the IA becomes the subject, but two arguments continue to be projected, with the Stimulus being introduced as a PP:
-
-\ea%58
-    \label{ex:key:58}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Se sperie     de câine / Câinele îl    sperie.
-
-\textsc{se} frightens of dog     dog-the him frightens
-
-‘He’s frightened of the dog / The dog frightens him.’
-
-Based on its use as a reciprocal pronoun, \textit{se} developed the function of marking inherent reciprocal verbs. Here we have a change in the argument pattern – as the same entities are in turn agents and patients, they are realized as with symmetric predicates, as S+\textit{with} or a plurality (see (59a), vs. the transitive reciprocal use in (59b)):
-
-\ea%59
-    \label{ex:key:59}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   Ion se  bate   cu   Andrei.   /   Ion şi     Andrei se     bat.
-
-      Ion \textsc{se} beats with Andrei        Ion and Andrei \textsc{refl} beat
-
-      ‘Ion is fighting Andrei. / Ion and Andrei are fighting.’
-
-  b.   Ion şi     Andrei se bat   unul pe     altul.
-
-        Ion and Andrei  \textsc{se} beat one  \textsc{dom} another
-
-        ‘Ion and Andrei are beating each other.’
-
-The middle use also relies on the suppression of the Agent role, being a syntactic anticausative, but retaining an agent in the conceptual structure (see Schäfer 2008):
-
-\ea%60
-    \label{ex:key:60}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Cartea    se vinde bine. 
-
-book-the \textsc{se} sells  well
-
-‘The book sells well.’
-
-Verbs which necessarily take \textit{se}, the so-called ‘inherent \textit{se-}verbs’, can almost always be claimed to belong to one of the aforementioned types (e.g. \textit{se însera} ‘to dusk’ – inchoative, \textit{se învecina} ‘to border, neighbour’ – symmetric (inherent reciprocal), \textit{se foi} ‘to scurry, to toss from side to side’ – autocausative (one-place reflexive)).
-
-  The argument structure operations signalled by the voice marker \textit{se} mainly affect the EA, the argument introduced by \textit{v}, and accusative licensing, which is also currently assigned to \textit{v}: (i) the EA is suppressed (anticausatives, middles, psych-verbs), (ii) the EA and IA roles are unified, possibly by moving the IA (deep object) to the EA position (one-place reflexives) or (iii) the EA is introduced in the denotation but no DP is merged in Spec\textit{v}P (no specifier is selected) (passives). Further operations on internal arguments are found in minor types – psych-verbs and inherent reciprocal verbs. Regarding case-licensing, all these varieties of \textit{v} share the property of lacking accusative assignment (which is correlated with the lack of an externally-merged Spec – ‘Burzio’s generalization’). Leaving aside unmarked unaccusatives (which might lack \textit{v} completely), we find the following contrast between active \textit{v} (labelled \textit{v}*) and the \textit{v} found in \textit{se}{}-verbs: 
-
-\label{bkm:Ref449274243}(61)  \textit{v}*: + externally-merged Spec, (+ accusative)
-
-\textit{v}\textsubscript{SE}: -externally-merged Spec, - accusative
-
-\textit{Se} may thus be the spell-out of the common features shared by these varieties of \textit{v}, represented in 0 (this partial unification can be implemented in Distributed Morphology, using the subset principle). The various uses of \textit{se} are obtained by adding extra features to this common core (these extra features are not spelled out). As for the fact that \textit{se} behaves exactly like pronominal clitics in terms of placement (it even undergoes clitic-climbing; e.g. \textit{se poate sparge} ‘\textsc{se} can break’ = ‘It can break’), I refer to Roberts’s (2010) account, which treats object clitics in general as probes in \textit{v}, rather than moved pronouns, and makes use of a restricted version of excorporation to explain clitic-climbing.
-
-  To conclude, if \textit{se} spells out features of \textit{v}, the higher head Pass must be taken to be null, which might motivate the projection of a specifier with a Person feature in order to saturate the EA, as proposed in the previous section.
-
-\section{ 7. Intervention and further constraints on subjects of \textit{se-}passives}
-
-Raposo \& \citet{Uriagereka1996} argue that in Portuguese, the subject (IA) of \textit{se}{}-passives never occupies the dedicated preverbal subject position (when preverbal, it is in a topic or focus position). Some restrictions have also been noticed for French – Stéfanini (1962) and \citet{Ruwet1972} claim that eventive passive \textit{se-}verbs are only allowed with impersonal \textit{il}+postverbal S (as opposed to habitual \textit{se-}passives, which might in fact represent middles), but Zribi-Hertz (1982, 2008) found a series of counterexamples to this generalization. That subjects of SePass do not have access to the canonical subject position has also been argued for Romanian, by \citet{Cornilescu1998}. As for Romanian, it is difficult to identify a preverbal position dedicated to subjects; Cornilescu used other tests, namely subject-to-object raising from finite clauses and gerunds. The constraint is claimed to hold only for animate subjects.
-
-Here are some examples. (62a) shows a construction without raising: the \textit{se-}verb in the subordinate clause allows a passive interpretation alongside a reciprocal one (a reflexive interpretation is of course also possible, but unlikely due to world knowledge). (62b-c) shows a construction in which a perception verb takes a direct object and an indicative complement clause, and the direct object is interpreted as the subject of the subordinate clause – Cornilescu calls it ‘subject-to-object raising’, but one might also treat it as an instance of control.\footnote{For a detailed treatment, see Alboiu \& Hill (2013; 2016), who argue for a particular type of raising (not performed for Case reasons, as in ECM, but triggered by an evidentiality feature on the matrix \textit{v}).} Irrespective of the exact analysis of this construction, what is important is that the \textit{se}{}-verb here loses its passive interpretation:
-
-\ea%62
-    \label{ex:key:62}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   Am     văzut că   se bat          copiii           în şcoli. (reciprocal, passive)    
-
-        have.1 seen that \textsc{se} beat.3\textsc{pl} children-the in schools
-
-         ‘I’ve seen that children \{fight / are beaten\} in schools.’
-
-b.   I-am              văzut pe    copii      că   se  bat         în şcoli. (reciprocal, *passive)
-
-      \textsc{cl.acc-}have.1 seen  \textsc{dom} children that \textsc{se} beat.3\textsc{pl} in schools
-
-      ‘I saw children \{fighting / *being beaten\} in schools.’
-
-  c.   Pe    cine     ai            văzut că   se bat  în şcoli?  (reciprocal, *passive)
-
-                 \textsc{dom} whom have.2\textsc{sg} seen that \textsc{se} beat in schools
-
-‘Who did you see \{fighting / *being beaten\} in schools?’ (\citealt{Cornilescu1998}: ex. (24))
-
-\ea%63
-    \label{ex:key:63}
-    \gll\\
-        \\
-    \glt
-    \z
-
-         shows the same contrast with gerunds following perception verbs: the gerund’s subject can be licensed in the gerund clause, postverbally, or in the matrix clause, by ECM (evidence for an ECM analysis can be found in \citealt{Avram2003}); in the latter case, the passive reading of \textit{se-}verbs is excluded:
-
-\ea%63
-    \label{ex:key:63}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   Am    văzut împuşcându-se oameni nevinovaţi. ([F0FC?] passive)  
-
-     have.1 seen   shooting-\textsc{se}      people  innocent
-
-    ‘I saw innocent people being shot.’
-
-  b.   Pe     cine      ai          văzut împuşcându-se? ([F0FC?]reciprocal/reflexive, *passive)
-
-        \textsc{dom} whom have.2\textsc{sg} seen  shooting-\textsc{se}
-
-                  ‘Who did you see shooting each other / shooting themselves/ *being shot?’
-
-    (\citealt{Cornilescu1998}, ex. (26))
-
-\ea%64
-    \label{ex:key:64}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   Am     văzut pedepsindu-se copiii            cu     asprime. ([F0FC?] passive)  
-
-       have.1 seen   punishing-\textsc{se}    children-the with harshness
-
-       ‘I saw the children being punished harshly.’
-
-b.   (I-)am       văzut \{pe     copii   / copiii\}         pedepsindu-se cu     asprime.   (*passive)
-
-    (\textsc{cl})-have.1 seen \textsc{dom} children children-the punishing-\textsc{se}   with harshness
-
-‘I saw the children \{punishing themselves/each other/*being punished\} harshly.’ (ibid.: ex. (29))
-
-Within the analysis I have proposed, we may explain these facts as follows: although the intervener EA allows case licensing of the IA by a second Agree relation of T, presumably Number agreement, the intervener blocks case-related movement of the IA. A similar situation is found in Icelandic quirky subject constructions – the structurally case-marked Theme remains postverbal and is possible only in the third\textsuperscript{} person; the higher argument, an inherently case-marked DP, which is the intervener for person agreement, raises to the canonical subject position:
-
-\ea%65
-    \label{ex:key:65}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   *Honum   líkum    viđ. (Sigurðsson \& \citealt{Holmberg2008}: ex. (7))
-
-         him.\textsc{dat} like.1\textsc{pl} we.\textsc{nom}
-
-  b.   *Honum   líkiđ       þiđ.
-
-           him.\textsc{dat}  like.1\textsc{pl} we.\textsc{nom}
-
- c.      Honum   líka        þeir.
-
-          him.\textsc{dat} like.3\textsc{pl} they.\textsc{nom}
-
-           ‘He likes *us/*you/them.’
-
-For the construction in (62), with finite indicative clauses, if we assume control, we have to conclude that control targets the \textit{highest} argument – which, under my analysis, is the null pronominal EA in SePass. This is again confirmed by Icelandic quirky subjects, as well as by further Romanian data: as Alboiu \& \citet{Hill2016} notice, in constructions with oblique experiencers, the matrix object can be interpreted as the oblique experiencer: 
-
-\ea%66
-    \label{ex:key:66}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   L-am                văzut  pe Ion    că    i-a                 fost foame.   
-
-      \textsc{cl.acc-}have.1 seen   \textsc{dom} Ion that him.\textsc{dat-}has been hunger
-
-      ‘I saw that Ion was hungry.’ (Alboiu \& \citealt{Hill2016}: ex. (31b))
-
-b.   Am    văzut-o          pe     Maria că    îi           place jazzul.
-
-     have.1 seen{}-\textsc{cl.acc} \textsc{dom}  Maria that her.\textsc{dat} likes  jazz-the 
-
-    ‘I saw that Maria likes jazz.’
-
-Note that my account does not predict any difference between animate and inanimate subjects of SePass regarding the contrasts in (62)-(64), contra \citet{Cornilescu1998}. Note first that the constructions with \textit{că} ‘that’\textit{{}-}clauses are not fully acceptable with inanimate objects in general; the test of \textit{cum} ‘how’-clauses, used by Cornilescu, is irrelevant because such clauses do not require that the direct object of the matrix verb be interpreted as their subject:
-
-\ea%67
-    \label{ex:key:67}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Am      văzut-o         pe     Maria cum o    băteau.
-
-   have.1 seen-\textsc{cl.acc dom} Maria how  her were-beating.3\textsc{pl}
-
-‘I saw Maria being beaten by them.’  
-
-More problematic are the examples with gerunds, illustrated in (68), where the pronominal demonstrative (which allows \textit{pe-}marking with inanimates) refers to shirts and buildings, respectively: 
-
-\ea%68
-    \label{ex:key:68}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   Le-am              văzut pe    astea vânzându-se destul   de  repede.
-
-      \textsc{cl.acc}{}-have.1 seen  \textsc{dom} these selling-\textsc{se}      enough of  quickly      
-
-      ‘I saw these (shirts) being sold quite quickly.’ (\citealt{Cornilescu1998}: ex. (33))
-
-b.   Pe   astea  le-am               văzut dărâmându-se      chiar eu. 
-
-        \textsc{dom} these \textsc{cl.acc-}have.1 seen  pulling-down-\textsc{se} even I     
-
-       ‘I myself saw these (buildings) being pulled down.’ (ibid.: ex. (37))
-
-A possible account is that (68a) in fact represents a middle construction (i.e., without a projected EA; for more on middles, see the Appendix) and (68b) an anticausative, receiving an agentive interpretation contextually, due to world knowledge. I indeed believe that an overt \textit{by-}phrase in (68) is not acceptable (but further empirical research is necessary on this point):
-
-\ea%69
-    \label{ex:key:69}
-    \gll\\
-        \\
-    \glt
-    \z
-
-         ??Pe     astea le-am               văzut dărâmându-se      de către primărie. 
-
-\textsc{dom} these \textsc{cl.acc-}have.1 seen  pulling-down-\textsc{se}  by          city-hall     
-
-‘I saw these (buildings) being pulled down by the city hall.’   
-
-Regarding preverbal subjects, although admittedly they are hard to distinguish from topics, there are contexts where a nominal can be claimed to occur preverbally due to its subject status, rather than topicality or another information-structural feature. Thus, consider all-new (out-of-the-blue) environments, where the subject is an indefinite that is totally new – i.e. neither previously mentioned, nor partitive or otherwise context-linked – and furthermore is not generic (thus, it cannot qualify as a topic, according to the conditions on indefinite topics established by Erteschik-\citealt{Shir2007}, which appear to hold for Romanian). We can see in (70a) that, especially if there are other constituents following the V, the subject can be preverbal in this context; (70b-c) show that if the same indefinite is an oblique or direct object argument, the preverbal position is not allowed; (70d) shows that this indefinite cannot undergo long-distance topicalization, even if it is a subject.
-
-\ea%70
-    \label{ex:key:70}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          [Context: all-new, beginning of a news report]
-
-a.    O barcă plină cu arme       de contrabandă a    acostat   azi    lângă Constanţa.
-
-       a boat  full   of  weapons of smuggling     has landed  today near  Constanţa
-
-              ‘A boat full of smuggled weapons has landed today near Constanţa.’
-
-b.    \#  Cu   o  barcă plină de  arme        de contrabandă au     sosit      mai mulţi turci  la 
-
-         with a  boat  full   of   weapons of smuggling    have arrived  several     Turks  to
-
-         Constanţa.
-
-         Constanţa
-
-         ‘Several Turks arrived in Constanţa with a boat full of smuggled weapons.’
-
-c.      \#O barcă plină de arme de contrabandă a oprit-o           paza        de  coastă la 
-
-         a boat  full  of weapons of smuggling has stopped-\textsc{cl.acc} guard-the of  coast   at
-
-         Constanţa.
-
-         Constanţa
-
-         ‘The coast guard arrested a boat full of smuggled weapons in Constanţa.’
-
-d.    \# O barcă plină de arme   de contrabandă s-a      anunţat        că   a    acostat  astăzi
-
-         a boat   full   of  weapons of smuggling \textsc{se-}has announced that has  landed  today  
-
-         lângă Constanţa. 
-
-         near   Constanţa 
-
-        ‘It has been reported that a boat full of smuggled weapons has landed today near
-
-        Constanţa.’
-
-Notice now that in this very same context, the subject of SePass is not felicitous in preverbal positions, whereas the subject of PartPass, like the subject in (70a), is allowed:
-
-\ea%71
-    \label{ex:key:71}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          O barcă plină cu arme   de contrabandă \{a  fost găsită  / \#s-a    găsit\} azi    lângă Constanţa.
-
-a boat   full   of weapons of smuggling  has been found \textsc{se-}has found today near  Constanţa
-
-           ‘A boat full of smuggled weapons has been found today near Constanţa.’
-
-This contrast supports the proposal that the EA is projected as a null pronominal in SePass. As the preverbal position is not necessary for case assignment in Romanian, we can assume that in contexts such as (70a), where no constituent inherently qualifies as a topic, there is the option of raising to the preverbal position \textit{the closest (highest) argument} (see Giurgea \& \citealt{Remberger2012}), presumably due to a [D]-feature of the relevant probe.  
-
-\section{ 8. Conclusions}
-
-\textit{Se}{}-passives in Romanian are a construction in which the DP that agrees with the verb does not have full subject properties (see §7) and is subject to a general formal constraint – it cannot be a DP that needs differential object marking + clitic doubling when occurring as a direct object. This constraint can be included in the family of Person constraints if we assume that 3\textsuperscript{rd} person animate specific DPs have a [Person] feature (specified as -Participant), whereas other non-participant DPs lack a Person feature completely. These facts can be explained by the existence of an EA syntactically projected as a null arbitrary PRO in \textit{se-}passives; as it bears a Person feature, this element intervenes in the case licensing of +Person IAs. We have seen that \textit{by-}phrases are possible in \textit{se-}passives, and they do not represent the intervener. Therefore, we adopted an analysis of \textit{by}{}-phrases along the lines of \citet{Bruening2012}, as adjuncts attached to a \textit{v}P with an unsaturated argument, below the level where the EA is saturated. This led to the conclusion that the null EA of \textit{se-}passives is projected as the Spec of a Pass head above the \textit{v}P. We further proposed that in participial passives the passivizing head existentially binds the EA itself. The projection of a specifier in order to saturate this argument position was related to the fact that \textit{se-}passives do not have a dedicated morphology (unlike participial passives): the element \textit{se} also characterizes other Voice configurations (one-place reflexive, anticausative, inherent reciprocal). Therefore, we suggested that \textit{se} is generated at the \textit{v}P-level and does not spell out Pass.
-
-\section{ Appendix: Apparent exceptions to the Person constraint rely on middle SE}
-
-Perceptual verbs seem to provide counterexamples to the Person constraint discussed in this article, allowing even +Person subjects, including 1\textsuperscript{st} and 2\textsuperscript{nd} person pronouns, in sentences with a modal or iterative interpretation:
-
-\ea%72
-    \label{ex:key:72}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   Ne auzim    bine în această sală.    
-
-      us  hear.1\textsc{pl} well in this      hall
-
-      ‘One can hear us well in this hall.’
-
-b.   Ion şi   Maria,  acolo  unde  stau,      se văd       de     departe.
-
-      Ion and Maria  there where stay.3\textsc{pl se} see.\textsc{3pl} from far
-
-      ‘Ion and Maria, where they are standing, can be seen from afar.’
-
-\ea%73
-    \label{ex:key:73}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.   În ultima     vreme te            vezi       prea des     la   televizor. 
-
-           in latest-the time   you.\textsc{acc}  see.\textsc{2sg} too    often on TV
-
-‘Lately you have been seen (can be seen) too much on TV.’ (Dobrovie-\citealt{Sorin2017}: 134)
-
-b.   În ultima     vreme  mă        văd       şi     eu  la   televizor.
-
-          in latest-the time     me.\textsc{acc} see.\textsc{1sg} also I    on TV
-
-       ‘Lately I’ve also been seen on TV / I can also be seen on TV.’
-
-I will argue that these examples are instances of \textit{middle}, rather than passive \textit{se}. Middles are conceptually passive, but syntactically anticausative, in the sense that there is no evidence for a syntactically active EA (see Schäfer 2008). Middles are used to express generalizations about the IA – the sentence is about the propensity of the subject to act as a Theme in the relevant event type, e.g. Engl. \textit{These books sell well}. We find this type of interpretation in the examples (72)-(73): none of the examples is about an episodic event. Even if no modal is present, the reading is one of circumstantial possibility, as shown by the translations. 
-
-  The tests of purpose clauses and \textit{by-}phrases show that there is no syntactically active EA: 
-
-\ea%74
-    \label{ex:key:74}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Ne auzim    bine în această sală (*pentru a reţine        fiecare cuvânt/ * de către oricine).
-
-us  hear.1\textsc{pl} well in this   hall       for      to remember every  word        by          anybody
-
-\ea%75
-    \label{ex:key:75}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          *Mă văd      şi     eu la televizor de multă lume / de către cei care se uită    după ora 12 
-
-me see.1\textsc{sg} also I   on TV        by many people/ by        those who watch after 12 o’clock 
-
- / pentru a afla despre bolile           de oase.
-
-for    to learn about diseases-the of bones
-
-\section{ Acknowledgements}
-
-This work was supported by a grant from the Romanian National Authority for Scientific Research and Innovation, CNCS – UEFISCDI, project number PN-II-RU-TE-2014-4-0372.
-
-\section{ References}
-
-Alboiu, Gabriela. 2002. \textit{The features of movement in Romanian}. Bucharest: Editura Universităţii din Bucureşti.
-
-Alboiu, Gabriela \& Barrie, Michael \& Frigeni, Chiara. 2004. SE and the unaccusative-unergative paradox. In Coene, Martine \& de Cuyper, Gretel \& D’Hulst, Yves (eds.), \textit{Antwerp papers in linguistics 107}, 109–139.
-
-Alboiu, Gabriela \& Hill, Virginia. 2013. On Romanian perceptual verbs and evidential syntax. \textit{Revue Roumaine de Linguistique} 58. 275–298.
-
-Alboiu, Gabriela \& Hill, Virginia. 2016. Evidentiality and raising to object as A′{}-movement: A Romanian case study. \textit{Syntax} 19. 256–285.
-
-Anagnostopoulou, Elena. 2003. \textit{The syntax of ditransitives: Evidence from clitics.} Berlin \& New York: Mouton de Gruyter.
-
-Anagnostopoulou, Elena. 2005. Cross-linguistic and cross-categorial variation of datives. In Stavrou, Melita \& Terzi, Arhonto (eds.), \textit{Advances in Greek generative syntax: In honor of Dimitra Theophanopoulou-Kontou}, 61–126. Amsterdam \& Philadelphia: John Benjamins. 
-
-Authier, J.-Marc \& Reed, Lisa. 1996. Une analyse microparamétrique des moyens dans les langues romanes. In Black, James R. \& Motapanyane, Virginia (eds.), \textit{Microparametric syntax and dialect variation}, 1–23. Amsterdam \& Philadelphia: John Benjamins.
-
-Avram, Larisa. 2003. An aspectual analysis of gerunds. \textit{Revue roumaine de linguistique} 48: 203–219.
-
-Baker, Mark. 2008. \textit{The syntax of agreement and concord}. Cambridge: Cambridge University Press.
-
-Baker, Mark \& Johnson, Kyle \& Roberts, Ian. 1989. Passive arguments raised. \textit{Linguistic Inquiry} 20. 219–251.
-
-Belletti, Adriana. 1982. Morphological passive and pro-drop: The impersonal construction in Italian. \textit{Journal of Linguistic Research} 2. 1–34.
-
-Bošković, Željko. 1995. \textit{Principles of economy in nonfinite complementation}. Storrs, CT: University of Connecticut, Storrs. (Doctoral dissertation.)
-
-Bošković, Željko. 1997. \textit{The syntax of nonfinite complementation: An economy approach}. Cambridge, MA: MIT Press.
-
-Bruening, Benjamin. 2012. \textit{By} phrases in passives and nominals. \textit{Syntax} 16. 1–41.
-
-Burzio, Luigi. 1986. \textit{Italian syntax}: \textit{A government-binding approach}. Dordrecht: Reidel.
-
-Burzio, Luigi. 1994. Weak anaphora. In Cinque, Guglielmo \& Koster, Jan \& Pollock, Jean-Yves \& Rizzi, Luigi \& Zanuttini, Rafaella (eds.), \textit{Paths toward universal grammar: Studies in honor of Richard Kayne}, 59–84. Washington, D.C.: Georgetown University Press.
-
-Chomsky, Noam. 1995. \textit{The Minimalist Program}. Cambridge, MA: MIT Press.
-
-Chomsky, Noam. 2000. Minimalist inquiries: The framework. In Martin, Roger \& Michaels, David \& Uriagereka, Juan (eds.), \textit{Step by step: Essays on Minimalist syntax in honor of Howard Lasnik}, 89–155. Cambridge, MA: MIT Press. 
-
-Chomsky, Noam. 2001. Derivation by phase. In Kenstowicz, Michael (ed.), \textit{Ken Hale: A life in language}, 1–52. Cambridge, MA: MIT Press.
-
-Chomsky, Noam \& Lasnik, Howard. 1993. The theory of principles and parameters. In Jacobs, Joachim \& von Stechow, Arnim \& Sternefeld, Wolfgang \& Vennemann, Theo (eds.), \textit{Syntax: An international handbook of contemporary research}, vol. 1, 506–569. Berlin: Walter de Gruyter.
-
-Cinque, Guglielmo. 1988. On \textit{si} constructions and the theory of \textit{arb}. \textit{Linguistic Inquiry} 19. 521–582.
-
-Collins, Chris. 2005. A smuggling approach to the passive in English. \textit{Syntax} 8. 81–120.
-
-Cornilescu, Alexandra. 1997. The double subject construction in Romanian: Notes on the syntax of the subject. \textit{Revue Roumaine de Linguistique} 42. 101–147.
-
-Cornilescu, Alexandra. 1998. Remarks on the syntax and the interpretation of Romanian middle passive \textit{se} sentences. \textit{Revue roumaine de linguistique} 43. 317–342.
-
-Cornilescu, Alexandra. 2000. Notes on the interpretation of the Prepositional Accusative in Romanian. \textit{Bucharest Working Papers in Linguistics} 4. 1–15.
-
-D’Alessandro, Roberta. 2007. \textit{Impersonal si constructions: Agreement and interpretation}. Berlin \& New York: Mouton de Gruyter.
-
-Dobrovie-Sorin, Carmen. 1987. \textit{Syntaxe du roumain: Chaînes thématiques}. Paris: Université Paris 7. (Doctoral dissertation.)
-
-Dobrovie-Sorin, Carmen. 1994. \textit{The syntax of Romanian}. Berlin: Mouton de Gruyter.
-
-Dobrovie-Sorin, \citealt{Carmen1998}. Impersonal \textit{se} constructions in Romance and the passivization of unergatives. \textit{Linguistic Inquiry} 29. 399–438.
-
-Dobrovie-Sorin, Carmen. 2006. The SE-anaphor and its role in argument realization. In Everaert, Martin \& van Riemsdijk, Henk (eds.), \textit{The Blackwell companion to syntax}, vol. 4, 118–179. Oxford: Blackwell.
-
-Dobrovie-Sorin, Carmen. 2017. Reflexive-marking in Romance: Voice and feature deficiency. In Everaert, Martin \& van Riemsdijk, Henk (eds.), \textit{The Blackwell companion to syntax},\textstylest{ 2nd revised edn.} Oxford: Blackwell.
-
-Erteschik-Shir, Nomi. 2007. \textit{Information structure: The syntax-discourse interface}. Cambridge: Cambridge University Press.
-
-Geniušien\.e, Emma. 1987. \textit{The typology of reflexives}. Berlin: Mouton de Gruyter.
-
-Hornstein, Norbert. 1999. Movement and control. \textit{Linguistic Inquiry} 30. 69–96.
-
-Labelle, Marie. 2008. The French reflexive and reciprocal \textit{se}. \textit{Natural Language \& Linguistic Theory} 26. 833–876.
-
-Landau, Idan. 2010. The explicit syntax of implicit arguments. \textit{Linguistic Inquiry} 41. 357–388.
-
-MacDonald, Jonathan E. 2017. An implicit projected argument in Spanish impersonal- and passive-\textit{se} constructions. \textit{Syntax} 20. 353–383.
-
-Manzini, Rita. 1986. On Italian \textit{si}. In Borer, Hagit (ed.), \textit{The syntax of pronominal clitics}, 241–262. New York: Academic Press.
-
-Marchis, Mihaela \& Alexiadou, Artemis. 2013. The syntax of clitics revisited: Two types of clitics. \textit{Lingua} 127. 1–13.
-
-Mardale, Alexandru. 2008. \textit{Les prépositions fonctionnelles du roumain: Études comparatives sur le marquage casuel}. Paris: L’Harmattan.
-
-Martin, Roger. 2001. Null Case and the distribution of PRO. \textit{Linguistic Inquiry} 32. 141–166.
-
-Medová, Lucie. 2009. \textit{Reflexive clitics in the Slavic and Romance languages: A comparative view from an antipassive perspective}. Princeton, NJ: Princeton University. (Doctoral dissertation.)
-
-Mendikoetxea, Amaya. 2008. Clitic impersonal constructions in Romance: Syntactic features and semantic interpretation. In Siewierska, Anna (ed.), \textit{Impersonal constructions in grammatical theory}: \textit{Special issue of the Transactions of the Philological Society}, 290–336. Oxford: Blackwell.
-
-Preminger, Omer. 2014. \textit{Agreement and its failures}. Cambridge, MA: MIT Press.
-
-Ramchand, Gillian. 2008. \textit{Verb meaning and the lexicon: A first-phase syntax}. Cambridge: Cambridge University Press.
-
-Raposo, Eduardo \& Uriagereka, Juan. 1996. Indefinite \textit{se}. \textit{Natural Language \& Linguistic Theory} 14. 749–810.
-
-Rezac, Milan. 2011. \textit{Phi-features and the modular architecture of language}. Dordrecht: Springer.
-
-Richards, Marc. 2004. \textit{Object shift and scrambling in North and West Germanic: A case study in symmetrical syntax}. Cambridge: University of Cambridge. (Doctoral dissertation.)
-
-Richards, Marc. 2008. Defective Agree, case alternations, and the prominence of person. In Richards, Marc \& Malchukov, Andrej L. (eds.), \textit{Scales} (Linguistische Arbeitsberichte 86), 137–161. Leipzig: University of Leipzig.
-
-Roberts, Ian. 2010. \textit{Agreement and head movement: Clitics, incorporation, and defective goals}. Cambridge, MA: MIT Press.
-
-Ruwet, Nicolas. 1972. \textit{Théorie syntaxique et syntaxe du français}. Paris: Seuil.
-
-Schäfer, Florian. 2008. \textit{The syntax of (anti-)causatives: External argument in change-of-state contexts}. Amsterdam \& Philadelphia: John Benjamins.
-
-Sells, Peter \& Zaenen, Annie \& Zec, Draga. 1987. Reflexivization variation: Relations between syntax, semantics and lexical structure. In Iida, Masayo \& Wechsler, Stephen \& Zec, Draga (eds.), \textit{Working papers in grammatical theory and discourse structure}, 169–238. Stanford: CSLI Publications.
-
-Sigurðsson, Halldór Ármann. 2004. The syntax of Person, Tense, and speech features. \textit{Italian Journal of Linguistics} 16. 219–251.
-
-Sigurðsson, Halldór Ármann. 2011. Conditions on argument drop. \textit{Linguistic Inquiry} 42. 267–304.
-
-Sigurðsson, Halldór Ármann. 2012. Minimalist C/case. \textit{Linguistic Inquiry} 43. 191–227.
-
-Sigurðsson, Halldór Ármann \& Holmberg, Anders. 2008. Icelandic dative intervention: Person and number are separate probes. In D’Alessandro, Roberta \& Fischer, Susann \& Hrafnbjargarson, Gunnar Hrafn (eds.), \textit{Agreement restrictions}, 251–281. Berlin: Mouton de Gruyter.
-
-Stéfanini, Jean. 1962. \textit{La voix pronominale en ancien et moyen français}. Aix-en-Provence: Ophrys.
-
-Tigău, Alina. 2010. \textit{Syntax and interpretation of direct object in Romance and Germanic languages with an emphasis on Romanian, Dutch and English}. Bucharest: Editura Universităţii din Bucureşti.
-
-Tigău, Alina. 2014. Specificity effects with clitic doubling and \textit{pe} marking. \textit{Bucharest Working Papers in Linguistics} 16. 43–61.
-
-Van der Wal, Jenneke. 2015. Bantu object clitics as defective goals. \textit{Revue Roumaine de Linguistique} 60. 277–296 
-
-Zribi-Hertz, Anne. 1982. The ‘middle-\textit{se}’ construction in French and its status in the triad middle voice–passive–reflexive. \textit{Lingvisticae Investigationes} 6. 345–401.
-
-Zribi-Hertz, Anne. 2008. Le médiopassif à accord riche en français: Pour une approche multifactorielle. \textit{Actes (en ligne) du 1er CMLF}, http://www.linguistiquefrancaise.org/articles/cmlf/pdf/2008/01/cmlf08083.pdf.
-
-
-\begin{verbatim}%%move bib entries to  localbibliography.bib
-\end{verbatim} 
+% 
+% \ea%15
+%     \label{ex:giurgea:15}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           \{S-a      propus    / *A   fost   propus\}   ca   votul          să     fie           secret
+% 
+%   \textsc{se-}has proposed    has been proposed that voting-the \textsc{sbjv} be.\textsc{sbjv.3} secret
+% 
+% ‘It was proposed that the voting should be secret.’
+% 
+% We may thus say that \textit{se-}passives are chiefly used as an impersonalization strategy, in order to demote the EA, whereas participial passives are also used to promote the IA. Impersonal passives are also attested in other languages (Icelandic, German, etc.).
+% 
+% \section{ 3. A Person Constraint on the subject of \textit{se-}passives in Romanian}
+% 
+% It is known that \textit{se-}passives are only possible in the 3\textsuperscript{rd} person, across Romance languages. This also holds for Romanian:
+% 
+% \ea%16
+%     \label{ex:giurgea:16}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   *Sunt prietenul  tău.   Nu mă invit           ţipându-se   la mine.  
+% 
+%           am   friend-the your not me invite.1\textsc{sg} shouting-SE at me              
+% 
+%   b.   *În ultima     vreme te           examinezi  prea des     la şcoală.      
+% 
+%               in latest-the time   you.\textsc{acc} see.\textsc{2sg}      too   often in school 
+% 
+%             *for the~meaning: ‘Lately you have been getting examined too much in school’
+% 
+%   c.   *În ultima     vreme ne      invităm     şi    noi       la petreceri.  
+% 
+%               in latest-the time   we.\textsc{acc}  invite.\textsc{1pl}  too we.\textsc{nom} at parties
+% 
+%              * for the meaning: ‘Lately we too have been getting invited to parties’
+% 
+%     (Dobrovie-\citealt{Sorin2017}: ex. (124c,e,f))
+% 
+% But there are further constraints on the subjects of \textit{se-}passives. \citet{Cornilescu1998} noticed that not only +Participant pronouns, but also 3\textsuperscript{rd} person pronouns and proper names are excluded. She noticed that these are the very same DPs that require the prepositional object marker (\textit{pe}) when they function as direct objects – see, in (17), pronouns, proper nouns, as well as certain specific definite DPs, mostly containing a possessor (see (17c-d)):
+% 
+% \ea%17
+%     \label{ex:giurgea:17}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   La noi întotdeauna se întâmpină  \{musafirii / *Ion/*el\} la gară  
+% 
+%       at us    always        \textsc{se} welcome.3   guests-the / Ion   he  at station
+% 
+% ‘In our family/department/..., guests/*Ion/*he are/is always welcomed at the station.’ (\citealt{Cornilescu1998}: ex. (16))
+% 
+% a´.   Am     întâmpinat musafirii / *Ion / *el 
+% 
+%        have.1 welcomed guests-the / Ion / he         
+% 
+%        ‘We welcomed  the guests / *Ion / *him.’
+% 
+% a´´.   L-am          întâmpinat pe   Ion  / pe    el. 
+% 
+%         him-have.1 welcomed \textsc{dom} Ion / \textsc{dom} he
+% 
+%         ‘We welcomed  Ion / him.’
+% 
+% b.   Ieri          s-au              adus    \{prizonierii   / mulţi prizonieri / prizonieri/*ei\}  la tribunal
+% 
+% yesterday \textsc{se}{}-have.3\textsc{pl} brought prisoners-the / many prisoners / prisoners/they  to court
+% 
+%      / *s-a       adus     \{Ion / el\} la tribunal       
+% 
+%          \textit{se}{}-has brought  Ion/   he  to court
+% 
+% ‘Yesterday  \{the prisoners / many prisoners / *they\} were brought to the court / \{*Ion/*he\} was brought to the court.’ (ibid.: ex. (17))
+% 
+% b´.   Au          adus     prizonierii    / mulţi prizonieri  / prizonieri / *ei /*Ion/*el la tribunal
+% 
+% have.\textsc{3pl} brought prisoners-the / many prisoners / prisoners/ they/Ion/he    to court
+% 
+% ‘They brought the prisoners / many prisoners / prisoners / *them/*Ion/*him to the court.’
+% 
+% b´´.   I-au                 adus      pe    ei    /   L-au               adus      pe    Ion /   pe    el
+% 
+%        them-have.3\textsc{pl} brought \textsc{dom} they /  him-have.3\textsc{pl} brought \textsc{dom} Ion /  \textsc{dom} he
+% 
+%        ‘They brought them/Ion/him.’ 
+% 
+% c.   * S-a     adus      mama         lui
+% 
+%         \textsc{se-}has brought mother-the his
+% 
+%          ‘His mother was brought.’
+% 
+% c´.   *Am      adus     mama         lui
+% 
+%          have.1 brought mother-the his
+% 
+% c´´.   Am      adus-o               pe    mama         lui
+% 
+%         have.1 brought-her(\textsc{cl}) \textsc{dom} mother-the his
+% 
+%           ‘I brought his mother.’
+% 
+% d.   Am     convocat     profesorii  / *(L-)             am      convocat  *(pe)     profesorul  tău
+% 
+% have.1 summoned teachers-the   \textsc{cl.ms.acc-}have.1 summoned \textsc{(dom)} teacher-the your
+% 
+%                   ‘We summoned the teachers / *your teacher.’
+% 
+%   d´.   S-au            convocat   profesorii     / *S-a convocat        profesorul   tău
+% 
+%         \textsc{se-}have.3\textsc{pl} summoned teachers-the / \textsc{se-}has summoned teacher-the your
+% 
+%                  ‘The teachers were summoned / *Your teacher was summoned.’
+% 
+% The correlation discovered by Cornilescu must be further refined in view of examples such as (18), where we see that animate indefinite pronouns, which also require prepositional object marking, may occur as subjects of \textit{se-}passives:
+% 
+% \ea%18
+%     \label{ex:giurgea:18}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   Se va           aduce  cineva       cu    experienţă.
+% 
+%       \textsc{se} will.3\textsc{sg}  bring   somebody with expertise
+% 
+%       ‘Somebody with good expertise will be brought.’
+% 
+% b.   Aduc      *(pe)   cineva        cu    experienţă.
+% 
+%       bring.3\textsc{pl} (\textsc{dom}) somebody with expertise
+% 
+% c.   Se ştia                  de  mult  timp  că   se  va          aresta cineva       de la vârf
+% 
+%      \textsc{se} know.\textsc{impf.3sg} for much time that \textsc{se} will.3\textsc{sg} arrest somebody from top
+% 
+% ‘It had been known for a long time that somebody from the top would be arrested.’ (www.gsp.ro/..., on-line comment)
+% 
+% The difference between animate indefinite pronouns and the DPs in (17) is that for the latter, the differential object marking is realized not only by the preposition, but also by clitic doubling, whereas animate indefinite pronouns do not take clitic doubling (see (18b)). We thus arrive at the following empirical generalization:
+% 
+% \ea%19
+%     \label{ex:giurgea:19}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           The DPs which cannot be subjects of \textit{se-}passives = those DPs that have to be marked by the prepositional object marking accompanied by clitic doubling when they function as DOs. 
+% 
+% 1\textsuperscript{st} and 2\textsuperscript{nd} person pronouns always require doubling and \textit{pe}{}-marking when functioning as direct objects, thus being covered by (19):
+% 
+% \ea%20
+%     \label{ex:giurgea:20}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   *Aduce mine
+% 
+%        brings   me.\textsc{acc(strong)}
+% 
+% b.   Mă              aduce pe    mine
+% 
+%       me.\textsc{acc.cl} brings \textsc{dom} me.\textsc{acc(strong)}
+% 
+% Differential object marking in Romanian is dependent on multiple factors (see Dobrovie-\citealt{Sorin1994}; \citealt{Cornilescu2000}; \citealt{Mardale2008}; Tigău 2010; 2014; a.o.): animacy, specificity, pronominal character, and inflectional properties. Clitic doubling is correlated with definiteness and specificity (see Marchis \& \citealt{Alexiadou2013}): specific and definite DPs are clitic-doubled (i) when they are \textit{pe-}marked or (ii) when they are preverbal (irrespective of whether they are topicalized or focus-fronted). Non-specific pronouns such as \textit{cineva} ‘somebody’, \textit{nimeni} ‘nobody’, \textit{cine} ‘who’ are \textit{pe-}marked in virtue of being pronominal and animate, but they are not clitic-doubled, as they are not specific.
+% 
+%   Now, I would like to propose that the DPs characterized by (19) – the requirement for clitic doubling and \textit{pe-}marking when functioning as direct objects, and the impossibility of being subjects (IAs) in \textit{se-}passives – differ from the other nominals in bearing a Person feature:
+% 
+% \ea%21
+%     \label{ex:giurgea:21}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   DPs that require clitic-doubling + \textit{pe-}marking in DO position are +Person.
+% 
+% b.   +Person DPs cannot be subjects of \textit{se}{}-passives.
+% 
+% [Person] can be + or -Participant. 3\textsuperscript{rd} person nominals (using traditional terms) can be either DPs bearing [Person = -Participant] or DPs lacking [Person].
+% 
+%   \citet{Cornilescu1998} gives a different interpretation of the generalization, based on denotational type: she proposes that the DPs that require \textit{pe-}marking and cannot be subjects of \textit{se}{}-passives are DPs that cannot have a property denotation. She argues that animate subjects of \textit{se}{}-passives must have a property denotation because they must stay in the IA-position, where they undergo semantic incorporation. However, we do find definite DPs as subjects of \textit{se-}passives – see \textit{profesorii} ‘the teachers’ in (17d´), \textit{musafirii} ‘the guests’ in (17a), and \textit{prizonierii} ‘the prisoners’ in (17b) – which clearly cannot be interpreted as pseudo-incorporated property-denoting nominals.
+% 
+%   Treating the constraint on subjects of \textit{se-}passives as a Person constraint, as in (21), allows for an explanation in terms of case licensing of IAs via Agree (to be developed in the next sub-section). As for the requirement of clitic-doubling, on the assumption that object licensing involves Agree with v*, the clitic can be seen as the manifestation of rich agreement on v*, where rich agreement includes Person (for the view of Romance object clitics as probes in v*, see \citealt{Roberts2010}).
+% 
+% The two sides of the generalization in (19) are instantiations of the following broader cross-linguistic generalization:
+% 
+% \ea%22
+%     \label{ex:giurgea:22}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           DPs that are high on a Person/Animacy/Definiteness hierarchy
+% 
+% (i) are banned in certain structural case environments;
+% 
+% (ii) require distinctive marking when functioning as direct objects.
+% 
+% Both types of phenomena have been treated in terms of differential licensing of +Person DPs in various studies – see, for (i), Sigurðsson (2004; 2011; 2012), Sigurðsson \& \citet{Holmberg2008} on Icelandic low nominatives with quirky subjects, and \citet{Rezac2011} on various instances of Person-Case constraints. Regarding (ii), see Van der \citet{Wal2015} on differential object marking in Bantu.
+% 
+% A general account of splits among 3\textsuperscript{rd} person nominals along the animacy+definiteness scale as presence/absence of [Person] has been proposed by \citet{Richards2008}.
+% 
+% \section{ 4. An intervention-based account of the Person constraint}
+% 
+% Discussing other instances of Person constraints (PCC and related phenomena), \citet{Rezac2011} proposes the following general explanation, which I will adopt:
+% 
+% \label{bkm:Ref443240869}(23)  a.   A DP must match in all of its (relevant) φ-features with its case licensor (assuming case licensing via Agree; see \citealt{Chomsky2000}; 2001).
+% 
+%   b.   In PC environments, Person matching is impossible, whereas Number matching is possible.\footnote{The relevance of Person can be seen not only in PCC effects, but also in the licensing of subjects of raising predicates with experiencer arguments: as shown by Anagnostopoulou (2003; 2005) and Marchis \& \citet{Alexiadou2013}, the Person feature of the dative experiencer creates defective intervention effects in Greek and Romance languages, which can be removed via cliticization.}  
+% 
+% c.   a+b → the DPs bearing [Person] are ruled out in these environments.
+% 
+% 0a is a standard assumption in Minimalism. What needs an explanation is (23b): why is Person matching impossible in certain environments? Using the same Chomskyan framework, \citet{Rezac2011} proposes an intervention-based account: assuming that subject licensing is performed by T, failure of Person matching is due to the existence of a closer goal for T’s Person probe; i.e. an element that c-commands IA and is c-commanded by T (an \textit{intervener}), and bears [Person] – see $\alpha $ in (24):
+% 
+% \ea%24
+%     \label{ex:giurgea:24}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           [T\textsubscript{[uPerson, uNumber]}  [.. $\alpha $\textsubscript{ +Person}  [... IA\textsubscript{+Person +Number} ..]]]
+% 
+% For the selective licensing of IAs, depending on +/- Person, it is crucial that this element $\alpha $ lacks Number, so that it does not block Number agreement. A DP that does not bear Person can undergo full feature matching with T, in spite of the existence of $\alpha $, so it complies with the licensing condition in (23a). Given that in Romanian the so-called ‘impersonal \textit{se}’ is an instance of passive \textit{se} (see §2, where I summed up Dobrovie-Sorin’s (1998) arguments), one may wonder how verb agreement is realized in this configuration. As I have not found any evidence for stipulating a null cognate IA in these configurations (as Dobrovie-\citealt{Sorin1998} does) – see especially the use of impersonal \textit{se} in unaccusatives in (11) and (13) above – I propose that number agreement fails to apply if no suitable goal is found, without causing a crash of the derivation, and the 3\textsuperscript{rd} person singular of the verb represents a default form. For arguments that failure of agreement does not lead to a crash of the derivation, see \citet{Preminger2014}. Note that the same default form is to be assumed for examples such as (15), where the IA is a finite clause, which, as such, lacks $\varphi $-features.
+% 
+%   One may also envisage the possibility of relating the difference in case licensing between +Person and -Person DPs to a stronger constraint on Agree involving Person, rather than to a particular type of intervener. Such a constraint has been proposed by \citet{Baker2008}. Based on extensive crosslinguistic data, Baker postulates a special condition on Person agreement as a universal principle (called the ‘structural condition on Person Agreement’ – SCOPA): the controller (goal) must merge with a projection of the agreeing head (target/probe); in other words, Person agreement requires Spec-Head or Comp-Head configurations\footnote{Baker’s exact formulation reads as follows:(i)  “A functional category F can bear the features +1 or +2 if and only if a projection of F merges with a phrase that has that feature, and F is taken as the label of the resulting phrase.” \citep[52]{Baker2008}}. Within this system, one might explain the ban on +Person IAs of \textit{se-}passives by the fact that they cannot raise to SpecTP. But, although there is some evidence that IAs of \textit{se-}passives in other Romance languages, and possibly also in Romanian, do not occur in a non-topical preverbal subject position (see §7 below, ex. (71), and Raposo \& \citealt{Uriagereka1996}; \citealt{Cornilescu1998}; Dobrovie-\citealt{Sorin2006}), there is no evidence that +Person subjects in Romanian \textit{need} to occupy SpecTP. As is well known (see Dobrovie-\citealt{Sorin1987}; 1994; \citealt{Cornilescu1997}; \citealt{Alboiu2002}), any type of subject can occur in the postverbal thematic position in Romanian, the preference for pre- or postverbal positions depending on information structure and stylistic factors – see examples of +Person subjects (personal pronouns, proper names) in postverbal position in a presentational (thetic) context (25a), as a narrow focus (25b) or as part of the ‘comment’ in sentences with a non-subject topic (25c):
+% 
+% \ea%25
+%     \label{ex:giurgea:25}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   Deodată   aţi           sunat   voi     la  uşă.  
+% 
+%       suddenly have.2\textsc{pl}  rung   you\textsubscript{pl}   at door
+% 
+%      ‘All of a sudden you rang the doorbell.’
+% 
+% b .   Vei        vorbi TU  cu    directorul.         
+% 
+%        will.2\textsc{sg} talk    you with manager-the
+% 
+%        ‘YOU will talk to the manager.’
+% 
+% c.   Ideea    o formulase         deja      Roberts într-un articol celebru. 
+% 
+%      idea-the it had-expressed already Roberts  in  an article  famous    
+% 
+% ‘Roberts had already expressed the idea in a famous article / The idea had already been expressed by Roberts in a famous article.’      
+% 
+% Under Baker’s theory, one should assume a doubling preverbal \textit{pro} (carrying the Person feature of the subject) for all these examples, but this does not account for the fact that the postverbal placement is precisely used in order to increase the match between the syntactic structure and the information-structural interpretation: as both the thematic and the information-structural interpretation of the subject are achieved in the postverbal position in examples such as (25), a doubling \textit{pro} would not be justified by any interface effect. Therefore, I think Romanian, as well as other null-subject SV/VS-languages, are potentially problematic for Baker’s SCOPA; other problems come from complementizer agreement.\footnote{\citet{Baker2008} recognizes the problem of complementizer agreement (with the embedded subject in West Germanic varieties, and with the matrix subject in some Niger-Congo languages – Lokaa, Kinande); the solution he proposes is that SpecCP is occupied by Person operators, but there is no independent evidence for the existence of such operators in any of the situations where complementizer agreement occurs.}
+% 
+%   Even if we embrace Baker’s framework, we still need to explain why IAs cannot raise to SpecTP in \textit{se-}passives. I assume that the explanation would still resort to some sort of intervention; i.e. to a configuration of the type in (24). 
+% 
+%   An intervener-based account is also suggested by the fact that we are dealing with a passive configuration. The obvious candidate for the intervener is the element that saturates the external role. I thus adopt the following proposal, which derives the ban on +Person subjects under the assumptions in (23) above:
+% 
+% \ea%26
+%     \label{ex:giurgea:26}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           The element that saturates the EA in \textit{se-}passives bears a [Person] feature (non-participant).
+% 
+% This element can be conceived of either as a null arbitrary pronoun (see, on the implicit EA of passives in general, \citealt{Collins2005}; \citealt{Landau2010}; and on Romance \textit{se-}passives, Mac\citealt{Donald2017}; a.o.) or as the passivizing head itself, under analyses in which EA existential binding is realized by a verbal functional head or verbal morphology (see Baker et al. 1989; \citealt{Bruening2012}; a.o.).
+% 
+% As both \textit{se-}passives (SePass) and participial passives (‘regular’ passives or ‘copular’ passives,\footnote{I don’t use the term ‘copular passive’, because the passive syntax comes entirely from the participle – it can be found in attributive contexts and non-copular small clause contexts, and \textit{be} is not a passive auxiliary; Romanian, in which auxiliaries are clitics, clearly shows this (the \textit{be} which appears in ‘copular passives’ is not a clitic, but a regular full verb).} henceforth PartPass) rely on EA demotion, we have to explain why intervention is only found with SePass:
+% 
+% \ea%27
+%     \label{ex:giurgea:27}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Romanian
+% 
+% a.   *În ultima     vreme ne     invităm     şi    noi       la petreceri.
+% 
+%               in latest-the time   we.\textsc{acc}  invite.\textsc{1pl}  too we.\textsc{nom} at parties
+% 
+%             *for the meaning: ‘Lately we too have been getting invited to parties.’
+% 
+%   b.   În ultima     vreme suntem    invitaţi   şi    noi  la petreceri.
+% 
+%         in latest-the time    are.1\textsc{pl}  invited  also we   at parties
+% 
+%                  ‘Lately we too have been getting invited to parties.’ 
+% 
+%   c.   *S-a     adus      Ion la judecată.
+% 
+%          \textsc{se-}has brought Ion to judgment
+% 
+%   d.   A   fost  adus       Ion la judecată.
+% 
+%         has been brought Ion to judgment
+% 
+%         ‘Ion has been brought to trial.’
+% 
+% There are several possibilities we have to investigate: (i) EA is projected in SePass (and bears a Person feature) but not in PartPass; (ii) EA is projected in both types of passive, but only in SePass does it bear a Person feature; (iii) EA +Person is projected in both types of passives, but only intervenes in SePass, because in PartPass IA first raises to a higher position, either by itself, to the Spec of the passivizing participial head, or as part of the whole VP, as proposed by \citet{Collins2005}, who dubs this operation ‘smuggling’; (iv) EA is not projected in a thematic position, but is existentially bound by a passivizing head, and it is this head itself that bears the intervening Person feature in SePass, but not in PartPass.
+% 
+%   I will show that an account in terms of (iii) faces empirical problems. On the other hand, the idea that the element that saturates the EA bears a Person feature in SePass but not in PartPass is supported by the well-known generalization that the EA of \textit{se-}passives is restricted to animates (\citealt{Burzio1994}, \citealt{Cornilescu1998}, Dobrovie-\citealt{Sorin2017}, Zribi-\citealt{Hertz2008}, a.o.):
+% 
+% \ea%28
+%     \label{ex:giurgea:28}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Romanian
+% 
+% Oraşul \{ a    fost  distrus      / * s-a      distrus\}   de (către) cutremur  .
+% 
+% city-the  has been destroyed    \textsc{se-}has destroyed by            earthquake
+% 
+% ‘The city was destroyed by the earthquake.’
+% 
+% We have seen, in §3, that the differences in case/agreement properties of DPs depending on animacy can be described in terms of a difference between +Person and absence of Person. Pursuing this line of thought, we may interpret the restriction of EA in SePass to humans as the effect of the presence of a Person feature on the element that saturates the EA.
+% 
+%   In order to further clarify the structure of the two types of passives and the nature of the intervener, we need to address the issue of \textit{by-}phrases. As we have seen in §2, not only PartPass, but also SePass allow \textit{by-}phrases in Romanian (see examples (2c-d), (10), (13)).\footnote{\textit{By-}phrases in \textit{se-}passives can also be found in Spanish (see Mac\citealt{Donald2016}) and some varieties of French (see Authier \& \citealt{Reed1996}; Zribi-\citealt{Hertz2008}); they are generally more restricted than in regular (participial) passives.}  The DP introduced by the agentive preposition (Romanian \textit{de către/de} ‘by’) is an obvious candidate for what has been called, in (26), ‘the element that saturates the EA’. However, there is no evidence that \textit{by-}phrases in SePass occupy a different position than in PartPass. In both configurations, when the subject remains postverbal, \textit{by-}phrases follow it in the unmarked order: 
+% 
+% \ea%29
+%     \label{ex:giurgea:29}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   S-au             {formulat} \emph{plângeri     de către}{ autoritatea     contractantă}{.}
+% 
+%       \textsc{se-}have.3\textsc{pl} expressed complaints by          authority-the contracting
+% 
+%         ‘Complaints have been expressed by the contracting authority.’
+% 
+%              (www.cnsc.ro/wp-content/uploads/bo/2014/BO2014\_0290.pdf)
+% 
+%   a´.   Au   fost  formulate        plângeri          de către autoritatea    contractantă.
+% 
+%         have been expressed.\textsc{fpl} complaints(\textsc{f)} by          authority-the contracting
+% 
+% b.   S-au           propus    numeroase ipoteze de către cercetători din domenii foarte variate.
+% 
+% \textsc{se-}have.3\textsc{pl} proposed many        hypotheses by    researchers from domains very varied
+% 
+%       ‘Many hypotheses have been proposed by researchers from various domains.’
+% 
+%     (http://revistateologica.ro/vechi/articol.php?r=79\& a=4952)  
+% 
+% b´.   Au  fost    propuse   numeroase ipoteze      de către cercetători din domenii foarte variate.
+% 
+% have been proposed.\textsc{fpl} many hypotheses(\textsc{f)} by    researchers from domains very varied
+% 
+% If the \textit{by-}phrase, or the DP introduced by \textit{by}, had occupied the thematic EA position, higher than the IA, we would have expected it to occur after the IA in the unmarked order. \citet{Collins2005} proposed that the DP introduced by \textit{by} occupies the thematic EA position, the preposition spells out a head Voice and the VP, including the IA, raises to SpecVoice; this derives the order V-IA-EA. Collins argues that, due to VP-raising above the EA, the intervention effect of the EA is removed, and the IA can enter Agree with T (therefore he calls this operation ‘smuggling’):
+% 
+% \ea%30
+%     \label{ex:giurgea:30}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           [\textsubscript{VoiceP}  [\textsubscript{VP} V IA] [ [\textsubscript{Voice0}  by] [\textit{\textsubscript{v}}\textsubscript{P} EA [\textit{v} t\textsubscript{VP}]]]]
+% 
+% Note now that the order predicted by smuggling is found not only in PartPass (where there is no intervention), but also in SePass. 
+% 
+%   The same problem appears if we assume that IA escapes intervention of the EA in PartPass by raising as a DP, to the specifier of a head that c-commands EA.
+% 
+%   Therefore, I would like to adopt the traditional analysis of \textit{by-}phrases as adjuncts, in its updated version proposed by \citet{Bruening2012}, with some amendments which account for the fact that the intervener is still active in the presence of a \textit{by-}phrase (see (31)).
+% 
+% \ea%31
+%     \label{ex:giurgea:31}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           *S-a     propus       el/Maria  de către angajaţi.
+% 
+%  \textsc{se-}has nominated he/Maria by          employees
+% 
+% Intended meaning: ‘He/Maria was proposed by the employees.’
+% 
+% \citet{Bruening2012} proposes that \textit{by-}phrases are \textit{selective} adjuncts: they attach to a VoiceP (corresponding to Chomsky’s vP) with an unsaturated argument slot, and saturate this argument. He assumes that passives involve a Pass head on top of a passive VoiceP – in terms of selection, Pass selects a Voice with an unsaturated selectional feature (in the following representation, ‘S’ stands for ‘selectional feature’):
+% 
+% \ea%32
+%     \label{ex:giurgea:32}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Pass[S:Voice(S:N)]  (\citealt{Bruening2012}: 22, ex. (84))
+% 
+% Furthermore, he proposes that adjuncts select their host themselves, but the label of the selectee projects (this is marked by the diacritic feature ‘a’ on the selectional feature). Under these assumptions, the restriction of \textit{by-}phrases to verbal or deverbal configurations with demoted EAs can be represented by the following selectional rule:
+% 
+% \ea%33
+%     \label{ex:giurgea:33}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           \textit{by} [S:N, S\textsubscript{a}:Voice(S:N)]  (\citealt{Bruening2012}: 26, ex. (92))
+% 
+% \textit{By} first selects a nominal projection, and the whole [\textit{by}+DP] constituents, due to the second selectional feature of \textit{by}, combines with a VoiceP with an unsaturated selectional feature. 
+% 
+% For the Pass head, Bruening assumes a variable semantic contribution – it saturates the EA unless the EA has already been saturated (by the \textit{by-}phrase):
+% 
+% \ea%34
+%     \label{ex:giurgea:34}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           〚Pass〛= [F06C?]f\textsubscript{<e,st>} [F06C?]e. [F024?]x (f(x,e))  or    (cf. \citealt{Bruening2012}: 25, ex. (91a))
+% 
+%      [F06C?]f\textsubscript{<st>} [F06C?]e. f(e) 
+% 
+% I follow the main lines of this account, with the following important amendment: in order to solve the problem of the ambiguity in the denotation of Pass, I propose that the \textit{by-}phrase specifies (identifies) the EA but leaves it unsaturated, as represented in (35):
+% 
+% \ea%35
+%     \label{ex:giurgea:35}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           〚by〛 = [F06C?]x [F06C?]f\textsubscript{<e,st>} [F06C?]y [F06C?]e. (x=y [F0D9?] f(x,e))
+% 
+% The existential binding of the EA always applies at a higher level, PassP, irrespective of whether a \textit{by-}P is present in the complement of Pass or not. Thus, Pass always makes a semantic contribution, which is the first line of (34):
+% 
+% \ea%36
+%     \label{ex:giurgea:36}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           〚Pass〛= [F06C?]f\textsubscript{<e,st>} [F06C?]e. [F024?]x (f(x,e))
+% 
+% Bruening does not adopt this rule in order to prevent \textit{by-}phrases from combining with actives. But there are other ways in which we can prevent \textit{by-}phrases from combining with actives. One is to specify \textit{by} as selecting a \textit{passive} \textit{v} (using the label \textit{v} for Bruening’s Voice with an unsaturated EA):
+% 
+% \ea%37
+%     \label{ex:giurgea:37}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           \textit{by} [S:N, S\textsubscript{a}:\textit{v}\textsubscript{pass}]
+% 
+% Alternatively, if adjuncts are not allowed to attach below specifiers, it suffices that \textit{by}{}-phrases select \textit{v}; since their denotation (see (35)) requires a constituent with an unsaturated e-type argument, only \textit{v}Ps that introduce an EA in semantics, but not in syntax will be allowed: if \textit{v} is unergative/transitive, it will introduce a specifier below the adjunct, so the \textit{by-}phrase will not be able to combine with a phrase with an unsaturated e-type argument.
+% 
+%   What is important for our discussion is that the level where the EA is saturated is higher than the level where \textit{by-}phrases are attached, and EA saturation is independent of \textit{by-}phrases. This solves the issue raised by the absence of contrasts regarding \textit{by-}phrases between PartPass and SePass, exemplified in (29). 
+% 
+%   Now, we can also imagine the saturating element as a null pronoun in SpecPass, rather than the Pass head itself. In this case, the Pass head would not contribute directly to interpretation, but rather indirectly, by taking a null arbitrary pronoun as a specifier:
+% 
+% \ea%38
+%     \label{ex:giurgea:38}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Pass [S:v\textsubscript{non-act}, S: PRO\textsubscript{arb}]
+% 
+%   〚Pass〛=  [F06C?]f\textsubscript{<e,st>} [F06C?]x [F06C?]e. f(x,e)
+% 
+% Under both alternatives, the distinguishing property of SePass would be the presence of a Person feature on the binder – either on Pass itself or on PRO\textsubscript{arb}. In case Pass itself saturates EA, the presence of a Person feature on Pass is justified by the +human restriction on the existentially bound variable:
+% 
+% \ea%39
+%     \label{ex:giurgea:39}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           〚Pass\textsubscript{+3}〛= [F06C?]f\textsubscript{<e,st>} [F06C?]e. [F024?]x (human(x) [F0D9?] f(x,e))
+% 
+% Summing up, we have so far suggested two possible structures that may account for the intervention effect in SePass:
+% 
+% \ea%40
+%     \label{ex:giurgea:40}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   [\textsubscript{PassP} PRO-ARB\textsubscript{+Person} [Pass [\textit{\textsubscript{v}}\textsubscript{P} \textit{v} [\textsubscript{VP} V IA]]]]
+% 
+% b.   [\textsubscript{PassP} Pass\textsubscript{+Person} [\textit{\textsubscript{v}}\textsubscript{P} \textit{v} [\textsubscript{VP} V IA]]]
+% 
+% As regards the type of null pronominal EA, I assume a null arbitrary pronoun that bears null Case\footnote{On ‘null case’ see Chomsky \& \citet{Lasnik1993}, Bošković (1995, 1997), \citet{Martin2001}.}  and is case-licensed in situ by Pass, hence the label PRO\textsubscript{arb}. I do not treat it as \textit{pro}, as proposed by Mac\citet{Donald2017} for the EA of SePass in Spanish, because \textit{pro} has nominative case, which means that in those configurations allowed by the Person Constraint, T would assign nominative twice, to two non-co-indexed DPs – both to the EA and to the IA – which is not compatible with the overall structural case system of Romanian.
+% 
+% In the next section, we will further elaborate on the structure of SePass in contrast with PartPass, looking at binding properties.
+% 
+% \section{ 5. On the presence of a null EA in \textit{se-}passives}
+% 
+% In order to establish the existence and syntactic status of implicit arguments, various binding tests are usually employed.
+% 
+%   When we compare SePass and PartPass, a difference emerges regarding binding of secondary predicates and the anaphor \textit{sine} ‘(one)self’ by the EA, SePass allowing binding more easily than PartPass. However, the examples are not always fully acceptable with SePass, nor are they totally excluded with PartPass, as one would have hoped.
+% 
+%   The following examples show the results of a questionnaire given to 10 native speakers, who marked the examples on a scale with four degrees of acceptability (*, ??, ?, OK). The most acceptable examples have impersonal SePass – i.e., SePass based on intransitives – in generic deontic contexts (see also (11b)), in which case a direct comparison with PartPass is impossible, as PartPass cannot be built on intransitives.\footnote{The only exception is in the complement of \textit{trebui} ‘must’, a construction which I cannot address here:(i)  Trebuie mers de dimineaţă.  must     gone  of morning  ‘One must go in the morning.’} With transitive bases, although the examples of SePass are not fully acceptable, we still find a contrast with PartPass:
+% 
+% \ea%41
+%     \label{ex:giurgea:41}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.    ??  Scrisoarea pare   a   fi     fost   scrisă   beat.      (18\%)    
+% 
+%              letter-the  seems to have been written drunk.\textsc{msg} 
+% 
+%          ‘The letter seems to have been written drunk.’
+% 
+% a´.??  Scrisoarea asta a    fost   scrisă   beat.        (18\%)
+% 
+%           letter-the   this has been written drunk.\textsc{msg}
+% 
+% b. \textsuperscript{\%??}  Aşa  ceva           nu  se  scrie  beat.        (56\%)    
+% 
+%           such something not \textsc{se} writes drunk.\textsc{msg}
+% 
+%  ‘Something like that should not be written drunk.’
+% 
+% \ea%42
+%     \label{ex:giurgea:42}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.    \textsuperscript{\%?}  Nu se acordă premii sie          însuşi  / sieşi.      (80\%)      
+% 
+%            not \textsc{se} awards prizes self.\textsc{dat} \textsc{emph} 3\textsc{refl}.\textsc{dat}
+% 
+%             ‘One does not award prizes to oneself.’ 
+% 
+% b.??/*Nu sunt acordate premii sie         însuşi /  sieşi.      (25\%)      
+% 
+%            not are  awarded prizes  self.\textsc{dat} \textsc{emph /} 3\textsc{refl}.\textsc{dat}
+% 
+%  \textsc{‘*P}rizes are not awarded to himself.’
+% 
+% c.  \textsuperscript{\%??}  Cartea      a    fost de fapt    scrisă   despre sine.      (60\%)
+% 
+%               book-the has been actually written about self
+% 
+%              ‘The book has actually been written about oneself.’
+% 
+% Here are the examples of SePass with intransitives:
+% 
+% \ea%43
+%     \label{ex:giurgea:43}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.    \textsuperscript{\%?}  Nu se conduce beat.              (83\%)  
+% 
+%         not \textsc{se} drives    drunk.\textsc{msg}
+% 
+%           ‘One does not drive drunk.’
+% 
+% b.\textsuperscript{    \%?}  Până la plajă  se poate merge gol.            (80\%)  
+% 
+%            to        beach \textsc{se} can   walk   naked.\textsc{msg}
+% 
+%            ‘One can walk to the beach naked.’
+% 
+% \ea%44
+%     \label{ex:giurgea:44}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Nu  aşa  se vorbeşte/scrie   despre sine.            (100\%)    
+% 
+% not so   \textsc{se} speaks  / writes about  self
+% 
+% ‘One does (should) not speak/write like this about oneself.’
+% 
+% Control in \textit{without-}clauses is very marginal with both types of passives, and control in purpose clauses is equally fine with both, but it is worth noting that Romanian adjunct infinitives allow a disjoined or overt subject, which reduces the relevance of these tests:
+% 
+% \ea%45
+%     \label{ex:giurgea:45}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%          ??Cărţile            s-au    vândut /  au     fost vândute fără       a   le            citi.
+% 
+% books-the.\textsc{fpl} \textsc{se-}have sold /    have been sold      without to them.\textsc{fpl} read
+% 
+% ‘(*)The books were sold without reading them.’ (21\% \textit{s-au vândut}, 31\% \textit{au fost vândute})
+% 
+% \ea%46
+%     \label{ex:giurgea:46}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Aceste  haine   se vând     / sunt vândute pentru a ajuta săracii.
+% 
+% these    clothes \textsc{se} sell.\textsc{3pl}  / are sold       for      to help poor-the
+% 
+% ‘These clothes are sold to help the poor.’
+% 
+% Another instance of binding where the EA of SePass is more active than the EA of PartPass was discovered by Mac\citet{Donald2017} for Spanish, and also applies to Romanian. In Romance languages, definite DP objects denoting body-parts can be interpreted as possessed by the subject:
+% 
+% \ea%47
+%     \label{ex:giurgea:47}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   Spanish (Mac\citealt{Donald2017}: ex. (15a))
+% 
+% El  estudiante levantó la mano.   
+% 
+%       the student     raised   the hand              
+% 
+%   b.   Romanian
+% 
+% Studentul   a    ridicat mâna.  
+% 
+%       student-the has raised hand-the
+% 
+% ‘The student raised his hand.’
+% 
+% This construction does not rely on a general interpretive property of implicit possessors, but rather on a syntactic binding relation, as shown by the fact that the body-part and the possessor must be in a local relation (see Mac\citealt{Donald2017} for details):
+% 
+% \ea%48
+%     \label{ex:giurgea:48}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Spanish (Mac\citealt{Donald2017}: ex. (15a))
+% 
+% Juan\textsubscript{i} dijo que María\textsubscript{j} había cerrado los ojos\textsubscript{*i/j}.   
+% 
+%             Juan said that María  had    closed   the eyes      
+% 
+% ‘Juan said that María had closed her/*his eyes.’ 
+% 
+% MacDonald argues that the body-part DP can be an IA possessed by the implicit EA in SePass, but not in PartPass. (49a) has a passive \textit{se}, as shown by plural agreement (recall that \textit{se} in Spanish can also rely on an active configuration; see §2). The interpretation is ‘(some of) the people present raised their hands’; the EA is the inalienable possessor of the IA, and the verb is interpreted as involving controlled motion of the body part (the immediate effect of internal biological mechanisms). With a PartPass, such as in (49b), such an interpretation is excluded: the IA is not interpreted as a body-part of the EA; the sentence expresses a change in the position of somebody’s head as the result of the EA’s action (e.g. using his hands to push the head up).   
+% 
+% \ea%49
+%     \label{ex:giurgea:49}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   Spanish (Mac\citealt{Donald2017}: ex. (21a))
+% 
+% El   profesor   hizo   una pregunta. Se  levantaron unas/las   manos. 
+% 
+%         the professor  made a      question  \textsc{se}  raised.\textsc{3pl}  some/the hands         
+% 
+%         ‘The professor asked a question. Some of their/Their hands raised.’
+% 
+%   b.    Spanish (ibid.: ex. (23))
+% 
+% La cabeza fue levantada (por Juan).    
+% 
+%          the head   was raised        by  Juan
+% 
+%         = ‘The head was raised (by Juan).’
+% 
+%         ${\neq}$ ‘Juan/somebody raised his head.’
+% 
+% This contrast is found in Romanian too (in (50), the continuation with a PartPass does not have the sensible interpretation ‘some people raised their hands’):
+% 
+% \ea%50
+%     \label{ex:giurgea:50}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Romanian
+% 
+% Profesorul      a   pus o întrebare. S-au     ridicat / \#Au   fost   ridicate nişte mâini.
+% 
+%   professor-the has put a question  \textsc{se-}have raised  /have  been raised   some hands
+% 
+% ‘The professor asked a question. Some raised their hands / \#Some hands have been raised.’
+% 
+% One might wonder whether we are not dealing with anticausative \textit{se} here. The possibility of a passive construal is ascertained by the fact that (50) allows a continuation with a purpose clause:   
+% 
+% \ea%51
+%     \label{ex:giurgea:51}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Până la urmă s-au     ridicat nişte mâini,  probabil  pentru a-l      mulţumi  pe   profesor.
+% 
+% eventually     \textsc{se}{}-have raised some hands probably for      to-him please    \textsc{dom} teacher
+% 
+% ‘Eventually some raised their hands, probably to please the teacher.’
+% 
+% Here is another example of control into a purpose clause, modeled after MacDonald’s example (20a): 
+% 
+% \ea%52
+%     \label{ex:giurgea:52}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Aici, pentru a pune o întrebare se ridică mâna.   
+% 
+% here  for     to put   a question  \textsc{se} raises hand-the
+% 
+% ‘Here, in order to ask a question, one raises one’s hand.’
+% 
+% To conclude, various tests indicate that EA in SePass has a greater capacity for binding than in PartPass. This supports the view that the binder of the EA in SePass, the element bearing Person, is a PRO\textsubscript{arb}, as represented in (40a), whereas for PartPass, the binder might be the functional head Pass itself, as proposed for passives in general by Bruening (see (36)). We may thus represent the two types of passives in Romanian as follows (on the position of the morpheme \textit{se}, see §6):
+% 
+% \ea%53
+%     \label{ex:giurgea:53}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.  [\textsubscript{PassPartP} Pass\textsubscript{Part} [\textit{\textsubscript{v}}\textsubscript{P} \textit{v} [\textsubscript{VP} V IA] (\textit{by-}P)]]
+% 
+%    〚Pass\textsubscript{part}〛= [F06C?]f\textsubscript{<e,st>} [F06C?]e. [F024?]x (f(x,e))
+% 
+% b.   [\textsubscript{PassSeP} PRO\textsubscript{arb} [Pass\textsubscript{se} [\textit{\textsubscript{v}}\textsubscript{P} \textit{v} [\textsubscript{VP} V IA] (\textit{by-}P)]]]
+% 
+%    〚Pass\textsubscript{se}〛=  [F06C?]f\textsubscript{<e,st>} [F06C?]x [F06C?]e. f(x,e)
+% 
+% \section{ 6. Note on the status of \textit{se}}
+% 
+% The idea that the projection of the EA in syntax distinguishes SePass from PartPass might find further support in morphology. PartPass have a dedicated passive inflection on the V,\footnote{The passive participle in the masculine singular is formally identical with the past participle, but the two forms never occur in the same syntactic environment – the past participle is always selected by certain auxiliaries, which are T/Asp/Mood morphemes inside the verbal clitic cluster in Romanian (see Dobrovie-\citet{Sorin1994} for details); the passive participle never occurs in this environment. Note also that the copula in the \textit{be}+PassPart construction is not a clitic auxiliary in Romanian, but behaves as a full verb, supporting the treatment of periphrastic passives as regular copular constructions.}  whereas verbal forms with the clitic \textit{se} are notoriously ambiguous between several interpretations – reflexive, reciprocal, anticausative, middle, and passive. We may thus assume that the saturation of the EA (by existential closure) is overtly signalled by the passive morphology in PartPass, this morphology spelling out the head Pass with the denotation in (36)/(53a). For SePass, on the other hand, assuming that \textit{se} does not realize Pass, but is attached at the vP-level, the projection of a specifier would be necessary in order to make the Pass-level visible. Thus, the saturation of the EA is achieved via a null pronoun rather than the Pass head itself.
+% 
+% One could of course also envisage that \textit{se} spells out the Pass head. But I believe that if we attempt to give, as far as possible, a unitary treatment of all the uses of \textit{se}, it is more convenient to  attach it at the vP-level.
+% 
+% The issue of a unitary treatment of all the uses of \textit{se} is a complex and much-debated problem, which cannot be settled here (see Dobrovie-\citealt{Sorin2017} for an overview of the various proposals). I will confine myself to some tentative remarks.
+% 
+% Romanian \textit{se} is ambiguous between an accusative reflexive/reciprocal clitic and a voice marker, the latter occurring in anticausatives, inherent/intransitive reflexives, inherent reciprocals, middles and passives. The accusative clitic status of \textit{se} is clear when it doubles an object pronoun (which must, of course, be coreferent with the subject):
+% 
+% \ea%54
+%     \label{ex:giurgea:54}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Maria\textsubscript{i} *(se) admiră  pe    sine        / pe    ea\textsubscript{i}.
+% 
+% Maria     \textsc{se} admires \textsc{dom} self.\textsc{acc}  \textsc{dom} her
+% 
+% ‘Maria admires herself.’
+% 
+% Even when it does not double a strong accusative pronoun, there is evidence that sometimes reflexive \textit{se} is an object pronoun rather than a valency reduction marker; thus, (55) has not only the sloppy reading ‘Maria admires herself and the others do not admire themselves’, but also the strict reading ‘Maria admires herself and the others do not admire Maria’. The strict reading cannot be derived if there is a single argument and the predicate is reflexivized ([F06C?]x.admires(x,x)). (55) thus involves what I would call a ‘transitive’ or ‘two-place’ reflexive:\footnote{On the use of the strict/sloppy reading test for reflexives, see \citet{SellsEtAl1987}, \citet{Labelle2008}. For the treatment of \textit{se-}reflexives as intransitive, one-place predicates derived by a reflexivization rule (or theta-bundling), see Reinhart \& \citet{Siloni2005}, \citet{Labelle2008}.}   
+% 
+% \ea%55
+%     \label{ex:giurgea:55}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Doar  Maria se admiră.       
+% 
+% only   Maria \textsc{se} admires          
+% 
+% ‘Only Maria admires herself.’
+% 
+% As a voice marker, \textit{se} is associated with valency reduction, except in passives and symmetric verbs, and with accusative suspension for transitive verbs.
+% 
+%   Reflexive \textit{se} sometimes relies on an intransitive configuration, where the agent and patient theta-roles are assigned to a single argument. This typically obtains with motion verbs, which express actions that have an immediate result on the agent (e.g., with \textit{se mişca} ‘\textsc{se} move’, the agent’s action automatically involves the change of his motion state, whereas in \textit{a mişca ceva} ‘to move something’, the effect of the agent’s action on the motion state of another entity is foregrounded) – hence the label ‘autocausative’:\footnote{See Geniušien\.e (1987).} 
+% 
+% \ea%56
+%     \label{ex:giurgea:56}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   Maria s-a      ridicat (*pe     sine) în picioare.
+% 
+%                  Maria \textsc{se-}has raised     \textsc{dom} self   in feet
+% 
+%        ‘Maria stood up.’
+% 
+% b.   Maria s-a        grăbit   (*pe     sine)   să     ajungă.
+% 
+%       Maria \textsc{se-}has  hurried    \textsc{dom}  self    \textsc{sbjv} arrives 
+% 
+%       ‘Maria hurried to be on time.’ 
+% 
+% Verbs that express actions usually performed on oneself, such as grooming verbs (\textit{se spăla} ‘wash’, \textit{se rade} ‘shave’, \textit{se îmbrăca} ‘get dressed’, etc.), are also good candidates for one-place reflexives (cf. the intransitive use in English and the oddity of adding a strong anaphor – \textit{??Se rade pe sine} ‘He’s shaving himself’).
+% 
+%   In a system that allows movement to thematic positions (see \citealt{Hornstein1999}, \citealt{Ramchand2008}), the bundling of the Initiator and Undergoer roles can be represented as movement of the IA to SpecvP, the thematic EA position (Alboiu et al. 2004; Medová 2009, who cites a 1986 talk by Kayne for this idea; see also \citealt{Ramchand2008} for movement from SpecProc to SpecInit).
+% 
+%   Anticausatives (or inchoatives) are characterized by the suppression of the Agent/Initiator role (see Schäfer 2008 for discussion). \textit{v} may be taken to introduce a causing event, but it does not introduce any argument in the denotation (as opposed to passive \textit{v}); the Cause may be expressed by a PP-adjunct: 
+% 
+% \ea%57
+%     \label{ex:giurgea:57}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Geamul        s-a      spart    de la  explozie.
+% 
+% window-the \textsc{se-}has broken from explosion
+% 
+% ‘The window broke from the explosion.’
+% 
+% Psych-verbs resemble inchoatives in that the IA becomes the subject, but two arguments continue to be projected, with the Stimulus being introduced as a PP:
+% 
+% \ea%58
+%     \label{ex:giurgea:58}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Se sperie     de câine / Câinele îl    sperie.
+% 
+% \textsc{se} frightens of dog     dog-the him frightens
+% 
+% ‘He’s frightened of the dog / The dog frightens him.’
+% 
+% Based on its use as a reciprocal pronoun, \textit{se} developed the function of marking inherent reciprocal verbs. Here we have a change in the argument pattern – as the same entities are in turn agents and patients, they are realized as with symmetric predicates, as S+\textit{with} or a plurality (see (59a), vs. the transitive reciprocal use in (59b)):
+% 
+% \ea%59
+%     \label{ex:giurgea:59}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   Ion se  bate   cu   Andrei.   /   Ion şi     Andrei se     bat.
+% 
+%       Ion \textsc{se} beats with Andrei        Ion and Andrei \textsc{refl} beat
+% 
+%       ‘Ion is fighting Andrei. / Ion and Andrei are fighting.’
+% 
+%   b.   Ion şi     Andrei se bat   unul pe     altul.
+% 
+%         Ion and Andrei  \textsc{se} beat one  \textsc{dom} another
+% 
+%         ‘Ion and Andrei are beating each other.’
+% 
+% The middle use also relies on the suppression of the Agent role, being a syntactic anticausative, but retaining an agent in the conceptual structure (see Schäfer 2008):
+% 
+% \ea%60
+%     \label{ex:giurgea:60}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Cartea    se vinde bine. 
+% 
+% book-the \textsc{se} sells  well
+% 
+% ‘The book sells well.’
+% 
+% Verbs which necessarily take \textit{se}, the so-called ‘inherent \textit{se-}verbs’, can almost always be claimed to belong to one of the aforementioned types (e.g. \textit{se însera} ‘to dusk’ – inchoative, \textit{se învecina} ‘to border, neighbour’ – symmetric (inherent reciprocal), \textit{se foi} ‘to scurry, to toss from side to side’ – autocausative (one-place reflexive)).
+% 
+%   The argument structure operations signalled by the voice marker \textit{se} mainly affect the EA, the argument introduced by \textit{v}, and accusative licensing, which is also currently assigned to \textit{v}: (i) the EA is suppressed (anticausatives, middles, psych-verbs), (ii) the EA and IA roles are unified, possibly by moving the IA (deep object) to the EA position (one-place reflexives) or (iii) the EA is introduced in the denotation but no DP is merged in Spec\textit{v}P (no specifier is selected) (passives). Further operations on internal arguments are found in minor types – psych-verbs and inherent reciprocal verbs. Regarding case-licensing, all these varieties of \textit{v} share the property of lacking accusative assignment (which is correlated with the lack of an externally-merged Spec – ‘Burzio’s generalization’). Leaving aside unmarked unaccusatives (which might lack \textit{v} completely), we find the following contrast between active \textit{v} (labelled \textit{v}*) and the \textit{v} found in \textit{se}{}-verbs: 
+% 
+% \label{bkm:Ref449274243}(61)  \textit{v}*: + externally-merged Spec, (+ accusative)
+% 
+% \textit{v}\textsubscript{SE}: -externally-merged Spec, - accusative
+% 
+% \textit{Se} may thus be the spell-out of the common features shared by these varieties of \textit{v}, represented in 0 (this partial unification can be implemented in Distributed Morphology, using the subset principle). The various uses of \textit{se} are obtained by adding extra features to this common core (these extra features are not spelled out). As for the fact that \textit{se} behaves exactly like pronominal clitics in terms of placement (it even undergoes clitic-climbing; e.g. \textit{se poate sparge} ‘\textsc{se} can break’ = ‘It can break’), I refer to Roberts’s (2010) account, which treats object clitics in general as probes in \textit{v}, rather than moved pronouns, and makes use of a restricted version of excorporation to explain clitic-climbing.
+% 
+%   To conclude, if \textit{se} spells out features of \textit{v}, the higher head Pass must be taken to be null, which might motivate the projection of a specifier with a Person feature in order to saturate the EA, as proposed in the previous section.
+% 
+% \section{ 7. Intervention and further constraints on subjects of \textit{se-}passives}
+% 
+% Raposo \& \citet{Uriagereka1996} argue that in Portuguese, the subject (IA) of \textit{se}{}-passives never occupies the dedicated preverbal subject position (when preverbal, it is in a topic or focus position). Some restrictions have also been noticed for French – Stéfanini (1962) and \citet{Ruwet1972} claim that eventive passive \textit{se-}verbs are only allowed with impersonal \textit{il}+postverbal S (as opposed to habitual \textit{se-}passives, which might in fact represent middles), but Zribi-Hertz (1982, 2008) found a series of counterexamples to this generalization. That subjects of SePass do not have access to the canonical subject position has also been argued for Romanian, by \citet{Cornilescu1998}. As for Romanian, it is difficult to identify a preverbal position dedicated to subjects; Cornilescu used other tests, namely subject-to-object raising from finite clauses and gerunds. The constraint is claimed to hold only for animate subjects.
+% 
+% Here are some examples. (62a) shows a construction without raising: the \textit{se-}verb in the subordinate clause allows a passive interpretation alongside a reciprocal one (a reflexive interpretation is of course also possible, but unlikely due to world knowledge). (62b-c) shows a construction in which a perception verb takes a direct object and an indicative complement clause, and the direct object is interpreted as the subject of the subordinate clause – Cornilescu calls it ‘subject-to-object raising’, but one might also treat it as an instance of control.\footnote{For a detailed treatment, see Alboiu \& Hill (2013; 2016), who argue for a particular type of raising (not performed for Case reasons, as in ECM, but triggered by an evidentiality feature on the matrix \textit{v}).} Irrespective of the exact analysis of this construction, what is important is that the \textit{se}{}-verb here loses its passive interpretation:
+% 
+% \ea%62
+%     \label{ex:giurgea:62}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   Am     văzut că   se bat          copiii           în şcoli. (reciprocal, passive)    
+% 
+%         have.1 seen that \textsc{se} beat.3\textsc{pl} children-the in schools
+% 
+%          ‘I’ve seen that children \{fight / are beaten\} in schools.’
+% 
+% b.   I-am              văzut pe    copii      că   se  bat         în şcoli. (reciprocal, *passive)
+% 
+%       \textsc{cl.acc-}have.1 seen  \textsc{dom} children that \textsc{se} beat.3\textsc{pl} in schools
+% 
+%       ‘I saw children \{fighting / *being beaten\} in schools.’
+% 
+%   c.   Pe    cine     ai            văzut că   se bat  în şcoli?  (reciprocal, *passive)
+% 
+%                  \textsc{dom} whom have.2\textsc{sg} seen that \textsc{se} beat in schools
+% 
+% ‘Who did you see \{fighting / *being beaten\} in schools?’ (\citealt{Cornilescu1998}: ex. (24))
+% 
+% \ea%63
+%     \label{ex:giurgea:63}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%          shows the same contrast with gerunds following perception verbs: the gerund’s subject can be licensed in the gerund clause, postverbally, or in the matrix clause, by ECM (evidence for an ECM analysis can be found in \citealt{Avram2003}); in the latter case, the passive reading of \textit{se-}verbs is excluded:
+% 
+% \ea%63
+%     \label{ex:giurgea:63}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   Am    văzut împuşcându-se oameni nevinovaţi. ([F0FC?] passive)  
+% 
+%      have.1 seen   shooting-\textsc{se}      people  innocent
+% 
+%     ‘I saw innocent people being shot.’
+% 
+%   b.   Pe     cine      ai          văzut împuşcându-se? ([F0FC?]reciprocal/reflexive, *passive)
+% 
+%         \textsc{dom} whom have.2\textsc{sg} seen  shooting-\textsc{se}
+% 
+%                   ‘Who did you see shooting each other / shooting themselves/ *being shot?’
+% 
+%     (\citealt{Cornilescu1998}, ex. (26))
+% 
+% \ea%64
+%     \label{ex:giurgea:64}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   Am     văzut pedepsindu-se copiii            cu     asprime. ([F0FC?] passive)  
+% 
+%        have.1 seen   punishing-\textsc{se}    children-the with harshness
+% 
+%        ‘I saw the children being punished harshly.’
+% 
+% b.   (I-)am       văzut \{pe     copii   / copiii\}         pedepsindu-se cu     asprime.   (*passive)
+% 
+%     (\textsc{cl})-have.1 seen \textsc{dom} children children-the punishing-\textsc{se}   with harshness
+% 
+% ‘I saw the children \{punishing themselves/each other/*being punished\} harshly.’ (ibid.: ex. (29))
+% 
+% Within the analysis I have proposed, we may explain these facts as follows: although the intervener EA allows case licensing of the IA by a second Agree relation of T, presumably Number agreement, the intervener blocks case-related movement of the IA. A similar situation is found in Icelandic quirky subject constructions – the structurally case-marked Theme remains postverbal and is possible only in the third\textsuperscript{} person; the higher argument, an inherently case-marked DP, which is the intervener for person agreement, raises to the canonical subject position:
+% 
+% \ea%65
+%     \label{ex:giurgea:65}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   *Honum   líkum    viđ. (Sigurðsson \& \citealt{Holmberg2008}: ex. (7))
+% 
+%          him.\textsc{dat} like.1\textsc{pl} we.\textsc{nom}
+% 
+%   b.   *Honum   líkiđ       þiđ.
+% 
+%            him.\textsc{dat}  like.1\textsc{pl} we.\textsc{nom}
+% 
+%  c.      Honum   líka        þeir.
+% 
+%           him.\textsc{dat} like.3\textsc{pl} they.\textsc{nom}
+% 
+%            ‘He likes *us/*you/them.’
+% 
+% For the construction in (62), with finite indicative clauses, if we assume control, we have to conclude that control targets the \textit{highest} argument – which, under my analysis, is the null pronominal EA in SePass. This is again confirmed by Icelandic quirky subjects, as well as by further Romanian data: as Alboiu \& \citet{Hill2016} notice, in constructions with oblique experiencers, the matrix object can be interpreted as the oblique experiencer: 
+% 
+% \ea%66
+%     \label{ex:giurgea:66}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   L-am                văzut  pe Ion    că    i-a                 fost foame.   
+% 
+%       \textsc{cl.acc-}have.1 seen   \textsc{dom} Ion that him.\textsc{dat-}has been hunger
+% 
+%       ‘I saw that Ion was hungry.’ (Alboiu \& \citealt{Hill2016}: ex. (31b))
+% 
+% b.   Am    văzut-o          pe     Maria că    îi           place jazzul.
+% 
+%      have.1 seen{}-\textsc{cl.acc} \textsc{dom}  Maria that her.\textsc{dat} likes  jazz-the 
+% 
+%     ‘I saw that Maria likes jazz.’
+% 
+% Note that my account does not predict any difference between animate and inanimate subjects of SePass regarding the contrasts in (62)-(64), contra \citet{Cornilescu1998}. Note first that the constructions with \textit{că} ‘that’\textit{{}-}clauses are not fully acceptable with inanimate objects in general; the test of \textit{cum} ‘how’-clauses, used by Cornilescu, is irrelevant because such clauses do not require that the direct object of the matrix verb be interpreted as their subject:
+% 
+% \ea%67
+%     \label{ex:giurgea:67}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Am      văzut-o         pe     Maria cum o    băteau.
+% 
+%    have.1 seen-\textsc{cl.acc dom} Maria how  her were-beating.3\textsc{pl}
+% 
+% ‘I saw Maria being beaten by them.’  
+% 
+% More problematic are the examples with gerunds, illustrated in (68), where the pronominal demonstrative (which allows \textit{pe-}marking with inanimates) refers to shirts and buildings, respectively: 
+% 
+% \ea%68
+%     \label{ex:giurgea:68}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   Le-am              văzut pe    astea vânzându-se destul   de  repede.
+% 
+%       \textsc{cl.acc}{}-have.1 seen  \textsc{dom} these selling-\textsc{se}      enough of  quickly      
+% 
+%       ‘I saw these (shirts) being sold quite quickly.’ (\citealt{Cornilescu1998}: ex. (33))
+% 
+% b.   Pe   astea  le-am               văzut dărâmându-se      chiar eu. 
+% 
+%         \textsc{dom} these \textsc{cl.acc-}have.1 seen  pulling-down-\textsc{se} even I     
+% 
+%        ‘I myself saw these (buildings) being pulled down.’ (ibid.: ex. (37))
+% 
+% A possible account is that (68a) in fact represents a middle construction (i.e., without a projected EA; for more on middles, see the Appendix) and (68b) an anticausative, receiving an agentive interpretation contextually, due to world knowledge. I indeed believe that an overt \textit{by-}phrase in (68) is not acceptable (but further empirical research is necessary on this point):
+% 
+% \ea%69
+%     \label{ex:giurgea:69}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%          ??Pe     astea le-am               văzut dărâmându-se      de către primărie. 
+% 
+% \textsc{dom} these \textsc{cl.acc-}have.1 seen  pulling-down-\textsc{se}  by          city-hall     
+% 
+% ‘I saw these (buildings) being pulled down by the city hall.’   
+% 
+% Regarding preverbal subjects, although admittedly they are hard to distinguish from topics, there are contexts where a nominal can be claimed to occur preverbally due to its subject status, rather than topicality or another information-structural feature. Thus, consider all-new (out-of-the-blue) environments, where the subject is an indefinite that is totally new – i.e. neither previously mentioned, nor partitive or otherwise context-linked – and furthermore is not generic (thus, it cannot qualify as a topic, according to the conditions on indefinite topics established by Erteschik-\citealt{Shir2007}, which appear to hold for Romanian). We can see in (70a) that, especially if there are other constituents following the V, the subject can be preverbal in this context; (70b-c) show that if the same indefinite is an oblique or direct object argument, the preverbal position is not allowed; (70d) shows that this indefinite cannot undergo long-distance topicalization, even if it is a subject.
+% 
+% \ea%70
+%     \label{ex:giurgea:70}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           [Context: all-new, beginning of a news report]
+% 
+% a.    O barcă plină cu arme       de contrabandă a    acostat   azi    lângă Constanţa.
+% 
+%        a boat  full   of  weapons of smuggling     has landed  today near  Constanţa
+% 
+%               ‘A boat full of smuggled weapons has landed today near Constanţa.’
+% 
+% b.    \#  Cu   o  barcă plină de  arme        de contrabandă au     sosit      mai mulţi turci  la 
+% 
+%          with a  boat  full   of   weapons of smuggling    have arrived  several     Turks  to
+% 
+%          Constanţa.
+% 
+%          Constanţa
+% 
+%          ‘Several Turks arrived in Constanţa with a boat full of smuggled weapons.’
+% 
+% c.      \#O barcă plină de arme de contrabandă a oprit-o           paza        de  coastă la 
+% 
+%          a boat  full  of weapons of smuggling has stopped-\textsc{cl.acc} guard-the of  coast   at
+% 
+%          Constanţa.
+% 
+%          Constanţa
+% 
+%          ‘The coast guard arrested a boat full of smuggled weapons in Constanţa.’
+% 
+% d.    \# O barcă plină de arme   de contrabandă s-a      anunţat        că   a    acostat  astăzi
+% 
+%          a boat   full   of  weapons of smuggling \textsc{se-}has announced that has  landed  today  
+% 
+%          lângă Constanţa. 
+% 
+%          near   Constanţa 
+% 
+%         ‘It has been reported that a boat full of smuggled weapons has landed today near
+% 
+%         Constanţa.’
+% 
+% Notice now that in this very same context, the subject of SePass is not felicitous in preverbal positions, whereas the subject of PartPass, like the subject in (70a), is allowed:
+% 
+% \ea%71
+%     \label{ex:giurgea:71}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           O barcă plină cu arme   de contrabandă \{a  fost găsită  / \#s-a    găsit\} azi    lângă Constanţa.
+% 
+% a boat   full   of weapons of smuggling  has been found \textsc{se-}has found today near  Constanţa
+% 
+%            ‘A boat full of smuggled weapons has been found today near Constanţa.’
+% 
+% This contrast supports the proposal that the EA is projected as a null pronominal in SePass. As the preverbal position is not necessary for case assignment in Romanian, we can assume that in contexts such as (70a), where no constituent inherently qualifies as a topic, there is the option of raising to the preverbal position \textit{the closest (highest) argument} (see Giurgea \& \citealt{Remberger2012}), presumably due to a [D]-feature of the relevant probe.  
+% 
+% \section{ 8. Conclusions}
+% 
+% \textit{Se}{}-passives in Romanian are a construction in which the DP that agrees with the verb does not have full subject properties (see §7) and is subject to a general formal constraint – it cannot be a DP that needs differential object marking + clitic doubling when occurring as a direct object. This constraint can be included in the family of Person constraints if we assume that 3\textsuperscript{rd} person animate specific DPs have a [Person] feature (specified as -Participant), whereas other non-participant DPs lack a Person feature completely. These facts can be explained by the existence of an EA syntactically projected as a null arbitrary PRO in \textit{se-}passives; as it bears a Person feature, this element intervenes in the case licensing of +Person IAs. We have seen that \textit{by-}phrases are possible in \textit{se-}passives, and they do not represent the intervener. Therefore, we adopted an analysis of \textit{by}{}-phrases along the lines of \citet{Bruening2012}, as adjuncts attached to a \textit{v}P with an unsaturated argument, below the level where the EA is saturated. This led to the conclusion that the null EA of \textit{se-}passives is projected as the Spec of a Pass head above the \textit{v}P. We further proposed that in participial passives the passivizing head existentially binds the EA itself. The projection of a specifier in order to saturate this argument position was related to the fact that \textit{se-}passives do not have a dedicated morphology (unlike participial passives): the element \textit{se} also characterizes other Voice configurations (one-place reflexive, anticausative, inherent reciprocal). Therefore, we suggested that \textit{se} is generated at the \textit{v}P-level and does not spell out Pass.
+% 
+% \section{ Appendix: Apparent exceptions to the Person constraint rely on middle SE}
+% 
+% Perceptual verbs seem to provide counterexamples to the Person constraint discussed in this article, allowing even +Person subjects, including 1\textsuperscript{st} and 2\textsuperscript{nd} person pronouns, in sentences with a modal or iterative interpretation:
+% 
+% \ea%72
+%     \label{ex:giurgea:72}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   Ne auzim    bine în această sală.    
+% 
+%       us  hear.1\textsc{pl} well in this      hall
+% 
+%       ‘One can hear us well in this hall.’
+% 
+% b.   Ion şi   Maria,  acolo  unde  stau,      se văd       de     departe.
+% 
+%       Ion and Maria  there where stay.3\textsc{pl se} see.\textsc{3pl} from far
+% 
+%       ‘Ion and Maria, where they are standing, can be seen from afar.’
+% 
+% \ea%73
+%     \label{ex:giurgea:73}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           a.   În ultima     vreme te            vezi       prea des     la   televizor. 
+% 
+%            in latest-the time   you.\textsc{acc}  see.\textsc{2sg} too    often on TV
+% 
+% ‘Lately you have been seen (can be seen) too much on TV.’ (Dobrovie-\citealt{Sorin2017}: 134)
+% 
+% b.   În ultima     vreme  mă        văd       şi     eu  la   televizor.
+% 
+%           in latest-the time     me.\textsc{acc} see.\textsc{1sg} also I    on TV
+% 
+%        ‘Lately I’ve also been seen on TV / I can also be seen on TV.’
+% 
+% I will argue that these examples are instances of \textit{middle}, rather than passive \textit{se}. Middles are conceptually passive, but syntactically anticausative, in the sense that there is no evidence for a syntactically active EA (see Schäfer 2008). Middles are used to express generalizations about the IA – the sentence is about the propensity of the subject to act as a Theme in the relevant event type, e.g. Engl. \textit{These books sell well}. We find this type of interpretation in the examples (72)-(73): none of the examples is about an episodic event. Even if no modal is present, the reading is one of circumstantial possibility, as shown by the translations. 
+% 
+%   The tests of purpose clauses and \textit{by-}phrases show that there is no syntactically active EA: 
+% 
+% \ea%74
+%     \label{ex:giurgea:74}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           Ne auzim    bine în această sală (*pentru a reţine        fiecare cuvânt/ * de către oricine).
+% 
+% us  hear.1\textsc{pl} well in this   hall       for      to remember every  word        by          anybody
+% 
+% \ea%75
+%     \label{ex:giurgea:75}
+%     \gll\\
+%         \\
+%     \glt
+%     \z
+% 
+%           *Mă văd      şi     eu la televizor de multă lume / de către cei care se uită    după ora 12 
+% 
+% me see.1\textsc{sg} also I   on TV        by many people/ by        those who watch after 12 o’clock 
+% 
+%  / pentru a afla despre bolile           de oase.
+% 
+% for    to learn about diseases-the of bones
+% 
+% \section{ Acknowledgements}
+% 
+% This work was supported by a grant from the Romanian National Authority for Scientific Research and Innovation, CNCS – UEFISCDI, project number PN-II-RU-TE-2014-4-0372.
+% 
+% \section{ References}
+% 
+% Alboiu, Gabriela. 2002. \textit{The features of movement in Romanian}. Bucharest: Editura Universităţii din Bucureşti.
+% 
+% Alboiu, Gabriela \& Barrie, Michael \& Frigeni, Chiara. 2004. SE and the unaccusative-unergative paradox. In Coene, Martine \& de Cuyper, Gretel \& D’Hulst, Yves (eds.), \textit{Antwerp papers in linguistics 107}, 109–139.
+% 
+% Alboiu, Gabriela \& Hill, Virginia. 2013. On Romanian perceptual verbs and evidential syntax. \textit{Revue Roumaine de Linguistique} 58. 275–298.
+% 
+% Alboiu, Gabriela \& Hill, Virginia. 2016. Evidentiality and raising to object as A′{}-movement: A Romanian case study. \textit{Syntax} 19. 256–285.
+% 
+% Anagnostopoulou, Elena. 2003. \textit{The syntax of ditransitives: Evidence from clitics.} Berlin \& New York: Mouton de Gruyter.
+% 
+% Anagnostopoulou, Elena. 2005. Cross-linguistic and cross-categorial variation of datives. In Stavrou, Melita \& Terzi, Arhonto (eds.), \textit{Advances in Greek generative syntax: In honor of Dimitra Theophanopoulou-Kontou}, 61–126. Amsterdam \& Philadelphia: John Benjamins. 
+% 
+% Authier, J.-Marc \& Reed, Lisa. 1996. Une analyse microparamétrique des moyens dans les langues romanes. In Black, James R. \& Motapanyane, Virginia (eds.), \textit{Microparametric syntax and dialect variation}, 1–23. Amsterdam \& Philadelphia: John Benjamins.
+% 
+% Avram, Larisa. 2003. An aspectual analysis of gerunds. \textit{Revue roumaine de linguistique} 48: 203–219.
+% 
+% Baker, Mark. 2008. \textit{The syntax of agreement and concord}. Cambridge: Cambridge University Press.
+% 
+% Baker, Mark \& Johnson, Kyle \& Roberts, Ian. 1989. Passive arguments raised. \textit{Linguistic Inquiry} 20. 219–251.
+% 
+% Belletti, Adriana. 1982. Morphological passive and pro-drop: The impersonal construction in Italian. \textit{Journal of Linguistic Research} 2. 1–34.
+% 
+% Bošković, Željko. 1995. \textit{Principles of economy in nonfinite complementation}. Storrs, CT: University of Connecticut, Storrs. (Doctoral dissertation.)
+% 
+% Bošković, Željko. 1997. \textit{The syntax of nonfinite complementation: An economy approach}. Cambridge, MA: MIT Press.
+% 
+% Bruening, Benjamin. 2012. \textit{By} phrases in passives and nominals. \textit{Syntax} 16. 1–41.
+% 
+% Burzio, Luigi. 1986. \textit{Italian syntax}: \textit{A government-binding approach}. Dordrecht: Reidel.
+% 
+% Burzio, Luigi. 1994. Weak anaphora. In Cinque, Guglielmo \& Koster, Jan \& Pollock, Jean-Yves \& Rizzi, Luigi \& Zanuttini, Rafaella (eds.), \textit{Paths toward universal grammar: Studies in honor of Richard Kayne}, 59–84. Washington, D.C.: Georgetown University Press.
+% 
+% Chomsky, Noam. 1995. \textit{The Minimalist Program}. Cambridge, MA: MIT Press.
+% 
+% Chomsky, Noam. 2000. Minimalist inquiries: The framework. In Martin, Roger \& Michaels, David \& Uriagereka, Juan (eds.), \textit{Step by step: Essays on Minimalist syntax in honor of Howard Lasnik}, 89–155. Cambridge, MA: MIT Press. 
+% 
+% Chomsky, Noam. 2001. Derivation by phase. In Kenstowicz, Michael (ed.), \textit{Ken Hale: A life in language}, 1–52. Cambridge, MA: MIT Press.
+% 
+% Chomsky, Noam \& Lasnik, Howard. 1993. The theory of principles and parameters. In Jacobs, Joachim \& von Stechow, Arnim \& Sternefeld, Wolfgang \& Vennemann, Theo (eds.), \textit{Syntax: An international handbook of contemporary research}, vol. 1, 506–569. Berlin: Walter de Gruyter.
+% 
+% Cinque, Guglielmo. 1988. On \textit{si} constructions and the theory of \textit{arb}. \textit{Linguistic Inquiry} 19. 521–582.
+% 
+% Collins, Chris. 2005. A smuggling approach to the passive in English. \textit{Syntax} 8. 81–120.
+% 
+% Cornilescu, Alexandra. 1997. The double subject construction in Romanian: Notes on the syntax of the subject. \textit{Revue Roumaine de Linguistique} 42. 101–147.
+% 
+% Cornilescu, Alexandra. 1998. Remarks on the syntax and the interpretation of Romanian middle passive \textit{se} sentences. \textit{Revue roumaine de linguistique} 43. 317–342.
+% 
+% Cornilescu, Alexandra. 2000. Notes on the interpretation of the Prepositional Accusative in Romanian. \textit{Bucharest Working Papers in Linguistics} 4. 1–15.
+% 
+% D’Alessandro, Roberta. 2007. \textit{Impersonal si constructions: Agreement and interpretation}. Berlin \& New York: Mouton de Gruyter.
+% 
+% Dobrovie-Sorin, Carmen. 1987. \textit{Syntaxe du roumain: Chaînes thématiques}. Paris: Université Paris 7. (Doctoral dissertation.)
+% 
+% Dobrovie-Sorin, Carmen. 1994. \textit{The syntax of Romanian}. Berlin: Mouton de Gruyter.
+% 
+% Dobrovie-Sorin, \citealt{Carmen1998}. Impersonal \textit{se} constructions in Romance and the passivization of unergatives. \textit{Linguistic Inquiry} 29. 399–438.
+% 
+% Dobrovie-Sorin, Carmen. 2006. The SE-anaphor and its role in argument realization. In Everaert, Martin \& van Riemsdijk, Henk (eds.), \textit{The Blackwell companion to syntax}, vol. 4, 118–179. Oxford: Blackwell.
+% 
+% Dobrovie-Sorin, Carmen. 2017. Reflexive-marking in Romance: Voice and feature deficiency. In Everaert, Martin \& van Riemsdijk, Henk (eds.), \textit{The Blackwell companion to syntax},{ 2nd revised edn.} Oxford: Blackwell.
+% 
+% Erteschik-Shir, Nomi. 2007. \textit{Information structure: The syntax-discourse interface}. Cambridge: Cambridge University Press.
+% 
+% Geniušien\.e, Emma. 1987. \textit{The typology of reflexives}. Berlin: Mouton de Gruyter.
+% 
+% Hornstein, Norbert. 1999. Movement and control. \textit{Linguistic Inquiry} 30. 69–96.
+% 
+% Labelle, Marie. 2008. The French reflexive and reciprocal \textit{se}. \textit{Natural Language \& Linguistic Theory} 26. 833–876.
+% 
+% Landau, Idan. 2010. The explicit syntax of implicit arguments. \textit{Linguistic Inquiry} 41. 357–388.
+% 
+% MacDonald, Jonathan E. 2017. An implicit projected argument in Spanish impersonal- and passive-\textit{se} constructions. \textit{Syntax} 20. 353–383.
+% 
+% Manzini, Rita. 1986. On Italian \textit{si}. In Borer, Hagit (ed.), \textit{The syntax of pronominal clitics}, 241–262. New York: Academic Press.
+% 
+% Marchis, Mihaela \& Alexiadou, Artemis. 2013. The syntax of clitics revisited: Two types of clitics. \textit{Lingua} 127. 1–13.
+% 
+% Mardale, Alexandru. 2008. \textit{Les prépositions fonctionnelles du roumain: Études comparatives sur le marquage casuel}. Paris: L’Harmattan.
+% 
+% Martin, Roger. 2001. Null Case and the distribution of PRO. \textit{Linguistic Inquiry} 32. 141–166.
+% 
+% Medová, Lucie. 2009. \textit{Reflexive clitics in the Slavic and Romance languages: A comparative view from an antipassive perspective}. Princeton, NJ: Princeton University. (Doctoral dissertation.)
+% 
+% Mendikoetxea, Amaya. 2008. Clitic impersonal constructions in Romance: Syntactic features and semantic interpretation. In Siewierska, Anna (ed.), \textit{Impersonal constructions in grammatical theory}: \textit{Special issue of the Transactions of the Philological Society}, 290–336. Oxford: Blackwell.
+% 
+% Preminger, Omer. 2014. \textit{Agreement and its failures}. Cambridge, MA: MIT Press.
+% 
+% Ramchand, Gillian. 2008. \textit{Verb meaning and the lexicon: A first-phase syntax}. Cambridge: Cambridge University Press.
+% 
+% Raposo, Eduardo \& Uriagereka, Juan. 1996. Indefinite \textit{se}. \textit{Natural Language \& Linguistic Theory} 14. 749–810.
+% 
+% Rezac, Milan. 2011. \textit{Phi-features and the modular architecture of language}. Dordrecht: Springer.
+% 
+% Richards, Marc. 2004. \textit{Object shift and scrambling in North and West Germanic: A case study in symmetrical syntax}. Cambridge: University of Cambridge. (Doctoral dissertation.)
+% 
+% Richards, Marc. 2008. Defective Agree, case alternations, and the prominence of person. In Richards, Marc \& Malchukov, Andrej L. (eds.), \textit{Scales} (Linguistische Arbeitsberichte 86), 137–161. Leipzig: University of Leipzig.
+% 
+% Roberts, Ian. 2010. \textit{Agreement and head movement: Clitics, incorporation, and defective goals}. Cambridge, MA: MIT Press.
+% 
+% Ruwet, Nicolas. 1972. \textit{Théorie syntaxique et syntaxe du français}. Paris: Seuil.
+% 
+% Schäfer, Florian. 2008. \textit{The syntax of (anti-)causatives: External argument in change-of-state contexts}. Amsterdam \& Philadelphia: John Benjamins.
+% 
+% Sells, Peter \& Zaenen, Annie \& Zec, Draga. 1987. Reflexivization variation: Relations between syntax, semantics and lexical structure. In Iida, Masayo \& Wechsler, Stephen \& Zec, Draga (eds.), \textit{Working papers in grammatical theory and discourse structure}, 169–238. Stanford: CSLI Publications.
+% 
+% Sigurðsson, Halldór Ármann. 2004. The syntax of Person, Tense, and speech features. \textit{Italian Journal of Linguistics} 16. 219–251.
+% 
+% Sigurðsson, Halldór Ármann. 2011. Conditions on argument drop. \textit{Linguistic Inquiry} 42. 267–304.
+% 
+% Sigurðsson, Halldór Ármann. 2012. Minimalist C/case. \textit{Linguistic Inquiry} 43. 191–227.
+% 
+% Sigurðsson, Halldór Ármann \& Holmberg, Anders. 2008. Icelandic dative intervention: Person and number are separate probes. In D’Alessandro, Roberta \& Fischer, Susann \& Hrafnbjargarson, Gunnar Hrafn (eds.), \textit{Agreement restrictions}, 251–281. Berlin: Mouton de Gruyter.
+% 
+% Stéfanini, Jean. 1962. \textit{La voix pronominale en ancien et moyen français}. Aix-en-Provence: Ophrys.
+% 
+% Tigău, Alina. 2010. \textit{Syntax and interpretation of direct object in Romance and Germanic languages with an emphasis on Romanian, Dutch and English}. Bucharest: Editura Universităţii din Bucureşti.
+% 
+% Tigău, Alina. 2014. Specificity effects with clitic doubling and \textit{pe} marking. \textit{Bucharest Working Papers in Linguistics} 16. 43–61.
+% 
+% Van der Wal, Jenneke. 2015. Bantu object clitics as defective goals. \textit{Revue Roumaine de Linguistique} 60. 277–296 
+% 
+% Zribi-Hertz, Anne. 1982. The ‘middle-\textit{se}’ construction in French and its status in the triad middle voice–passive–reflexive. \textit{Lingvisticae Investigationes} 6. 345–401.
+% 
+% Zribi-Hertz, Anne. 2008. Le médiopassif à accord riche en français: Pour une approche multifactorielle. \textit{Actes (en ligne) du 1er CMLF}, http://www.linguistiquefrancaise.org/articles/cmlf/pdf/2008/01/cmlf08083.pdf.
+% 
+% 
+% \begin{verbatim}%%move bib entries to  localbibliography.bib
+% \end{verbatim} 
 
 
 \sloppy
