@@ -14,7 +14,33 @@
 
 \usepackage[linguistics]{forest}
 \usepackage{pifont}
+
 \usetikzlibrary{arrows,arrows.meta}
+\makeatletter
+\let\pgfmathModX=\pgfmathMod@
+\usepackage{pgfplots,pgfplotstable}%
+\let\pgfmathMod@=\pgfmathModX
+\makeatother
+\usepgfplotslibrary{colorbrewer,groupplots}
+
+\pgfplotscreateplotcyclelist{langscicolorcycle}{% from ./langsci/seriesinfo/langsci-colors.def
+{color=langscicol1},
+{color=langscicol3},
+{color=langscicol5},
+{color=langscicol7},
+{color=langscicol9},
+{color=langscicol11},
+{color=langscicol13},
+{color=langscicol15},
+{color=langscicol17},
+{color=langscicol19}}
+
+\usepackage{siunitx}
+\sisetup{output-decimal-marker={.},detect-weight=true, detect-family=true, detect-all, input-symbols={\%}, free-standing-units, input-open-uncertainty= , input-close-uncertainty= ,table-align-text-pre=false,uncertainty-separator={\,},group-digits=false,detect-inline-weight=math}
+\DeclareSIUnit[number-unit-product={}]{\percent}{\%}
+\makeatletter \def\new@fontshape{} \makeatother
+\robustify\bfseries % For detect weight to work
+
 
 % add all extra packages you need to load to this file 
 \usepackage{graphicx}
