@@ -1,147 +1,99 @@
 \documentclass[output=paper]{langsci/langscibook} 
-\author{Change author in chapters/03.tex}
-\title{Change title in chapters/03.tex}
+\author{Mihaela Marchis Moreno\affiliation{FCSH, Universidade Nova de Lisboa}}
+\title{A diagnostic for backward object control in Brazilian Portuguese}
 
 % \chapterDOI{} %will be filled in at production
 
-\epigram{Change epigram in chapters/03.tex or remove it there }
-\abstract{Change the  abstract in chapters/03.tex \lipsum[3]}
+% % \epigram{Change epigram in chapters/03.tex or remove it there }
+\abstract{This paper discusses the relation between two apparently independent syntactic phenomena, backward object control (BOC) and the inflected infinitive in Brazilian Portuguese. Specifically, I argue that the inflected infinitive can be regarded as a diagnostic for backward object control patterns since the default nominative case percolation from the matrix T to the embedded T requires local checking by an overt DP in the absence of a preposition. The overt realization of the lower copy in backward control is enabled by the loss of the [+person] feature. According to \citet{Cyrino2010}, the absence of the [+person] feature both in the finite and the non-finite domain enables nominative subjects in the Spec of the inflected infinitive T, just like in finite clauses. Moreover, backward object control verbs like mandar/fazer are similar to double object verbs (as in John gave Mary a book), since, like other causative verbs, they have three arguments: the causer, the cause and the caused event (cf. \citealt{Zubizarreta1985}; \citealt{Alsina1992}; \citealt{Ippolito2000}).}
 \maketitle
 
 \begin{document}
-
-\title{A diagnostic for backward object control in Brazilian Portuguese}
-
- 
 %%please move the includegraphics inside the {figure} environment
 %%\includegraphics[width=\textwidth]{OGSVolumeAug2018MarchisMoreno-img1}
-
-Mihaela Marchis Moreno (FCSH, Universidade Nova de Lisboa)
-
-\begin{stylelsAbstract}
-This paper discusses the relation between two apparently independent syntactic phenomena, backward object control (BOC) and the inflected infinitive in Brazilian Portuguese. Specifically, I argue that the inflected infinitive can be regarded as a diagnostic for backward object control patterns since the default nominative case percolation from the matrix T to the embedded T requires local checking by an overt DP in the absence of a preposition. The overt realization of the lower copy in backward control is enabled by the loss of the [+person] feature. According to \citet{Cyrino2010}, the absence of the [+person] feature both in the finite and the non-finite domain enables nominative subjects in the Spec of the inflected infinitive T, just like in finite clauses. Moreover, backward object control verbs like mandar/fazer are similar to double object verbs (as in John gave Mary a book), since, like other causative verbs, they have three arguments: the causer, the cause and the caused event (cf. \citealt{Zubizarreta1985}; \citealt{Alsina1992}; \citealt{Ippolito2000}).
-\end{stylelsAbstract}
-
-\section{ 1. Introduction}
-
+\section{Introduction}% 1. 
 This paper examines two apparently independent phenomena – \textbf{\textit{obligatory object control}} and \textbf{\textit{the inflected infinitive} }– in Brazilian Portuguese and the potential relation between them.
 
 \ea%1
-    \label{ex:key:1}
-    \gll\\
-        \\
+         Forward Control\label{ex:moreno:1}
+    \gll Maria convenceu eles  de  [  limpar(-em)   a     casa].     \\
+         Maria   convinced   they.acc of       clean-\textsc{3pl}  the house\\
+\z
+
+\ea\label{ex:moreno:2}%2
+    \ea  Forward Control\\
+    \gll Maria  mandou-os/   eles        {\ob}  limpar-(*em) a     casa{\cb}.   \\
+         Maria ordered   them.\textsc{acc}/ they.\textsc{acc}      clean-\textsc{inf.3pl} the house\\
     \glt
-    \z
-
-           Forward Control
-
-Maria convenceu eles  de  [  limpar(-em)   a     casa].     
-
-Maria   convinced   they.acc of       clean-\textsc{3pl}  the house
-
-\ea%2
-    \label{ex:key:2}
-    \gll\\
-        \\
-    \glt
-    \z
-
-           a.  Forward Control
-
-Maria  mandou-os/   eles        [  limpar-(*em) a     casa].   
-
-    Maria ordered   them.\textsc{acc}/ they.\textsc{acc}      clean-\textsc{inf.3pl} the house
-
-      b.  Backward Control
-
-Maria mandou [    eles    limpar-em     a     casa].
-
-    Maria  ordered    they.\textsc{nom}      clean-\textsc{inf.3pl}          the house
+    \ex  Backward Control\\
+    \gll Maria mandou {\ob}    eles    limpar-em     a     casa{\cb}.\\
+         Maria  ordered    they.\textsc{nom}      clean-\textsc{inf.3pl}          the house\\
+        \z
+\z
 
 The interrelation between the inflected infinitive and the realization of the object copy in obligatory control is highlighted on the basis of the distinction between (1) and (2). Specifically, I argue that the inflected infinitive is triggered in Brazilian Portuguese either by a case-marking preposition as in (1) or by backward object control as in (2b), whereby there is a local case-checking through the realization of the lower copy in the embedded clause. Nevertheless, the availability of backward object control in Brazilian Portuguese is still debated and, therefore, one of the main aims of this paper is to bring novel arguments for the reality of backward object control in Brazilian Portuguese. Specifically, I argue that one of the diagnostics for backward object control is the realization of the inflected infinitive (third person plural) in the embedded clause.
 
 This paper is structured as follows: §2 provides a short overview of the backward control patterns across languages. §3 focuses on backward object control in Brazilian Portuguese, presenting semantic and syntactic arguments that attest to the availability of backward object control with verbs such as \textit{mandar/fazer} in this language. In §4 I present the syntax of the inflected infinitive and its relation to backward object control. §5 summarizes the main assumptions of the paper and raises a couple of questions regarding the availability of backward control across languages.
 
-\section{ 2. Backward control}
+\section{Backward control}% 2. 
 
 In order to simplify the Government and Binding Theory (GB), \citet{Chomsky1993} developed what would become known as the Minimalist Program (MP). However, Chomsky’s intention was not to develop a new theory, but to develop a new way of investigating that is simpler and more flexible.
 
-  The Minimalist Program provides a radical departure from some essential assumptions, such as the lack of a distinction between D(eep)- and S(urface)-Structure. In addition, syntactic movement is restricted not in terms of the modules of Government and Binding Theory, but by principles of economy. 
+The Minimalist Program provides a radical departure from some essential assumptions, such as the lack of a distinction between D(eep)- and S(urface)-Structure. In addition, syntactic movement is restricted not in terms of the modules of Government and Binding Theory, but by principles of economy. 
 
-  Within the Minimalist framework, Hornstein (1999, 2001) inaugurates a new view of control, known as the movement theory of control (MTC). He proposes that control is an instance of movement, and thus that control is similar to raising. Replacing PRO with an A-trace allows for the PRO/control module of GB to be eliminated.
+Within the Minimalist framework, Hornstein (1999, 2001) inaugurates a new view of control, known as the movement theory of control (MTC). He proposes that control is an instance of movement, and thus that control is similar to raising. Replacing PRO with an A-trace allows for the PRO/control module of GB to be eliminated.
 
-  For \citet{Hornstein1999}, the difference between raising and control is that while in the former an embedded element moves directly from a lexical domain to the subject position of a finite clause, in the latter an element moves from a lexical domain to the matrix subject position after remerging in the embedded clause \citep{Boeckx2006}. The following examples illustrate the structural difference between raising and control:
+For \citet{Hornstein1999}, the difference between raising and control is that while in the former an embedded element moves directly from a lexical domain to the subject position of a finite clause, in the latter an element moves from a lexical domain to the matrix subject position after remerging in the embedded clause \citep{Boeckx2006}. The following examples illustrate the structural difference between raising and control:
 
 \ea%3
-    \label{ex:key:3}
-    \gll\\
-        \\
-    \glt
-    \z
-
-            [\textsubscript{TP} Mary [\textsubscript{VP} seemed [to [\textsubscript{VP} <Mary> like John]]]]
+    \label{ex:moreno:3}
+[\textsubscript{TP} Mary [\textsubscript{VP} seemed [to [\textsubscript{VP} <Mary> like John]]]]
+\z
 
 \ea%4
-    \label{ex:key:4}
-    \gll\\
-        \\
-    \glt
-    \z
-
-            [\textsubscript{TP} Mary [\textsubscript{VP} <Mary> tried [to [\textsubscript{VP} <Mary> like John]]]]
+\label{ex:moreno:4}
+[\textsubscript{TP} Mary [\textsubscript{VP} <Mary> tried [to [\textsubscript{VP} <Mary> like John]]]]
+\z
 
 If this is correct, then movement to thematic positions is possible. This assumption is necessary, since in control structures the element that moves receive two theta-roles, contrary
 
 to raising constructions, in which the moved element bears only one theta-role \citep{Hornstein1999}.
 
-  The MTC has many advantages over the PRO-based GB approach to control. The MTC can account for the contradictions that PRO creates, eliminating aspects such as the PRO Theorem and null Case (see \citealt{Hornstein2001}). 
+The MTC has many advantages over the PRO-based GB approach to control. The MTC can account for the contradictions that PRO creates, eliminating aspects such as the PRO Theorem and null Case (see \citealt{Hornstein2001}). 
 
-  One of the most important advantages of the MTC is the possibility of accounting for backward control (BC). Since Principle C of the binding theory would not allow BC constructions, the MTC is the only theory that can explain this linguistic phenomenon. 
+One of the most important advantages of the MTC is the possibility of accounting for backward control (BC). Since Principle C of the binding theory would not allow BC constructions, the MTC is the only theory that can explain this linguistic phenomenon. 
 
-  BC was first observed in the 1980s, but theories at this point were still not able to explain it. BC is characterized by the existence of a controlled null element in a higher position in the structure than its antecedent (\citealt{Farell1995}; \citealt{Rodrigues2004}; \citealt{Boeckx2006}). 
+BC was first observed in the 1980s, but theories at this point were still not able to explain it. BC is characterized by the existence of a controlled null element in a higher position in the structure than its antecedent (\citealt{Farell1995}; \citealt{Rodrigues2004}; \citealt{Boeckx2006}). 
 
 \ea%3
-    \label{ex:key:3}
-    \gll\\
-        \\
-    \glt
+    \label{ex:moreno:3}
+    \gll Maria mandou ${\Delta}$\textsubscript{1} [eles\textsubscript{1} se comportarem.]  BP\\
+         Mary ordered they.1SG.NOM self behave.INF.3PL\\
+    \glt ‘Mary ordered them to behave themselves.’
     \z
-
-           Maria mandou ${\Delta}$\textsubscript{1} [eles\textsubscript{1} se comportarem.]  BP
-
-  Mary ordered they.1SG.NOM self behave.INF.3PL
-
-  ‘Mary ordered them to behave themselves.’
 
 The most plausible analysis of BC was put forward by Polinsky \& \citet{Potsdam2002}, who investigated the phenomenon in Tsez. Subsequently, BC was investigated in other languages such as Malagasy, Brazilian Portuguese (BP), Korean and Japanese. \citet{Potsdam2009} shows that in Malagasy the object in obligatory control structures can be expressed either in the matrix clause as in (4a), where the object is case-marked with accusative by the matrix verb, or in the embedded clause as in (4b), where the lower copy is pronounced as nominative. The former represents forward object control, as the object of the matrix verb is overtly realized in (4a), while the latter represents backward object control, since it is the subject of the embedded clause that is overtly pronounced in (4b). 
 
 \ea%4
-    \label{ex:key:4}
-    \gll\\
-        \\
-    \glt
+    Malagasy \citep[755]{Potsdam2009}\label{ex:moreno:4}\\
+    \ea
+    \gll nampahatsiahivan’ i Soa  ahy\textsubscript{i} [hohidiana ${\Delta}$\textsubscript{i}   ny varavaran-dakozy].\\
+         remind            Soa   me    lock               the door-kitchen\\
+    \ex
+    \gll nampahatsiahivan’ i Soa  ${\Delta}$\textsubscript{i}        [  hohidiana ko\textsubscript{i}   ny varavaran-dakozy].\\
+         remind                    Soa     lock          I      the door-kitchen\\
+    \glt ‘Soa reminded me to lock the kitchen door.’
     \z
-
-          Malagasy \citep[755]{Potsdam2009}
-
-a.  nampahatsiahivan’ i Soa  ahy\textsubscript{i} [hohidiana ${\Delta}$\textsubscript{i}   ny varavaran-dakozy].
-
-    remind            Soa   me    lock               the door-kitchen
-
-  b.  nampahatsiahivan’ i Soa  ${\Delta}$\textsubscript{i}        [  hohidiana ko\textsubscript{i}   ny varavaran-dakozy].
-
-    remind                    Soa     lock          I      the door-kitchen
-
-    ‘Soa reminded me to lock the kitchen door.’
+\z
 
 The classic works on control have shown that control occurs in non-finite clauses. Nevertheless, some recent studies assume that finite control is possible in some languages, such as Korean (\citealt{Yang1982}, 1985; \citealt{Borer1989}), Spanish (Suñer 1984), Greek (\citealt{Terzi1992}, 1997; Alexiadou et al. 2011, 2012), Japanese \citep{Uchibori2000} and (\citealt{Farrell1995}; \citealt{Rodrigues2004}; \citealt{Boeckx2006}).
 
-  A controversial matter concerning control in BP, however, involves the assumption that agreement with topics across a finite CP is licensed in this language (Martins \& \citealt{Nunes2010}), although it is a well-known fact that CPs act as phases (see \citealt{Chomsky2000}). This crucial question about the Phase Impenetrability Condition in the MTC is one of the main topics to be discussed in this paper. Moreover, the novel contribution of this paper is that it correlates the reality of backward control in BP with another well-known syntactic phenomenon in BP – the inflected infinitive subcategorized by the control verbs \textit{mandar} and \textit{fazer.}
+A controversial matter concerning control in BP, however, involves the assumption that agreement with topics across a finite CP is licensed in this language (Martins \& \citealt{Nunes2010}), although it is a well-known fact that CPs act as phases (see \citealt{Chomsky2000}). This crucial question about the Phase Impenetrability Condition in the MTC is one of the main topics to be discussed in this paper. Moreover, the novel contribution of this paper is that it correlates the reality of backward control in BP with another well-known syntactic phenomenon in BP – the inflected infinitive subcategorized by the control verbs \textit{mandar} and \textit{fazer.}
 
- (BC), whereby the controllee (covert copy) is structurally superior to the controller (overt copy):
+(BC), whereby the controllee (covert copy) is structurally superior to the controller (overt copy):
 
 \ea%3
-    \label{ex:key:3}
+    \label{ex:moreno:3}
     \gll\\
         \\
     \glt
@@ -166,7 +118,7 @@ In Brazilian Portuguese, we see the following variation: standard object control
 As the subject/object distinction has been lost for third person full pronouns in Brazilian Portuguese, the distinction between forward and backward object control can only be directly observed for the first person. (cf. \citealt{Farrell1995}; Boeckx \& \citealt{Hornstein2004}; 2006):
 
 \ea%5
-    \label{ex:key:5}
+    \label{ex:moreno:5}
     \gll\\
         \\
     \glt
@@ -187,7 +139,7 @@ b.  BOC
     ‘Maria prohibited me from cleaning the house.’
 
 \ea%6
-    \label{ex:key:6}
+    \label{ex:moreno:6}
     \gll\\
         \\
     \glt
@@ -212,7 +164,7 @@ Maria mandou [\textbf{eu}        limpar a   casa].
 However, if we consider other languages we can see that causative verbs can be ambiguous between raising and control. The \textit{loísta} variant of Spanish disambiguates the dual status of the analytic causative verb \textit{hacer} through the use of the clitics \textit{lo/la} and \textit{le.} Specifically, the causative verb occurring with the accusative \textit{lo/la} (which triggers an animacy restriction both on the object and the subject of \textit{hacer}) marks the control reading of the analytic causative:
 
 \ea%7
-    \label{ex:key:7}
+    \label{ex:moreno:7}
     \gll\\
         \\
     \glt
@@ -233,7 +185,7 @@ the  recession \textsc{cl.acc} has made  lose    the job       to Mary
 On the basis of this, \citet{Torrego2010} proposes two different analyses for leísta\footnote{} and loísta causatives: \textbf{\textit{raising}} occurs with the causative \textit{hacer} when the subject is not agentive and the causative verb \textit{hacer} does not subcategorize a causee. The sole argument of the causative \textit{hacer} is the caused event. Almost all Romance languages allow the raising construction with the causative verb \textit{hacer} when the caused event is realized as an embedded CP. The following constructions are clear cases of non-restructuring raising on a par with the verb \textit{pare} ‘seem’ (the embedded clause is introduced by the complementizer \textit{ca}, which is the marker of a CP layer in Romanian; cf. \citealt{Alboiu2007}):
 
 \ea%8
-    \label{ex:key:8}
+    \label{ex:moreno:8}
     \gll\\
         \\
     \glt
@@ -264,7 +216,7 @@ Below, I show that, like loísta \textit{hacer}, the causative \textit{mandar} a
 First, unlike in the case of the ECM/raising construction, the passivization of the complement of \textit{fazer} and \textit{mandar} does affect the interpretation of the entire construction.\footnote{iii}
 
 \ea%9
-    \label{ex:key:9}
+    \label{ex:moreno:9}
     \gll\\
         \\
     \glt
@@ -277,7 +229,7 @@ First, unlike in the case of the ECM/raising construction, the passivization of 
       a = b                \citep[119]{Farrell1995}
 
 \ea%10
-    \label{ex:key:10}
+    \label{ex:moreno:10}
     \gll\\
         \\
     \glt
@@ -298,7 +250,7 @@ As \citet{Farrell1995} argues, the causee is affected by the action denoted by t
 Second, these two verbs impose selectional restrictions on the overt cause. This element cannot be a clause or an expletive. 
 
 \ea%11
-    \label{ex:key:11}
+    \label{ex:moreno:11}
     \gll\\
         \\
     \glt
@@ -315,7 +267,7 @@ dele dar            sono]].
   ‘Passion fruit has something in it that makes the one drinking a lot of the juice     drowsy.’ \citep[119]{Farrell1995}
 
 \ea%12
-    \label{ex:key:12}
+    \label{ex:moreno:12}
     \gll\\
         \\
     \glt
@@ -330,7 +282,7 @@ dele dar            sono]].
 Third, like standard object control verbs that require a syntactic object, the verb \textit{mandar} in Brazilian Portuguese can occur only with animate objects:\footnote{Marcelo Ferreira (p.c.) argues that (13) might sound odd for pragmatic reasons. Sentences like (i), which clearly involves a null expletive in the~ embedded subject, sound perfect:(i)  O   arquiteto mandou   ter    uma~janela    em cada quarto.  the architect  ordered   have a      window in  each  room.The example Ferreira gives in (i) is similar to examples with the homophonous causative verb \textit{trimite} or ‘made’ in Romanian, which is syntactically distinct from the object control \textit{trimite/face:}(ii)    Architectul   a trimis să     se    aducă o fereastră în fiecare cameră.  the.architect sent       \textsc{sbjv refl}bring a window   in each    room.  ‘The architect sent to be brought a window in each room.’}
 
 \ea%13
-    \label{ex:key:13}
+    \label{ex:moreno:13}
     \gll\\
         \\
     \glt
@@ -351,7 +303,7 @@ Like in the cases of subject control, backward object control with \textit{manda
 Two separate negations are possible:
 
 \ea%14
-    \label{ex:key:14}
+    \label{ex:moreno:14}
     \gll\\
         \\
     \glt
@@ -378,7 +330,7 @@ Two separate negations are possible:
 Two separate event modifiers are also possible:
 
 \ea%15
-    \label{ex:key:15}
+    \label{ex:moreno:15}
     \gll\\
         \\
     \glt
@@ -401,7 +353,7 @@ Two separate event modifiers are also possible:
 The first person singular nominative subject pronoun \textit{eu} (which is still distinct from the accusative) cannot be used in object position, either in monoclausal sentences (16a) or with standard object control verbs such as \textit{forçar} ‘obligate’ and \textit{proibir} ‘prohibit’ (16b), but it is grammatical with \textit{mandar} and \textit{fazer} (16c). 
 
 \ea%16
-    \label{ex:key:16}
+    \label{ex:moreno:16}
     \gll\\
         \\
     \glt
@@ -430,7 +382,7 @@ The first person singular nominative subject pronoun \textit{eu} (which is still
 Like many other scholars, \citet{Cinque2004} argues that a diagnostic for restructuring verbs is that they show transparency effects (clitic-climbing/object-raising). Transparency effects can be obtained with restructuring causative verbs in Italian but not in Brazilian Portuguese:
 
 \ea%17
-    \label{ex:key:17}
+    \label{ex:moreno:17}
     \gll\\
         \\
     \glt
@@ -457,7 +409,7 @@ Maria   me.\textsc{acc} ordered John    kiss.\textsc{inf}
 Analytic causatives come in two different guises (cf. \citealt{Kayne1975}; \citealt{Huber1980}; \citealt{Burzio1986}; \citealt{Enzinger2010}; Campanini \& \citealt{Pitteroff2012}): the embedded subject may be either realized as an argumental DP  (Faire-Infinitive) or as part of an optional adjunct PP (Faire-Par):
 
 \ea%18
-    \label{ex:key:18}
+    \label{ex:moreno:18}
     \gll\\
         \\
     \glt
@@ -480,7 +432,7 @@ Gianni has made repair   the car  (by Mario)
 Unlike in Italian restructuring constructions, the embedded subject cannot be realized as part of an optional adjunct PP in Brazilian Portuguese with \textit{mandar/fazer}, providing strong evidence that these causative verbs need to subcategorize an internal argument realized as a covert copy in the backward control pattern. 
 
 \ea%19
-    \label{ex:key:19}
+    \label{ex:moreno:19}
     \gll\\
         \\
     \glt
@@ -501,7 +453,7 @@ Unlike in Italian restructuring constructions, the embedded subject cannot be re
 This section aims at discussing the syntactic structure of causative verbs of the \textit{mandar/fazer} type in Romance in order to show how they interact with the syntax of the inflected infinitive.\textbf{ }Hence, I focus on three syntactic phenomena specific to Brazilian Portuguese: i. the argument structure of \textit{mandar/fazer}\textbf{ }verb types, ii. the syntax of the embedded (inflected) infinitive and iii.\textbf{ }the case assignment properties of the (inflected) infinitive in object control. With respect to ii., this paper argues that \textit{mandar/fazer} as control verbs have three arguments: the causer, the cause and the caused event (cf. \citealt{Zubizarreta1985}, \citealt{Alsina1992} and \citealt{Ippolito2000}). On the basis of the semantic and syntactic tests provided in the above mentioned section, I argue that \textit{mandar}/\textit{fazer} are \textbf{object control verbs} and have the following structure:
 
 \ea%20
-    \label{ex:key:20}
+    \label{ex:moreno:20}
     \gll\\
         \\
     \glt
@@ -524,7 +476,7 @@ Crucially, unlike light verbs such as \textit{fare} in Romance and \textit{make}
 Regarding the syntax of the inflected infinitive in Brazilian Portuguese, this paper makes two claims: first, it regards the distribution of the inflected infinitive as a diagnostic for the fact that the shared argument is truly embedded. More explicitly, it argues that backward object control with \textit{mandar} and \textit{fazer} is signalled by the presence of the inflected infinitive when the shared argument is third person plural. Second, in line with \citet{Raposo1987}, \citet{Nunes1995} and \citet{Pires2010}, it considers inflected infinitive clauses as nominal Case-bearing projections. In order to support the former assumption, I build on the contrast between subject control verbs such as \textit{conseguir} ‘manage’ in (21a) that do not select a preposition and verbs like \textit{aprender} ‘learn’ that do select one (21b). The two classes of control verbs differ in that the inflected infinitive is illicit with the former (21a) but not with the latter (21b) (see also \citealt{Modesto2010}). 
 
 \ea%21
-    \label{ex:key:21}
+    \label{ex:moreno:21}
     \gll\\
         \\
     \glt
@@ -547,7 +499,7 @@ a.    Os meninos conseguiram   vender-*em   a casa.
 On the basis of (21), I assume that the BOC verbs \textit{mandar} and \textit{fazer} in (21b) behave similarly to subject control verbs like \textit{conseguir} ‘manage’ in (21a), as they do not select prepositions and disallow the inflected infinitive. By contrast, the forward object control verbs \textit{convencer de} ‘convince of’ in (23b) are similar to subject control verbs such as \textit{aprender a} ‘learn to’ in (23a): both of them select prepositions, and optionally permit the inflected infinitive.
 
 \ea%22
-    \label{ex:key:22}
+    \label{ex:moreno:22}
     \gll\\
         \\
     \glt
@@ -578,7 +530,7 @@ Maria mandou       [ eles limpar-em a        casa].
     ‘Maria ordered them to clean the house.’
 
 \ea%23
-    \label{ex:key:23}
+    \label{ex:moreno:23}
     \gll\\
         \\
     \glt
@@ -602,7 +554,7 @@ Maria  convinced they.\textsc{nom} of     clean-\textsc{3pl}     the house
 
 More explicitly, I argue that if control verbs do not subcategorize prepositional embedded clauses and the controller is realized in the matrix clause, the inflected infinitive is illicit, as shown in (22a, b). The interplay between the realization of backward object control with \textit{mandar/fazer} and that of the inflected infinitive is not morphologically visible on the basis of the pronominal paradigm in spoken Brazilian Portuguese, since the nominative-accusative distinction has been lost for all pronouns with the exception of the 1\textsuperscript{st} person singular form and, crucially, first person singular pronouns do not trigger overt morphological agreement in infinitives. 
 
-       \tabref{tab:key:1}: The pronominal paradigm of colloquial Brazilian Portuguese
+       \tabref{tab:moreno:1}: The pronominal paradigm of colloquial Brazilian Portuguese
 
 \begin{tabularx}{\textwidth}{XXXX}
 \lsptoprule
@@ -620,7 +572,7 @@ More explicitly, I argue that if control verbs do not subcategorize prepositiona
 Nevertheless, this hypothesis is supported by the written register of Brazilian Portuguese that has a parallel grammar which still preserves the morphological nominative-accusative distinction in pronouns.
 
 \ea%24
-    \label{ex:key:24}
+    \label{ex:moreno:24}
     \gll\\
         \\
     \glt
@@ -645,7 +597,7 @@ c.  Os meninos conseguiram  vender-*em  a    casa.
 Analogically, in European Portuguese inflected infinitives are not allowed when their subjects are Case-marked by the matrix verb (cf. Hornstein, Martins \& \citealt{Nunes2008}):
 
 \ea%25
-    \label{ex:key:25}
+    \label{ex:moreno:25}
     \gll\\
         \\
     \glt
@@ -664,7 +616,7 @@ In the above examples from different registers and grammars, one can clearly obs
 Other interesting pieces of evidence for a backward control analysis of analytic causatives in Brazilian Portuguese are provided by the distribution of the anaphoric pronoun \textit{ele,} which can co-occur with the raised subject and raised object of forward control verbs, but never in the causative constructions. The reason for this is that the causee/object of the causative verb is truly embedded and the entire construction is a backward control structure, since both control and causative verbs in Brazilian Portuguese have the same control semantics imposing commitment on the direct object:
 
 \ea%26
-    \label{ex:key:26}
+    \label{ex:moreno:26}
     \gll\\
         \\
     \glt
@@ -694,7 +646,7 @@ Crucially, the inflected infinitive is licit only with the forward object contro
 In line with \citet{Raposo1987} I argue that inflected infinitives are ‘nominal’ projections, being associated with case and phi-features but not with Tense (see \citealt{Stowell1982}):
 
 \ea%27
-    \label{ex:key:27}
+    \label{ex:moreno:27}
     \gll\\
         \\
     \glt
@@ -717,7 +669,7 @@ Thus, structural case (nominative/accusative) is related to phi-features (cf. Ge
   Explicitly, I argue that when a preposition is lacking, the inflected infinitive can be realized if the embedded T is specified with [+ number] that triggers case assignment by the matrix verb and local case checking by an overt embedded subject in Spec TP (see \citealt{Raposo1987}). The embedded subject bears default structural case and locally agrees with the head of the embedded infinitival TP. In this paper, I adopt the approach to case assignment proposed by McFadden \& \citet{Sundaresan2011}, according to which the nominative serves as a default case for those arguments not assigned other marked cases.
 
 \ea%28
-    \label{ex:key:28}
+    \label{ex:moreno:28}
     \gll\\
         \\
     \glt
@@ -736,7 +688,7 @@ b.  Maria mandou   eles [  limpar      a    casa].
 The example (28) shows that backward object control and the inflected infinitive are allowed only if there is morphological case matching\footnote{A further comparison between Brazilian Portuguese, which allows backward object control, and Romanian, which does not, seems to suggest that the occurrence of backward object control patterns and of the inflected infinitive is linked to the morphological case marking of the object. While in Romanian, the case of the direct object is obligatorily marked by the preposition \textit{pe}, in Brazilian Portuguese, both the object and the subject use the nominative case form: (i)  *Maria  l-a     obligat     *pe el            să      zâmbească.  Maria  \textsc{cl.acc}{}-has        obligated     \textsc{pe} him\textsc{.acc} \textsc{sbjv} smile\textsc{{}-3sg}Case-matching between the overt and covert argument DP in backward control patterns in Brazilian Portuguese has been independently observed for Free Relative Clauses in Romanian (see Alexiadou et al. 2010). Essentially, in the case of Free Relative Clauses in Romanian, the less marked case (Nominative) cannot play the role of the Accusative: in (ii) \textit{pe} requires Acc and ‘arrive’ requires Nom; if \textit{pe} is deleted, the pure Nom form \textit{cine} cannot override the Acc required by ‘have prized’: (ii)  Au    premiat       *(pe)     [cine        a     ajuns    primul].  have prize.given   \textsc{pe.acc}  who.\textsc{nom} has arrived first \citep{AlexiadouEtAl2010}} between the overt and the covert controller, that is if the morphological case form of the subject is the same as that of the object in forward object control.\footnote{We might wonder, however, how to explain the optionality between realizing the higher copy in the matrix clause and the lower copy in the inflected infinitive; that is, the distinction between forward control and backward control. Arguably, this optionality can be explained by principles of chain reduction (cf. \citealt{Nunes2004}) according to which a copy of a given chain with the fewest features must be pronounced. Building on Nunes, Potsdam argues that the optionality in control arises when two copies in a chain have the same number of unchecked features, since one case value can be overridden by another case.} Crucially, this is linked to the fact that morphological accusative case forms are disappearing in the colloquial language and being replaced by the corresponding nominative case forms.
 
 \ea%29
-    \label{ex:key:29}
+    \label{ex:moreno:29}
     \gll\\
         \\
     \glt
