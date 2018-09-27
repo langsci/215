@@ -1,1 +1,0 @@
-/home/felix/Github/pypi/langsci/doc2tex.py
