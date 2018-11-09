@@ -34,7 +34,7 @@
     }\IfBooleanTF#5{\vspace{#2}}{}%
 }
 
-\NewDocumentCommand\NodeConnectHead{O{-{Triangle[]}} O{1ex} m O{\thelsConnectTempGroup} m s}{%read: star #1, optional argument (distance of arrow from text= std. one x-height), mand. arg. (node text), optional argument #2, the group specifier
+\NewDocumentCommand\NodeConnectHead{O{-{Triangle[]}} O{1ex} m O{\thelsConnectTempGroup} m s O{near start}}{%read: star #1, optional argument (distance of arrow from text= std. one x-height), mand. arg. (node text), optional argument #2, the group specifier
     \edef\lsConnectTempPosition{#4}%
     \stepcounter{lsConnectTempGroup}%We have a match, let's update the group counter   
     {\tikz[remember picture,
@@ -42,6 +42,6 @@
            inner xsep=0pt, 
            inner ysep=-.5ex] \node (ConnectTempHead\lsConnectTempPosition) {\strut{}#3};%
      \tikz[remember picture] \draw[% we have a tail and a head, let's bring them together
-                                #1,overlay] (ConnectTempTail\lsConnectTempPosition.south) -- ++(0,-#2) -| node[near start,fill=white] {#5} (ConnectTempHead\lsConnectTempPosition.south);%
+                                #1,overlay] (ConnectTempTail\lsConnectTempPosition.south) -- ++(0,-#2) -| node[#7,fill=white] {#5} (ConnectTempHead\lsConnectTempPosition.south);%
     }\IfBooleanTF#6{\vspace{#2}}{}% Automatically make space below 
 }
