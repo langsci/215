@@ -180,9 +180,51 @@ We now turn to plural pronouns. For now, we assume that number is encoded throug
 
 In the second and third person, the person specification in the plural is the same as the person specification in the singular. In the first person, however, there are two options. Suppose that the plural feature is simply added to the singular form in (6a), where \textsc{prox} is applied twice. This delivers S\textit{\textsubscript{i}}, a set containing the speaker and in the plural also any contextually given associates, but no addressee. The result is an exclusive first person pronoun. Another option is to apply \textsc{prox} only once. This delivers S\textit{\textsubscript{i}}\textsubscript{+}\textit{\textsubscript{u}}, a set containing the speaker, at least one addressee, and any associates. The resulting pronoun is a first person inclusive:
 
-\ea Plural \\
-(\label{bkm:Ref328732770}\label{bkm:Ref254355366})
-
+\ea Plural\\
+\label{bkm:Ref328732770}\label{bkm:Ref254355366}
+\begin{xlista}
+\begin{multicols}{2}\raggedcolumns%
+\ex 1\textsuperscript{st} person inclusive\\
+\begin{forest}
+for tree={font=\scshape,fit=band}
+[nmb
+    [nmb, tikz={\node [draw, inner sep=0pt,fit=() (!1)] {};} [pl] ]
+    [prs [ prs, tikz={\node [draw, inner sep=0pt,fit=() (!1)] {};} [ prox ] ]
+    [n\textsubscript{Π}]]
+]
+\end{forest}\columnbreak\ex 1\textsuperscript{st} person exclusive\\
+\begin{forest}
+for tree={font=\scshape,fit=band}
+[nmb
+    [nmb, tikz={\node [draw, inner sep=0pt,fit=() (!1)] {};} [pl] ]
+ [prs
+    [prs, tikz={\node [draw, inner sep=0pt,fit=() (!1) (!11)] {};} [prox [prox] ] ]
+    [n\textsubscript{Π}]
+ ]  
+]
+\end{forest}
+\end{multicols}
+\begin{multicols}{2}
+\ex 2\textsuperscript{nd} person\\
+\begin{forest}
+for tree={font=\scshape,fit=band}
+[nmb
+    [nmb, tikz={\node [draw, inner sep=0pt,fit=() (!1)] {};} [pl] ]
+    [prs [ prs, tikz={\node [draw, inner sep=0pt,fit=() (!1) (!11)] {};} [ prox [dist] ] ]
+    [n\textsubscript{Π}]]
+]
+\end{forest}
+\columnbreak\ex 3\textsuperscript{rd} person\\
+\begin{forest}
+for tree={font=\scshape,fit=band}
+[nmb
+    [nmb, tikz={\node [draw, inner sep=0pt,fit=() (!1)] {};} [pl] ]
+    [prs [ prs, tikz={\node [draw, inner sep=0pt,fit=() (!1)] {};} [ dist ] ]
+    [n\textsubscript{Π}]]
+]
+\end{forest}
+\end{multicols}
+\end{xlista}
 \z
  
 %%please move the includegraphics inside the {figure} environment
@@ -209,62 +251,74 @@ The absence of systematic syncretisms for first person inclusive and second pers
 
 For the purposes of this paper, the main characteristic of our person system is that third person has a person specification, namely [\textsc{dist}].  We should note that this does not mean that there are no pronouns that lack person features. One would expect there to be such pronouns, especially in an analysis based on privative features. In \citet{Ackema2018}, we argue that a particular type of generic pronoun should be analyzed in this way (see also \citealt{Egerland2003} and \citealt{D’Alessandro2007}). English \textit{one}, West Frisian \textit{men} \citep{Hoekstra2010} and Icelandic \textit{maður} (\citealt{Sigurðsson2009}) are examples: in the absence of person features, the generic operator contained in them ranges over the entire person space (S\textit{\textsubscript{i}}\textsubscript{+}\textit{\textsubscript{u+o}}).
 
+\ea\label{bkm:Ref295390383}Generic \textsc{one}\\
+\begin{forest}
+for tree={font={\scshape},nice empty nodes}
+[ 
+    [gen]
+    [prs [prs [n\textsubscript{Π}]]]
+]
+\end{forest}
+\z
+\todo[inline]{Is ``Generic ONE'' the root node or the heading in this tree?}
  
 %%please move the includegraphics inside the {figure} environment
 %%\includegraphics[width=\textwidth]{OGSVolumeAug2018AckemaNeeleman-img8.jpg}
 
-(\label{bkm:Ref295390383})
 
 \section{The number system}
 
 We now turn to the number system. We will argue that, like the person system, it is based on privative features that are interpreted as functions. We will show that in this system there cannot be a feature that encodes singularity. Rather, singular is one of the interpretations that results from the absence of a number feature specification.
 
-  In languages that make a distinction between inclusive and exclusive first person pronouns, two types of number system are found. The difference between these systems involves the interpretation of number in the inclusive. In what we will call absolute number systems, the inclusive is always marked as either dual or plural. Maori provides an example: 
+  In languages that make a distinction between inclusive and exclusive first person pronouns, two types of number system are found. The difference between these systems involves the interpretation of number in the inclusive. In what we will call absolute number systems, the inclusive is always marked as either dual or plural. Maori provides an example (\tabref{tab:01:1}).
 
-(\label{bkm:Ref328732387})    Maori pronouns
-
-\begin{tabularx}{\textwidth}{XXXXX} 
+\begin{table}\caption{\label{bkm:Ref328732387}Maori pronouns\label{tab:01:1}}
+\begin{tabular}{llll} 
 \lsptoprule
-&  & Singular [ ] & Plural [\textsc{pl}] & Dual [\textsc{pl} \textsc{min}]\\
-% \hhline{~----} 
-& 1 inclusive & {}- & t\=a-ua & t\=a-tou\\
-& 1 exclusive & au & \=a-ua & m\=a-tou\\
-& 2 & koe & k\=or-ua & kou-tou\\
-& 3 & ia & r\=a-ua & r\=a-tou\\
+& Singular [ ] & Plural [\textsc{pl}] & Dual [\textsc{pl} \textsc{min}]\\
+\midrule
+1 inclusive & - & t\=a-ua & t\=a-tou\\
+1 exclusive & au & \=a-ua & m\=a-tou\\
+2 & koe & k\=or-ua & kou-tou\\
+3 & ia & r\=a-ua & r\=a-tou\\
+\lspbottomrule
+\end{tabular}
+\end{table}
+
+As indicated, absolute number systems can in principle be analyzed using two features, \textsc{pl} (for ‘plural’) and \textsc{min} (for ‘minimal’), which we take to be hosted by a dedicated functional head \textsc{nmb}. \textsc{Pl} encodes that the cardinality of the set referred to, which we will represent as $n$, exceeds 1 ($n>1$). \textsc{min} selects the minimal plural ($n=2$).
+
+There is a second type of number system, however, which we will refer to as a relative number system. In such a system, the interpretation of number marking seems dependent on person, with a shift in the inclusive that is absent in the other persons. In particular, the inclusive pronoun need not be inflected for number. If it is, its cardinality is larger than two, whereas in other pronouns, number marking implies a cardinality larger than one. The Rembarrnga paradigm in \tabref{tab:01:2} illustrates the point.
+
+\begin{table}\caption{\label{bkm:Ref451950792}Rembarrnga pronouns\label{tab:01:21}}
+\begin{tabularx}{\textwidth}{Xllll}
+\lsptoprule
+& Singular & Plural & Dual & Trial\\
+\midrule
+1 inclusive & - & yukku & ngakorru & ngakorr-bbarrah\\
+1 exclusive & ngunu & yarru & yarr-bbarrah & \\
+2 & ku & nakorru & nakorr-bbarrah & \\
+3 & nawu/ngadu & barru & barr-bbarrah & \\
 \lspbottomrule
 \end{tabularx}
+\end{table}
 
-As indicated, absolute number systems can in principle be analyzed using two features, \textsc{pl} (for ‘plural’) and \textsc{min} (for ‘minimal’), which we take to be hosted by a dedicated functional head \textsc{nmb}. \textsc{Pl} encodes that the cardinality of the set referred to, which we will represent as \textit{n}, exceeds 1 (\textit{n}>1). \textsc{Min} selects the minimal plural (\textit{n}=2).
+Such number systems are typically analyzed using the \textsc{min} feature already mentioned and – instead of \textsc{pl} – a feature \textsc{aug} for ‘augmented’ (see \citealt{Bobaljik2008Missing} and \citealt{Cysouw2011}, and references mentioned there). \textsc{Aug} indicates that \textit{n} is larger than the minimal cardinality allowed by the person system. Except in the inclusive, the minimal cardinality allowed by the person system is one, and so \textsc{aug} delivers $n>1$. In the inclusive, however, the minimal cardinality allowed by the person system is two, so \textsc{aug} delivers $n>2$. On this analysis, the Rembarrnga paradigm looks much more elegant (\tabref{tab:01:3}).
 
-There is a second type of number system, however, which we will refer to as a relative number system. In such a system, the interpretation of number marking seems dependent on person, with a shift in the inclusive that is absent in the other persons. In particular, the inclusive pronoun need not be inflected for number. If it is, its cardinality is larger than two, whereas in other pronouns, number marking implies a cardinality larger than one. The Rembarrnga paradigm in (14) illustrates the point:
-
-(\label{bkm:Ref451950792})    Rembarrnga pronouns
-
-\begin{tabularx}{\textwidth}{XXXXXX} &  & Singular & Plural & Dual & Trial\\
+\begin{table}
+\caption{\label{bkm:Ref328732397}\label{bkm:Ref295309335}Rembarrnga pronouns\label{tab:01:3}}
+\begin{tabularx}{\textwidth}{Xlll}
 \lsptoprule
-% \hhline{~-----}
-& 1 inclusive & {}- & yukku & ngakorru & ngakorr-bbarrah\\
-& 1 exclusive & ngunu & yarru & yarr-bbarrah & \\
-& 2 & ku & nakorru & nakorr-bbarrah & \\
-& 3 & nawu/ngadu & barru & barr-bbarrah & \\
+& Non-aug. [ ] & Augmented [\textsc{aug}] & Unit-augmented [\textsc{aug} \textsc{min}]\\
+\midrule
+ 1 inclusive & yukku & ngakorru & ngakorr-bbarrah\\
+ 1 exclusive & ngunu & yarru & yarr-bbarrah\\
+ 2 & ku & nakorru & nakorr-bbarrah\\
+ 3 & nawu/ngadu & barru & barr-bbarrah\\
 \lspbottomrule
 \end{tabularx}
-Such number systems are typically analyzed using the \textsc{min} feature already mentioned and – instead of \textsc{pl} – a feature \textsc{aug} for ‘augmented’ (see \citealt{Bobaljik2008Missing} and \citealt{Cysouw2011}, and references mentioned there). \textsc{Aug} indicates that \textit{n} is larger than the minimal cardinality allowed by the person system. Except in the inclusive, the minimal cardinality allowed by the person system is one, and so \textsc{aug} delivers \textit{n}>1. In the inclusive, however, the minimal cardinality allowed by the person system is two, so \textsc{aug} delivers \textit{n}>2. On this analysis, the Rembarrnga paradigm looks much more elegant:
+\end{table}
 
-(\label{bkm:Ref328732397}\label{bkm:Ref295309335})    Rembarrnga pronouns
-
-\begin{tabularx}{\textwidth}{XXXXX}
-\lsptoprule
- &  & Non-aug. [ ] & Augmented [\textsc{aug}] & Unit-augmented [\textsc{aug} \textsc{min}]\\
-% \hhline{~----}
-& 1 inclusive & yukku & ngakorru & ngakorr-bbarrah\\
-& 1 exclusive & ngunu & yarru & yarr-bbarrah\\
-& 2 & ku & nakorru & nakorr-bbarrah\\
-& 3 & nawu/ngadu & barru & barr-bbarrah\\
-\lspbottomrule
-\end{tabularx}
-
-If we were to accept both the feature systems in (13) and (15), the resulting proposal would model parametric variation between absolute and relative number systems as a choice between features (\textsc{pl} versus \textsc{aug}). However, this would make the parametrization of the number system something of an oddity. Our impression is that in other cases where feature systems are parametrized, languages select more or fewer features from a fixed inventory, rather than choosing between features that cannot co-occur in the same grammar. We propose to fix this problem by assuming that \textsc{aug} is universal and that \textsc{pl} does not exist. However, the effects of \textsc{aug} are dependent on information from the person system. If \textsc{aug} has no access to the person system, then its interpretation defaults to the interpretation normally assumed for \textsc{pl}. This idea can be worked out as follows.
+If we were to accept both the feature systems in \tabref{tab:01:1} and~\ref{tab:01:3}, the resulting proposal would model parametric variation between absolute and relative number systems as a choice between features (\textsc{pl} versus \textsc{aug}). However, this would make the parametrization of the number system something of an oddity. Our impression is that in other cases where feature systems are parametrized, languages select more or fewer features from a fixed inventory, rather than choosing between features that cannot co-occur in the same grammar. We propose to fix this problem by assuming that \textsc{aug} is universal and that \textsc{pl} does not exist. However, the effects of \textsc{aug} are dependent on information from the person system. If \textsc{aug} has no access to the person system, then its interpretation defaults to the interpretation normally assumed for \textsc{pl}. This idea can be worked out as follows.
 
 The input set for the number system is $\mathbb{N}$. The features \textsc{aug} and \textsc{min} select a subset from $\mathbb{N}$ in accordance with the definitions in (16a,b). The cardinality of the set delivered by the person system must be an element of this subset. 
 
@@ -380,7 +434,7 @@ Note that it \textit{is} possible for a relative number system to be agglutinati
 %%please move the includegraphics inside the {figure} environment
 %%\includegraphics[width=\textwidth]{OGSVolumeAug2018AckemaNeeleman-img10.jpg}
 
-Languages with a relative number system that have agglutinative morphology for \textsc{min} indeed exist; the Rembarrnga paradigm in (15) provides an example.
+Languages with a relative number system that have agglutinative morphology for \textsc{min} indeed exist; the Rembarrnga paradigm in \tabref{tab:01:3} provides an example.
 
   In sum, the \textsc{aug} feature is shared by all number systems, but its interpretive effects depend on whether or not it has access to information delivered by the person features, which in turn depends on the syntactic structure of pronouns. Notice that in this system singular and non-augmented must both equal the absence of \textsc{aug}. There cannot be a contentful privative feature that characterizes singular and non-augmented number, given that the interpretation of these numbers as \textit{n}=1 or \textit{n}=2 is determined fully by the interpretation of \textsc{aug}. Therefore, the default in the number system is characterized by the absence of a feature specification. 
 
