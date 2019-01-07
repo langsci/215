@@ -124,18 +124,22 @@ After \textit{v}° has merged, the possessor DP \textit{o João} moves to Spec\t
 
 \begin{figure}
 \caption{Movement of the possessor argument to the subject position\label{fig:wein:2}}
-\begin{forest}
+\begin{forest} for tree={fit=band}
 [TP
-    [T°,name=T] [vP
+    [T°,name=T] [vP, s sep=+5mm
         [DP\\o Jo\~ao\\{[\textsc{agent}]}\\{[vCase]},name=vcase]
         [v' 
             [v°,name=v] [VP
-                [{NODE MISSING}]
+                [conversou com o pai {\color{gray}o Jo\~ao}\\{[}GOAL{]} {\color{gray}{[}θ-role{]}}\\{[}vCase{]} {\color{gray}{[}uCase{]}},roof,name=conversou,align=right]
             ]
         ]
     ]   
 ]
+\draw [dashed] (T) |- (vcase.225);
+\draw          (vcase.340) -- (v);
+\draw (conversou.330) -- ++(0,-.5\baselineskip) -| (vcase.south);
 \end{forest}
+\todo[inline]{please check tree}
 \end{figure}
 
 The DP and its copy fulfil two distinct roles: the DP is the subject of the sentence and the copy is the possessor argument. The movement analysis of anaphoric dependencies is one branch of recent Minimalist approaches to binding theory. The aim of such approaches is to derive the interpretation of nominal elements by means of their lexical properties (features), by principles of the computational system (Narrow Syntax) and from interface conditions. In the following section, the following three interpretative options are briefly introduced: mechanisms of syntactic encoding, semantic binding and coreference.
