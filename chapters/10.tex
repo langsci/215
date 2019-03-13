@@ -114,7 +114,7 @@ F\&N show that a null possessive has anaphoric properties in a position from whi
 \begin{figure}
 \caption{Base-generation of a relational noun and its possessor argument\label{fig:wein:1}}
 \begin{forest}
-[DP [D°[o]] [NP [NP\\pai\\{[θ-role]}\\{[uCase]}] [DP [o Jo\~ao\\{[θ-role]}\\{[uCase]}]]]]
+[DP [D°\\o] [NP [NP\\pai\\{[θ-role]}\\{[uCase]}] [DP\\o João\\{[POSS]}\\{[uCase]}]]]]
 \end{forest}
 \end{figure}
 
@@ -123,19 +123,20 @@ After \textit{v}° has merged, the possessor DP \textit{o João} moves to Spec\t
 \begin{figure}
 \caption{Movement of the possessor argument to the subject position\label{fig:wein:2}}
 \begin{forest} for tree={fit=band}
-[TP
-    [T°,name=T] [vP, s sep=+5mm
-        [DP\\o Jo\~ao\\{[\textsc{agent}]}\\{[vCase]},name=vcase]
+% % [TP
+% %     [T°,name=T] 
+    [vP, s sep=+5mm
+        [DP\\o João\\{[POSS][AGENT]}\\{[uCase]},name=vcase]
         [v' 
-            [v°,name=v] [VP
-                [conversou com o pai {\color{gray}o Jo\~ao}\\{[}GOAL{]} {\color{gray}{[}θ-role{]}}\\{[}vCase{]} {\color{gray}{[}uCase{]}},roof,name=conversou,align=right]
+            [v°\\conversou,name=v] [VP
+                [{\color{gray}\sout{conversou}} com \hspace{1em} o pai \hspace{.75em} {\color{gray}\sout{o João}}\\{[}GOAL{]} {\color{gray}{[}POSS{]}}\\{[}vCase{]} {\color{gray}{[}uCase{]}},roof,name=conversou,align=right]
             ]
         ]
     ]   
-]
-\draw [dashed] (T) |- (vcase.225);
-\draw          (vcase.340) -- (v);
-\draw (conversou.330) -- ++(0,-.5\baselineskip) -| (vcase.south);
+% ]
+% % \draw [dashed] (T) |- (vcase.225);
+\draw[dotted,-{Stealth[]}] (v) -> (vcase.350);
+\draw[-{Stealth[]}] (conversou.330) -- ++(0,-.5\baselineskip) -| (vcase.south);
 \end{forest}
 \end{figure}
 
