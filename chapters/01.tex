@@ -48,15 +48,17 @@ The problem addressed in this paper is an apparent paradox involving singular nu
 On the other hand, singular agreement can be overwritten by plural agreement in certain contexts, but in those same contexts third person agreement cannot be overwritten. For example, in (3) the expected singular agreement with the subject pronoun is replaced by plural agreement if the clefted constituent is plural, but not by first person or second person agreement if the clefted constituent is a first person or second person pronoun.
 
 \ea \label{bkm:Ref328731088}\label{bkm:Ref294426209}  Dutch
-\ea[]{ \textsc{pl} overwrites \textsc{sg}\\
+\ea[]{\textsc{pl} overwrites \textsc{sg}\\
 \gll Het zijn    zij    die  de  whisky gestolen hebben.\\
     it    are.\textsc{pl} they who the whisky stolen     have\\
 \glt    ‘It’s them who stole the whisky.’}
-\ex[*]{ 1\textsuperscript{st} clashes with 3\textsuperscript{rd}\\
+\ex[]{1\textsuperscript{st} clashes with 3\textsuperscript{rd}\\}
+\sn[*]{%
 \gll  Het ben ik die  de  whisky gestolen heeft.  \\
      it     am  I  who the whisky stolen     has\\
 \glt ‘It’s me who stole the whisky.’}
-\ex[*]{2\textsuperscript{nd} clashes with 3\textsuperscript{rd}\\
+\ex[]{2\textsuperscript{nd} clashes with 3\textsuperscript{rd}\\}
+\sn[*]{%
 \gll  Het ben      jij        die    de whisky gestolen heeft.\\
      it     are.\textsc{sg} you.\textsc{sg} who the whisky stolen     has\\
 \glt ‘It’s you who stole the whisky.’}
@@ -92,12 +94,11 @@ The basic input set for the person system, which we call S\textit{\textsubscript
 \ea \label{bkm:Ref328731676}\label{bkm:Ref215574498}\label{bkm:Ref229151282} 
 \ea
 \makebox[\linewidth][t]{\begin{forest}
-for tree={no edge,l sep=0mm,l=0mm,s sep=7mm}
-[{\textbf{\textit{i}} (\textit{a\textsubscript{i}})},tikz={\node [inner sep=0pt,ellipse,draw,fit=()] {};}
-         [{S\textit{\textsubscript{i}}},tikz={\node [ellipse,inner sep=0pt,draw, fit=() (!s) (!u)] {};\node [inner sep=0pt,ellipse,draw, fit=() (!1) (o) (!u)] {};} [
-                {S\textit{\textsubscript{i}}\textsubscript{+}\textit{\textsubscript{u}}} [
-                    {S\textit{\textsubscript{i}}\textsubscript{+}\textit{\textsubscript{u}}\textsubscript{+}\textit{\textsubscript{o}}} ] [] ] [] ]
-          [{\textbf{\textit{u}} (\textit{a\textsubscript{u}})} [] [{(\textit{o})},name=o]]
+for tree={no edge,grow=east,l=30mm}
+[{\textbf{\textit{i}} \hspace{1em} (\textit{a\textsubscript{i}})},tikz={\node [inner sep=0pt,ellipse,draw,fit=(),label=below right:$\text{S}_i$] {};}
+    [{\textbf{\textit{u}} \hspace{1em} (\textit{a\textsubscript{u}})},tikz={\node [inner ysep=.8\baselineskip,ellipse,draw,fit=() (!u),label=below right:$\text{S}_{i+u}$] {};}, 
+        [{(\textit{o})},name=o,tikz={\node [inner ysep=1.6\baselineskip,ellipse,draw,fit=() (!u) (!uu),label=below right:$\text{S}_{i+u+o}$] {};}]
+    ]
 ]
 \end{forest}}
 \ex \textsc{pred}(S\textit{\textsubscript{i}}\textsubscript{+}\textit{\textsubscript{u}}\textsubscript{+}\textit{\textsubscript{o}}) = S\textit{\textsubscript{i}}\textsubscript{+}\textit{\textsubscript{u}}
@@ -256,11 +257,10 @@ For the purposes of this paper, the main characteristic of our person system is 
 for tree={font={\scshape}}
 [
     [gen]
-    [prs [prs [n\textsubscript{Π}]]]
+    [prs [prs] [n\textsubscript{Π}]]
 ]
 \end{forest}
 \z
-\todo[inline]{Is ``Generic ONE'' the root node or the heading in this tree?}
  
 %%please move the includegraphics inside the {figure} environment
 %%\includegraphics[width=\textwidth]{OGSVolumeAug2018AckemaNeeleman-img8.jpg}
@@ -333,10 +333,9 @@ As indicated in (13a), \textsc{aug} refers to a reference number \textit{n}\text
 \ea \label{bkm:Ref453320625}
 \ea \textit{n}\textsubscript{R} = \textit{n}\textsubscript{person} iff \textit{n}\textsubscript{person} is accessible and \textit{n}\textsubscript{person} > 0; otherwise \textit{n}\textsubscript{R} = 1
 \ex $n_{\text{person}} = \left|\text{strip}\left(\text{S}_{\text{person}}\right)\right|$
-\ex $p \in S’ \Leftrightarrow  \text{strip}\left(\text{S}_{\text{person}}\right)  =  S’, \text{with\ } S’ \subseteq \text{S}_{\text{person}},  p \in \left\{i, u\right\}$
+\ex $\text{strip}\left(\text{S}_{\text{person}}\right)  =  S’,  S’ \subseteq \text{S}_{\text{person}},  p \in \left\{i, u\right\} \Leftrightarrow  p \in S’ $
 \z
 \z
-\todo[inline]{I swapped the order of the equivalence in c. to make it more readable}
 
 The accessibility of person information depends on the functional structure of the pronoun. We assume, following \citet{Platzack1983} and others, that there is parametric variation in whether certain functional heads project separately or conflate and project together. Applied to \textsc{nmb} and \textsc{prs}, this gives the possible structures for pronouns in (15).
 
@@ -574,7 +573,8 @@ Indeed, \citet{Sigurðsson1996} observes that the person restriction on object a
 Agreement with lower nominative DPs does not only occur in mono-clausal, but also in bi-clausal structures with a raising verb. In such structures, the same person restriction is observed as in mono-clausal structures (see (30)). 
 
 \ea \label{bkm:Ref295483138} 
-\ea[*]{ (\citealt{Sigurðsson2008})\\
+\ea (\citealt{Sigurðsson2008})\\
+\sn[*]{%
 \gll Honum   mundum  virðast við        (vera) hæfir.\\
       him.\textsc{dat} would.\textsc{1pl} seem   we.\textsc{nom} (be)    competent \\}
 \ex[*]{ 
@@ -710,13 +710,12 @@ While we have seen that there is an asymmetry between person and number in that 
 \caption{Ojibwe theme signs\label{tab:01:4}}
 \begin{tabularx}{\textwidth}{Qll} 
 \lsptoprule
-& \multicolumn{2}{c}{Outranking on 2 > 1 > 3}\\\cmidrule(lr){2-3}
+% % % & \multicolumn{2}{c}{Outranking on 2 > 1 > 3}\\\cmidrule(lr){2-3}
 & Subject outranks object & Object outranks subject \\\midrule
 Both subject and object are 1 or 2. & -\textit{i} & -\textit{in(i)}\\
 Either subject or object is 3. & -\textit{aa} & -\textit{igw} (and allomorphs)\\
 \lspbottomrule
 \end{tabularx}
-\todo[inline]{please confirm table}
 \end{table}
  
 This simultaneous sensitivity to the features of subject and object can only be accounted for under the assumption that both agree with the verb. Only if the features of both arguments are represented in the verb is it possible to have a spell-out system for the verbal agreement that is based on a comparison of their position on the person hierarchy. For the theme-sign suffixes, then, resolution of person clashes is achieved by spell-out rules that insert a single morpheme as the realization of pairs of feature bundles.
@@ -755,7 +754,6 @@ Not all languages that allow resolution of person clashes on the basis of a hier
 \ex  1,2 > 3    \jambox{(example: Kaqchikel, see below)}
 \z
 \z
-\todo[inline]{Specify the exs you are refering to?}
 
 We suggest that this cross-linguistic variation comes about through variation in weighting of the two conditions in (44). (For the purpose of (44b), a feature structure is less uniform if it contains instances of more features.)
 
