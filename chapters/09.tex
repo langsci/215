@@ -334,7 +334,7 @@ Spanish (\citealt{Gutiérrez-Bravo2001}: 111)\label{ex:mensch:17}\\
 
 As shown in (18) below, Gutiérrez-Bravo assumes an AgrGen[itive] projection situated lower than D. In order to attract the \textit{wh} constituent to the phase edge, the D head has a strong [\textit{wh}]-feature. The covert AgrGen head has a genitive feature, which is adjoined to D. This feature will then attract the PP that also bears a [GEN]-feature to [Spec,DP] (recall that, in Chomsky’s 1995 framework, features are checked via specifier-head agreement). The attracted PP must also bear a [\textit{wh}]-feature, which checks the [\textit{wh}]-feature of D. Within the NP, a PP that encodes the \AGENT is merged in [Spec,NP], whereas the PP bearing the \THEME theta-role is the complement of N. The ungrammatical case (17b) is then explained by the Minimal Link Condition, which forces the [GEN] feature in D to attract the closest constituent that also bears a [GEN] feature. In (17b), this would be the PP \textit{de Juan}, which does not, however, bear a [\textit{wh}]-feature. For (17a), the derivation would converge in the following way:
 
-\ea%18
+\begin{exe}\nopagebreak\ex%18
 \label{ex:mensch:18}%
 \resizebox{\linewidth}{!}{\begin{forest}
 [DP
@@ -363,7 +363,7 @@ As shown in (18) below, Gutiérrez-Bravo assumes an AgrGen[itive] projection sit
 \draw[-{Triangle[]}] (tj.south) -- ++(0,-\baselineskip) -| (quienwhgen.south);
 \draw[-{Triangle[]}] (ti.south) -- ++(0,-\baselineskip) -| (emptysetgen.south);
 \end{forest}}%
-\z
+\end{exe}
 
 Apart from the fact that this account uses an early minimalist framework, it contains some weak points. For example, the adjunction of the [GEN]-feature is not motivated, and questions arise concerning how the second genitive feature (on the N complement in (18)) is checked, and why a PP can bear a case feature in the first place. However, Gutiérrez-Bravo’s approach contains an interesting point: the incorporation of the case feature into D creates a complex D head that has both A and A’ properties. In other words, the extraction from DP “is conditioned by the possibility of the extracted constituent to check the Case feature of the adjoined functional head” (\citealt{Gutiérrez-Bravo2001}: 116).
 
@@ -520,7 +520,7 @@ For this reason, the feature set in (22) is not enough. Since we are looking for
 
 \ea%25
     \label{ex:mensch:25}
-    Features of D (provisional formalization II)\\\relax
+    Features of D (provisional formalization II)\\
     \begin{tabbing} [uOp]\hspace{1em}\= Lorem Ipsum\kill
         [uOp] \> with $\text{uOp} ≙ \text{Op} = \text{X}, \text{X} \in \{\textit{wh}, \text{rel}, \text{Focus}\}$\\
         \begin{forest}
@@ -566,9 +566,9 @@ Let us then assume that arguments of N that represent \AGENT, \THEME or \POSSESS
 
 The unvalued phi-features of D act as a probe and find the valued phi-features of the KP, triggering Agree and valuing the KP’s [uCase] as [Gen], which is spelled out as \textit{de} on the K head. Intervening adjuncts do not have an unvalued case feature and will not be seen by the probe. The D head has no intrinsic [EPP]-feature in French, so the KP is not attracted to [spec,DP] in (25). A determiner with this feature composition is thus not apt for our extraction cases, which is the desired result, since only a subset of KPs, namely those containing an additional valued operator feature, can be extracted (recall my provisional formalization in (25)). Thus, if something needs to be extracted (ultimately because C has an unvalued operator feature), the determiner must be merged with the special feature composition shown in the (still provisional) formalization in (27) (revised from (25)): 
 
-\ea%27
+\begin{exe}\ex%27
     \label{ex:mensch:27}
-            Features of D (provisional formalization II)\\
+        \interlinepenalty10000 Features of D (provisional formalization II)\\
 \begin{forest}
     [{[}uOp{]}\\{[}u$\varphi ${]}\\{[}vCase{]} (Gen), align=center,base=bottom
                 [{[}EPP{]}]
@@ -576,7 +576,7 @@ The unvalued phi-features of D act as a probe and find the valued phi-features o
         ]
     ]
 \end{forest}
-    \z
+    \end{exe}
 
 
 
@@ -629,10 +629,9 @@ The morphemes \{s-\}, \{m-\}, \{t-\} represent the phi-features (3rd sg., 1st sg
 
 We can now return to the problem of extraction and proceed to the final revision of the formalization initiated in (22) and further refined in (25) and (27): the D head needed for the extraction cases at issue here is a variant of (30a), enriched with the [uOp] feature and the [EPP]-feature connected to it (cf. (27) above). We can integrate this as a further optional part of (29a) so as to yield (31):
 
-\ea%31
+\begin{exe}\ex%31
     \label{ex:mensch:31}
-    Features of D (articles; final formalization)
-
+    \interlinepenalty10000 Features of D (articles; final formalization)\\\\
       \begin{tabular}{@{}r@{\hspace{1em}}l@{\hspace{.5em}}l}
                        & [D]\\\\[-1em]
                        & [u$\varphi $\textsubscript{1}]\\\\[-1em]
@@ -646,7 +645,7 @@ We can now return to the problem of extraction and proceed to the final revision
                                                  & [EPP] & \\
                          \end{tabular} & \rdelim){-6}{0mm}\\
       \end{tabular}
-    \z
+\end{exe}
 
 This complex entry reads as follows: minimally, a French article (or a demonstrative) has one unvalued phi-set which probes the head noun and determines the morphology of the determiner. Optionally, there can be an additional second probe with a (genitive-)case-assigning property. This option is needed when the head noun has a KP complement and can be enriched by an unvalued operator feature connected to an [EPP]-feature if the KP needs to be extracted.
 
