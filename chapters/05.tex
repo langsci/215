@@ -381,32 +381,33 @@ Let us first consider the results for \textit{który}{}-relatives, presented in 
                     height=15cm,
                     bar width=.75cm,
                     enlarge x limits={0.1},
-                    nodes near coords,
+                    nodes near coords={\pgfmathfloatifflags{\pgfplotspointmeta}{0}{}{\pgfmathprintnumber{\pgfplotspointmeta}}},
                     nodes near coords style={text=black,font=\footnotesize,xshift=10pt,yshift=-1ex,anchor=west},
+                    point meta=rawy
                     ]
                 \addplot+[
                      fill=Greys-L,draw=none
-                    ] coordinates {(0,4) (1,48) (2,2) (3,49) (4,1) (5,45)};
+                    ] coordinates {(0,4) (1,48) (2,3) (3,49) (4,1) (5,45)};
                 \addlegendentryexpanded{totally unacceptable}              
                 \addplot+[                                     
                      fill=Greys-J,draw=none
-                    ] coordinates {(0,6) (1,19) (2,3) (3,18) (4,1) (5,16)};
+                    ] coordinates {(0,6) (1,19) (2,3) (3,18) (4,0) (5,16)};
                 \addlegendentryexpanded{unacceptable}  
                 \addplot+[                                     
                      fill=Greys-H,draw=none
-                    ] coordinates {(0,3) (1,13) (2,5) (3,12) (4,3) (5,13)};
+                    ] coordinates {(0,3) (1,13) (2,5) (3,12) (4,1) (5,13)};
                 \addlegendentryexpanded{rather unacceptable} 
                 \addplot+[                                     
                      fill=Greys-G,draw=none
-                    ] coordinates {(0,10) (1,7) (2,6) (3,8) (4,5) (5,8)};
+                    ] coordinates {(0,10) (1,7) (2,6) (3,8) (4,3) (5,9)};
                 \addlegendentryexpanded{neither} 
                 \addplot+[                                     
                      fill=Greys-F,draw=none
-                    ] coordinates {(0,12) (1,3) (2,9) (3,5) (4,19) (5,5)};
+                    ] coordinates {(0,12) (1,3) (2,9) (3,5) (4,5) (5,6)};
                 \addlegendentryexpanded{rather acceptable} 
                 \addplot+[                                     
                      fill=Greys-D,draw=none
-                    ] coordinates {(0,20) (1,4) (2,17) (3,2) (4,0) (5,4)};
+                    ] coordinates {(0,20) (1,4) (2,17) (3,2) (4,19) (5,4)};
                 \addlegendentryexpanded{acceptable} 
                 \addplot+[                                     
                      fill=Greys-B,draw=none
@@ -414,7 +415,7 @@ Let us first consider the results for \textit{który}{}-relatives, presented in 
                 \addlegendentryexpanded{totally acceptable} 
             \end{axis}                                                                           
 \end{tikzpicture}
-\caption{Acceptability judgements for \textbf{\textit{który}}{}-relatives with non-virile head nouns modified by GoQ in main clause object position (accusative GoQ, oblique prepositional phrase (PP) GoQ, and oblique GoQ without preposition : default vs. full agreement).\todo[inline]{Please check and confirm values!}}
+\caption{Acceptability judgements for \textbf{\textit{który}}{}-relatives with non-virile head nouns modified by GoQ in main clause object position (accusative GoQ, oblique prepositional phrase (PP) GoQ, and oblique GoQ without preposition : default vs. full agreement).}
 \label{fig:leska:1}
 \end{figure}
 
@@ -442,8 +443,9 @@ When it comes to \textit{co}{}-relatives, it also appears that optionality in ag
                     height=15cm,
                     bar width=.75cm,
                     enlarge x limits={0.1},
-                    nodes near coords,
+                    nodes near coords={\pgfmathfloatifflags{\pgfplotspointmeta}{0}{}{\pgfmathprintnumber{\pgfplotspointmeta}}},
                     nodes near coords style={text=black,font=\footnotesize,xshift=10pt,yshift=-1ex,anchor=west},
+                    point meta=rawy
                     ]
                 \addplot+[
                      fill=Greys-L,draw=none
@@ -463,19 +465,19 @@ When it comes to \textit{co}{}-relatives, it also appears that optionality in ag
                 \addlegendentryexpanded{neither} 
                 \addplot+[                                     
                      fill=Greys-F,draw=none
-                    ] coordinates {(0,3) (1,2) (2,4) (3,3) (4,5) (5,2)};
+                    ] coordinates {(0,3) (1,2) (2,3) (3,3) (4,5) (5,2)};
                 \addlegendentryexpanded{rather acceptable} 
                 \addplot+[                                     
                      fill=Greys-D,draw=none
-                    ] coordinates {(0,5) (1,1) (2,5) (3,1) (4,5) (5,1)};
+                    ] coordinates {(0,5) (1,2) (2,4) (3,1) (4,5) (5,2)};
                 \addlegendentryexpanded{acceptable} 
                 \addplot+[                                     
                      fill=Greys-B,draw=none
-                    ] coordinates {(0,2) (1,1) (2,5) (3,1) (4,2) (5,1)};
+                    ] coordinates {(0,2) (1,1) (2,6) (3,0) (4,3) (5,1)};
                 \addlegendentryexpanded{totally acceptable} 
             \end{axis}                                                                           
 \end{tikzpicture}
-\caption{Acceptability judgements for \textit{co}{}-relatives with virile and non-virile head nouns modified by GoQ in main clause object position (Accusative GoQ, oblique prepositional phrase (PP) GoQ, and oblique GoQ without preposition : default vs. full agreement).\todo[inline]{Please check and confirm values!}}
+\caption{Acceptability judgements for \textit{co}{}-relatives with virile and non-virile head nouns modified by GoQ in main clause object position (Accusative GoQ, oblique prepositional phrase (PP) GoQ, and oblique GoQ without preposition : default vs. full agreement).}
 \label{fig:leska:2}
 \end{figure}
 
@@ -503,8 +505,9 @@ Due to the speaker variation regarding the acceptability of \textit{co}{}-relati
                     height=15cm,
                     bar width=.75cm,
                     enlarge x limits={0.1},
-                    nodes near coords,
+                    nodes near coords={\pgfmathfloatifflags{\pgfplotspointmeta}{0}{}{\pgfmathprintnumber{\pgfplotspointmeta}}},
                     nodes near coords style={text=black,font=\footnotesize,xshift=10pt,yshift=-1ex,anchor=west},
+                    point meta=rawy
                     ]
                 \addplot+[
                      fill=Greys-L,draw=none
@@ -512,31 +515,31 @@ Due to the speaker variation regarding the acceptability of \textit{co}{}-relati
                 \addlegendentryexpanded{totally unacceptable}              
                 \addplot+[                                     
                      fill=Greys-J,draw=none
-                    ] coordinates {(0,8) (1,20) (2,0) (3,3) (4,7) (5,7)};
+                    ] coordinates {(0,7) (1,20) (2,0) (3,1) (4,0) (5,6)};
                 \addlegendentryexpanded{unacceptable}  
                 \addplot+[                                     
                      fill=Greys-H,draw=none
-                    ] coordinates {(0,10) (1,10) (2,10) (3,30) (4,10) (5,17)};
+                    ] coordinates {(0,10) (1,10) (2,10) (3,3) (4,7) (5,17)};
                 \addlegendentryexpanded{rather unacceptable} 
                 \addplot+[                                     
                      fill=Greys-G,draw=none
-                    ] coordinates {(0,7) (1,27) (2,20) (3,23) (4,23) (5,23)};
+                    ] coordinates {(0,6) (1,26) (2,20) (3,30) (4,10) (5,23)};
                 \addlegendentryexpanded{neither} 
                 \addplot+[                                     
                      fill=Greys-F,draw=none
-                    ] coordinates {(0,27) (1,17) (2,17) (3,10) (4,37) (5,17)};
+                    ] coordinates {(0,27) (1,17) (2,17) (3,23) (4,23) (5,17)};
                 \addlegendentryexpanded{rather acceptable} 
                 \addplot+[                                     
                      fill=Greys-D,draw=none
-                    ] coordinates {(0,33) (1,7) (2,20) (3,3) (4,20) (5,10)};
+                    ] coordinates {(0,33) (1,7) (2,20) (3,10) (4,37) (5,10)};
                 \addlegendentryexpanded{acceptable} 
                 \addplot+[                                     
                      fill=Greys-B,draw=none
-                    ] coordinates {(0,17) (1,3) (2,30) (3,0) (4,0) (5,10)};
+                    ] coordinates {(0,17) (1,3) (2,30) (3,3) (4,20) (5,10)};
                 \addlegendentryexpanded{totally acceptable} 
             \end{axis}                                                                           
 \end{tikzpicture}
-\caption{Acceptability judgements of participants who accept \textit{co}{}-relatives in general: full vs. default agreement.\todo[inline]{Please provide raw data. The plot was hard to read from the Word document}}
+\caption{Acceptability judgements of participants who accept \textit{co}{}-relatives in general: full vs. default agreement.}
 \label{fig:leska:3}
 \end{figure}
 
