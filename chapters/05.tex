@@ -381,10 +381,12 @@ Let us first consider the results for \textit{który}{}-relatives, presented in 
                     height=15cm,
                     bar width=.75cm,
                     enlarge x limits={0.1},
-                    nodes near coords={\pgfmathfloatifflags{\pgfplotspointmeta}{0}{}{\pgfmathprintnumber{\pgfplotspointmeta}}},
+                    nodes near coords={\pgfkeys{/pgf/fpu=true}\pgfmathparse{\pgfplotspointmeta-2}\pgfmathfloatifflags{\pgfmathresult}{-}{}{\pgfmathprintnumber{\pgfplotspointmeta}}\pgfkeys{/pgf/fpu=false}},
                     nodes near coords style={text=black,font=\footnotesize,xshift=10pt,yshift=-1ex,anchor=west},
                     point meta=rawy
                     ]
+                \node[coordinate,pin=10 :{\footnotesize 1}] at (axis cs:4.15,0.5) {};
+                \node[coordinate,pin=170 :{\footnotesize 1}] at (axis cs:3.85,1.5) {};
                 \addplot+[
                      fill=Greys-L,draw=none
                     ] coordinates {(0,4) (1,48) (2,3) (3,49) (4,1) (5,45)};
@@ -395,7 +397,7 @@ Let us first consider the results for \textit{który}{}-relatives, presented in 
                 \addlegendentryexpanded{unacceptable}  
                 \addplot+[                                     
                      fill=Greys-H,draw=none
-                    ] coordinates {(0,3) (1,13) (2,5) (3,12) (4,1) (5,13)};
+                    ] coordinates {(0,3) (1,13) (2,5) (3,12) (4,1) [1] (5,13)};
                 \addlegendentryexpanded{rather unacceptable} 
                 \addplot+[                                     
                      fill=Greys-G,draw=none
@@ -443,10 +445,14 @@ When it comes to \textit{co}{}-relatives, it also appears that optionality in ag
                     height=15cm,
                     bar width=.75cm,
                     enlarge x limits={0.1},
-                    nodes near coords={\pgfmathfloatifflags{\pgfplotspointmeta}{0}{}{\pgfmathprintnumber{\pgfplotspointmeta}}},
+                    nodes near coords={\pgfkeys{/pgf/fpu=true}\pgfmathparse{\pgfplotspointmeta-2}\pgfmathfloatifflags{\pgfmathresult}{-}{}{\pgfmathprintnumber{\pgfplotspointmeta}}\pgfkeys{/pgf/fpu=false}},
                     nodes near coords style={text=black,font=\footnotesize,xshift=10pt,yshift=-1ex,anchor=west},
-                    point meta=rawy
+                    point meta=rawy,
+                    clip=false
                     ]
+                \node[xshift=16pt,yshift=-.25ex,font=\footnotesize] at (axis cs:3,100) {1};
+                \node[xshift=16pt,yshift=-.25ex,font=\footnotesize] at (axis cs:1,100) {1};
+                \node[xshift=16pt,yshift=-.25ex,font=\footnotesize] at (axis cs:5,100) {1};
                 \addplot+[
                      fill=Greys-L,draw=none
                     ] coordinates {(0,35) (1,59) (2,36) (3,58) (4,34) (5,55)};
@@ -505,10 +511,11 @@ Due to the speaker variation regarding the acceptability of \textit{co}{}-relati
                     height=15cm,
                     bar width=.75cm,
                     enlarge x limits={0.1},
-                    nodes near coords={\pgfmathfloatifflags{\pgfplotspointmeta}{0}{}{\pgfmathprintnumber{\pgfplotspointmeta}}},
+                    nodes near coords={\pgfkeys{/pgf/fpu=true}\pgfmathparse{\pgfplotspointmeta-2}\pgfmathfloatifflags{\pgfmathresult}{-}{}{\pgfmathprintnumber{\pgfplotspointmeta}}\pgfkeys{/pgf/fpu=false}},
                     nodes near coords style={text=black,font=\footnotesize,xshift=10pt,yshift=-1ex,anchor=west},
                     point meta=rawy
                     ]
+                \node[coordinate,pin=190 :{\footnotesize 1}] at (axis cs:2.85,30.5) {};
                 \addplot+[
                      fill=Greys-L,draw=none
                     ] coordinates {(0,0) (1,17) (2,3) (3,30) (4,3) (5,17)};
