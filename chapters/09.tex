@@ -525,7 +525,7 @@ For this reason, the feature set in (22) is not enough. Since we are looking for
         [uOp] \> with $\text{uOp} ≙ \text{Op} = \text{X}, \text{X} \in \{\textit{wh}, \text{rel}, \text{Focus}\}$\\
         \begin{forest}
             [{[}u$\varphi ${]},baseline    
-            [EPP]
+            [{[}EPP{]}]
         ]\end{forest} \> with u$\varphi ≙ \text{person} = \text{X}, \text{number} = \text{Y}, \text{gender} = \text{Z}$
     \end{tabbing}
 \z
@@ -544,13 +544,13 @@ Let us then assume that arguments of N that represent \AGENT, \THEME or \POSSESS
     \label{ex:mensch:26}
 \begin{forest}
 [DP, s sep+=1cm
-    [D\\article\\\fbox{uφ}\\vCase\\\relax{(\textsc{gen})},name=D]
+    [D\\article\\\fbox{uφ}\\{[}vCase{]}\\\relax{(\textsc{gen})},name=D]
     [FP
         [F\\head noun]
         [NP, s sep+=1cm
             [N\\\sout{head noun},name=headnoun]
             [KP
-                [de \ldots\xspace \ldots\\vφ\\uCase,roof,name=dots]
+                [de \ldots\xspace \ldots\\{[}vφ{]}\\{[}uCase{]},roof,name=dots]
             ]
         ]
     ]
