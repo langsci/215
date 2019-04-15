@@ -1,5 +1,8 @@
-{ "versions": [{ "versiontype": "proofreading", "title": "Agreement, case and locality in the nominal and verbal domains
-  
-","authors": [{"name": "Ludovico Franco"},{"name":" Mihaela Marchis Moreno"},{"name":" Matthew Reeve
-"}],"publishedAt": "2019-04-15T10:46:17.000Z
-"}]}
+{"versions": [{"versiontype": "proofreading",
+		"title": "Agreement, case and locality in the nominal and verbal domains",
+		"authors": [{"name": "Ludovico Franco"},{"name":" Mihaela Marchis Moreno"},{"name":" Matthew Reeve"}],
+	"license": "CC-BY-4.0",
+	"DOI": "10.5281/zenodo.2640704 %ask coordinator for DOI",
+	"publishedAt": "2019-04-15T14:41:33.000Z"}
+	]
+}
