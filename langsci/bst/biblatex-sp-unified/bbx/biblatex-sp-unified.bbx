@@ -329,10 +329,10 @@
     {}
     {\setunit*{\addcolon\space}}%
   \printlist{institution}%
-  \setunit{\addspace}%
-  \printfield{type}%
   \setunit*{\addcomma\space}%
-  \usebibmacro{date}%
+  \usebibmacro{date} %
+  \setunit{\space}%
+  (Doctoral\printfield{type})%
   \newunit}
 
 % The following is a hack to satisfy the Unified Stylesheet's decision to give the edition right after the OED as used as a sortlabel.
