@@ -1,2 +1,92 @@
-subject terms to index
-oneperline
+addressee
+adjective
+adjunct
+Agree
+anaphor
+anticausative
+by-phrase
+c-command
+complementizer
+concord
+covaluation
+determiner
+experiencer
+ezafe
+frequentative
+Goal
+hearer
+impersonal
+indefinite
+infinitive
+intransitive
+który-relative
+linker
+locative
+Minimalist
+non-virile
+numeral
+optionality
+participle
+pseudopassive
+quantifier
+quasi-ECM
+reflexive
+relativization
+relator
+se-passive
+sloppy identity
+Spell-out
+stative
+subjunctive
+Suffixaufnahme
+syncretism
+theta-role
+unaccusative
+uninflected
+virile
+Voice
+wh-
+Conversanese
+postposition
+post-syntactic
+preposition
+probe-goal
+backward control
+object control
+default agreement
+long-distance agreement
+multiple agreement
+number agreement
+omnivorous agreement
+person agreement
+subject-verb agreement
+absolutive case
+abstract case
+accusative case
+case assignment
+case attraction
+case feature
+case hierarchy
+default case
+ergative case
+genitive case
+morphological case
+nominative case
+oblique case
+quirky case
+structural case
+clitic doubling
+clitic placement
+backward coreference
+participant feature
+phi-feature
+interpretable feature
+uninterpretable feature
+unvalued feature
+phase edge
+phase head
+phase theory
+arbitrary pronoun
+null possessive
+possessive pronoun
+resumptive pronoun

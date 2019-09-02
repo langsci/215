@@ -1,2 +1,12 @@
-languages to index
-oneperline
+Albanian
+Aromanian
+Greek
+Icelandic
+Kaqchikel
+Kurdish
+Kurmanji
+Lardil
+Punjabi
+Romance
+Spanish
+Portuguese
