@@ -333,7 +333,7 @@
     {\tikz[remember picture,
            anchor=base, baseline,
            inner xsep=0pt, 
-           inner ysep=-.5ex]\node (ConnectTempTail\lsConnectTempPosition) {\strut{}#1};}%\strut for baseline
+           inner ysep=-.5ex] \node (ConnectTempTail\lsConnectTempPosition) {\strut{}#1};}%\strut for baseline
 }
 \NewDocumentCommand\ConnectHead{s O{1ex} m O{\thelsConnectTempGroup}}{%read: star #1, optional argument (distance of arrow from text= std. one x-height), mand. arg. (node text), optional argument #2, the group specifier
     \edef\lsConnectTempPosition{#4}%

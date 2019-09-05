@@ -1,12 +1,4 @@
-Albanian
-Aromanian
-Greek
-Icelandic
-Kaqchikel
-Kurdish
-Kurmanji
-Lardil
-Punjabi
-Romance
-Spanish
-Portuguese
+English
+French
+German
+Italian
