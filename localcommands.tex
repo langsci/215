@@ -51,3 +51,5 @@
 }
 
 \AfterTOCHead{\largerpage[2]}
+
+\patchcmd{\mkbibindexname}{\ifdefvoid{#3}{}{\MakeCapital{#3} }}{\ifdefvoid{#3}{}{#3 }}{}{\AtEndDocument{\typeout{mkbibindexname could not be patched.}}}
